@@ -5,3 +5,4 @@ diagnostics/
 *.zip
 .DS_Store
 .venv/
+log.txt
