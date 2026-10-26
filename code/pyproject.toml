@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghostaudit"
+version = "1.0.0"
+description = "Deletion-audit solver for Ghost Data Still Exists"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+# Only `--llm live` needs the SDK; the solver and the offline modes run on the standard library.
+live = ["anthropic==2.3.0"]
+
+[project.scripts]
+ghostaudit = "ghostaudit.cli:main"
+ghostaudit-eval = "evaluation.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["ghostaudit*", "evaluation*"]
+
+[tool.setuptools.package-data]
+ghostaudit = ["llm/prompts/*.md", "cache/*.json"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]

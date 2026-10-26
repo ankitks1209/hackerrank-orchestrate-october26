@@ -1,0 +1,124 @@
+{
+  "cache_creation_tokens": 3388,
+  "cache_read_tokens": 4875,
+  "content": [
+    {
+      "signature": "CAQSqAUKEAgTGAI4AUIIdGhpbmtpbmcSDI0Q2DaXSNyZV1MaahoMzPIgVDn0N5qVKzy4IjCUbpVjWgHxIQhIWixsVAQ1UAxso2YV4IyzBJf3UJifQRYHjgVQLGIrXOPOxb3X5IEqxQTWPjgi9vZ/SKC8sPyil2q04vxO/rxlETmi5hW6zgCHG/olfdhW3Z50T+TTUruDqDgrRsAVhn+eD6OB0whFX7C5iz/f7HSGyhtXH26Z32C4iCwK9FLCq0hGQddqmKVZSarpmEd3oKAET212cWmXVRlozRYpwog8JPNI5rtAugQ7xoJbkzAE/sI7IqvIIplxzPrC2DkSdwCuxCSGTEeP+S4KtTz1eCbWEHhnsqSTANkhpP7KCo/mtIMb4samYy6ymGUe+dzANZPyk7ffUyTnKs35sTZW2881iQDRXnWVSfMk9GXuqjbLo7wxPd98ATYHcZQMHXGWfgSEGKA8kwz9J3qLCJYmP5quGVMeoSEG3E/oSvudpCxQgZS9DkTB1JzC7WLTW0UeztqM1YwMp9zWoeUfI0rkTZWyGVALI29qQve2pNs5PKnAjqy3+s0ZGxUuMobPtfVEHNt5tZWhJcOI7+L33V6ru6rUJ2ZPFGhWeU2zHXCtkhto8hCwrqWZCbIYkvD7UKKhmYjMcsyqLihfvkW5+NLg3GM7S16s4jPXbp8rRUkdYY1tsbVwdHpfKj95CuxsVcZKCKV2ttD2hou31rmiu4r13HxrLB0ei7Q0g1nCCLmNWHNSnjyGQcu92X8R3RyBkhxBps4W2RkI/rPuDhgDFsTxZcwM6Zg2e8cLtz7Bhra3ZyNho8i1xTAzEkj0aZaTTRUid7xgv7qi4pBsnENNeWZNqOj4UulorC5316yssm5CJ5kHAeyx4LIhUevi0kxmYtICoBgB",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "text": "I'll start by searching the evidence tied to each case's subject.",
+      "type": "text"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Rbywiu9czK97v4vqRD3pRQ",
+      "input": {
+        "case_id": "case_24",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01QcqCLcVhn8k6hi8UGaPocb",
+      "input": {
+        "case_id": "case_25",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Px3wg4vBuFmrpaCE846utH",
+      "input": {
+        "case_id": "case_26",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_013mx7GFS3KaZMikiPzkekJR",
+      "input": {
+        "case_id": "case_549",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01QkGg5FJjqfZxcJ4WWwfQWy",
+      "input": {
+        "case_id": "case_550",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01SVUx35qpsgYWWJhdEQYAMd",
+      "input": {
+        "case_id": "case_41",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_011SVtFxhSX1ARr5nYK7pxCV",
+      "input": {
+        "case_id": "case_82",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_019jzpBDAwEdx5QoBz3hf4Tu",
+      "input": {
+        "case_id": "case_65",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 4,
+  "model": "claude-opus-5-5",
+  "output_tokens": 847,
+  "stop_reason": "tool_use",
+  "text": "I'll start by searching the evidence tied to each case's subject."
+}

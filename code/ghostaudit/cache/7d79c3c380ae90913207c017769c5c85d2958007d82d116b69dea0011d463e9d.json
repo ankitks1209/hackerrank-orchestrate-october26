@@ -1,0 +1,98 @@
+{
+  "cache_creation_tokens": 2390,
+  "cache_read_tokens": 7382,
+  "content": [
+    {
+      "signature": "CAQSswYKEAgTGAI4AUIIdGhpbmtpbmcSDEQUqLW6YuUfiB4KJhoMSTe4vJuYro92IobVIjDZSU6oHD3Pt2+/PYWtvW/gK5vaghLDgxpRGuG2z+BtVNhIuGl/+AQO1F//Sxi8S8Eq0AUmQjh7FXphMeO/Qeho98avvsNBXxDA+HfvieOTiU9PqqIDFkNHz+OsgxzBqYFHZq51gepJ2BDRWWX21EdvD7su6cJ+2I3GvYg9pVbX8iWLcOxaB9AbcDP+obeb7z7Xsz/BmMpTTugL6/xXLsD8v3gQc7GTPRHVyGVodQZFsmoDgLTsF/G5VFORlhqM1POnbGKonAO745Jlj14L8Vr/Y6t4weqYjdKJLfAIEzNUtFF/X3I7dSG5RlzJwN11OWK0rSkuQLquNYjBS9nWcAwYHFbVarzepKglnfvWmytWs3P5bEZK/BtJXxeeRce9BXWc0gLCCgU3k4lwu25EB7RZlGNcfMl0r1rgUpy/McyMwf7y2c6lm9IU1xNMjURYqhoZsuPEoWiNwrojfPVXWJdQ74FIAwoABCUx0hW1BE4PwB8tWK68X3gjRxikd+LyuQH01BTeZDgz1oMj9FyfHvRRJRKSpPUX9HRPrSIH7/rH5A/4hZRmMJqPiL8SkQdIP+aqfnVeoQwuKdsVJ/uJMUdj9nWliR1Ze+Swe+XxRcSUVl3jHH9FKBp/5B6IjJj6tgEc0EBKcwi8dZbPogKz36T6GaNs83+5ZKTilncUUGNAc6TqA5sATGedMaPIkgLtmLPN5Dza6xZc2NxuIRHHguAjni+jDwjHCN+lSW4p++YMIy2XC8Yy70CBfXsSjAIOkvoCsMN7d6nXdHg4je2QcB+OXY5FXI8RdLp/5k3Dctj0K8WbKnc1wV1m0Uo1QOJ1ugZeoO0dxZHdqb6X8gz6Sz28FZTIrd+QuqXzxOL/S52I2IVzcU2mkIW2fOda3+fyHMRWsORGntryZHJmsfK2cmGnoKvmbctmMXpxqaTxaji5DKlfUb2ipW1+IGmyb0RzdprPRiNYDTzXX39l0b7yju5qQImOWTT6y0YK2LtcL7tHu0l4ZyMLNhKxpQuipP55FL8mS2wYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "text": "Subject evidence settles most rows. Next I'll check the unresolved accounts and policy rows by resource.",
+      "type": "text"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_012BRdboPyVeddw8mffi4Y4K",
+      "input": {
+        "case_id": "case_406",
+        "mode": "by_resource",
+        "resource_id": "account_2191"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_012BqihPbYM5XfvMwCELaPwX",
+      "input": {
+        "case_id": "case_406",
+        "mode": "by_resource",
+        "resource_id": "account_1759"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_012sStURK7Atj1KrgtpEP7nz",
+      "input": {
+        "case_id": "case_406",
+        "mode": "by_resource",
+        "resource_id": "account_8997"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_012DMFUWKNwyDLYNpVUcr7ER",
+      "input": {
+        "case_id": "case_380",
+        "mode": "by_resource",
+        "resource_id": "analytics_9326"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_015MkAWX34ck51cchGgixj4h",
+      "input": {
+        "case_id": "case_377",
+        "mode": "by_resource",
+        "resource_id": "analytics_3234"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_0178ZBQ1wt1UL1otkxjUuzLL",
+      "input": {
+        "case_id": "case_394",
+        "mode": "by_resource",
+        "resource_id": "account_2191"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 711,
+  "stop_reason": "tool_use",
+  "text": "Subject evidence settles most rows. Next I'll check the unresolved accounts and policy rows by resource."
+}

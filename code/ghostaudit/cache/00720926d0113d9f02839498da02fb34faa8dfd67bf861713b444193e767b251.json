@@ -1,0 +1,40 @@
+{
+  "cache_creation_tokens": 712,
+  "cache_read_tokens": 11972,
+  "content": [
+    {
+      "signature": "CAQS+QoKEAgTGAI4AUIIdGhpbmtpbmcSDEyMnFflvPdVWdXRvxoMceJdUx+XIEoknfNXIjCK1ZwF8Cdph6MxQNLZzCFAN28km3xPPevxVRQziosLBzdM+zJ+VjcarcvtvWVQL8oqlgrICkUNFhBXYoOwtSzwUyGBU9Vw42ZxKG/Ho43sZ+ADLgkz59+BvHY4YmUroPYBFQ7TtTAq7slAueSWUn2cWLCXgfCv/sT+c0xkwqatRDfbMs5CC7f6n04KYkZmdFhnd64vzFkRNsova9A5QWQLt52po3WThWgpf+J224A4FE/oBxVhWGtPtMTxSCBqY3UKqxdk9K8rBo4Ao44IyAZTE7DZT/BJq+RTEgcgMjl4WvuNT7XzjA08ip5LwuzF3NIaE+/IvkHYXQ0GW59XHDHE+lNyE/FJ46F45hACqhYemCCdd29pWgY2TdCA1l8MfvLbVsaa2o7d/rgnTSBfd6X5Em2QERNPvleR3J2Nco7oZwDcREyu7h32wsMqSci6h0aEwrsJbldL7j8Fd/3nTS2Zk7Q09SD6L2alSXMFJbdKYDDX+6rZgtSpmAHylw/DoE3/7RvtEq36y6CEaNY71Gh2neP6rO1d04tsDSLvcAvOfN4ONWWaxkImELtJxirF4QXjjbkwyAggM9hgIPC1D/D+ffmyZjKm3ORkBlkaaCF8mTZisF1IzavVDZfUaBxd8Cr/OHWZQ/KELgndx24DGWPzQ2mZnocSxj5mCLJrPAGIVVqfxDF66TOUB8fE5WxBb+PcFx8KezQ91YcMNTQj7njP2uHdbxQlhPa6NaXj2Vw1ebQMs12SHYoRirilgOnvCEsgRPVnjJ8CXUKpQPE3pAlZDdNqow0gzgNtfsPo7ozXya9eCUor7jgo2ScJBffAZymD7NtRE2NKlQFQFIr09/N3mEMVdQnVqZdkCQwzqkX5Uklyw+x2wPYu5lXeDhvC1uRErLC6EvQqjMlRAqWLb7R/VTSL28dEOAf/OS4AJE5opsrZAAl9+y79zXM1bXddNcLXnL6+pIWLwdPRs3CbHkiVv16hAS0QqyUoNcvQjWM11vuCZG7ppPNaZJ0VmM2o8TAOFEVyzvSpB41RsMp3WEtYEKJdgXxr7KSksOaVTyJlPkHT/8cNsXoBwXoigCwxA9g4a4XpaN2RChz/08/cteYnZRVUAVwdj76ydgWWTo5vhUUUXCbZjx9ExE7rmajZkhjjNYXjJO6dwUy2sohuSQRbBcszfEUDUHBxDzyrArVVLzhTcoJsgdnccoTUM7UWvJ4abRerjAHPB1WhzvmqvPQa5TTNgb9XS3ssOm7T1zoVQFlrFrmXmiArsxChWvp4vDe52/xp8t8LqAsOoCBed873ytdSbSHK19uTLzUsXBATsRGL3ecfTVz7tJWj4VsThdEYP05ezDKW3aa33DucSoOIpN2VYjsb5EK/7YM885kvnXDgjFvn0YDWc22sVfz2dZEhY238O2kNu9MViEr4EGxBZTrQGcijR6m6WYFiFfbSrmm3IXsdqJvkUily9BUNxzkH4wIhRt4PAMoBUH+TokHtq8w3/NEot6fWsxN91SyZ7BaqN39/xFpY0uz7Hcn7ljHzAoifkXtLEd6JJjbdpLky9TCTUAuEnal+GsqRDo1HViDrlHUDTkohoqgp1AI9SCmsN2trRKwlW0P5Z+jiXZyKvC9cHhGoSqVPskhAd8Eect95jxmiy7xILS6illNyJ66+6WTuxeJw+9KMHXmpLQL9iX5YivsSG5Tq+HaiWcj4Ci1RsEmfX2v6Lfu25k9EJC49TQlGttG0WtOCVx+dmd6ixF33DIGMGFoR9P6m2tUUp4ml6JssQcr5H046q8g/1jsNiutlnfc9aigYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_014mZjYp95yp1SE8wLavQqr5",
+      "input": {
+        "case_id": "case_220",
+        "kind": "ANY"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01NacDnRrPXhYaHigBxpZ6BZ",
+      "input": {
+        "case_id": "case_262",
+        "kind": "ANY"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 369,
+  "stop_reason": "tool_use",
+  "text": ""
+}

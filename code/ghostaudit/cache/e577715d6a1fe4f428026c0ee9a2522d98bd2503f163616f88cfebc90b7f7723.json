@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 1521,
+  "input_tokens": 1423,
+  "model": "claude-opus-5-5",
+  "output_tokens": 551,
+  "stop_reason": "end_turn",
+  "text": "{\"verdicts\":[{\"case_id\":\"case_47\",\"activity_id\":\"activity_3809\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_45 by evidence_94 within the window.\"},{\"case_id\":\"case_48\",\"activity_id\":\"activity_3810\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_46 by evidence_94 within the window.\"},{\"case_id\":\"case_49\",\"activity_id\":\"activity_3811\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_47 by evidence_94 within the window.\"},{\"case_id\":\"case_47\",\"activity_id\":\"activity_3812\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_45 by evidence_94 within the window.\"},{\"case_id\":\"case_42\",\"activity_id\":\"activity_3933\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_40 by evidence_03, which is not after the audit time.\"},{\"case_id\":\"case_42\",\"activity_id\":\"activity_3934\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_40 by evidence_03, which is not after the audit time.\"}]}"
+}

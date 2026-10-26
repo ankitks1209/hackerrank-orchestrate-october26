@@ -1,0 +1,124 @@
+{
+  "cache_creation_tokens": 2945,
+  "cache_read_tokens": 8451,
+  "content": [
+    {
+      "signature": "CAQS9QYKEAgTGAI4AUIIdGhpbmtpbmcSDHSlyqCurDdlOhCSXhoMy9YB+bV2e9mItGq3IjBetRIQs5xYQHk0QMLavCZSMjYPm60CcJIYSyVp5SeXvdTJuGro6fJ8lAL8OBDJEZsqkgaYHniPx7nJdbsNnmM5kYzNm6qpIYlVYugECO/9rGvdNA9uVDn4wgg2JHml/+5UPErim269InlX9v956wB4YJw1so3VEB+xmSUEk1o8e0m2ZYR/U+XLpdqCjKIBN81syjr2iwB8A1DHVL1/MbIesFXKxe5AYPDw1LvdKtYS/9oTgRVDnF6I8gARk3sehxVj7NK69aiYgLE/Vz9iWQ+XAsxo06r/FiRlxAYs2dYS4hSIGXmfgPPrVtPHSm4jLLM8o0zHFK4XEod5zx6esKEZsJsoJpbPSWxNQEocSuik11uk9Uq5YObLKnFe9UmKohbdncnD22FzRWJXBAfg/Rm5p0b5e2J0243dVpJLnDqLcxSHIW1KCqOHiCSFVYb1PD6xFgDuX9tvVjJX4mCROwmn4L6VKsywncWYf/1m6Jxs/ON0Iw7WMMtiMTHa5OYuQJPwPO56g+XtpQafelz5+PdBe/sGW9/5oHsmgdXDIn4MQd5maga6HqfgkMUKGcToWyUS1uZtavsnHmyskII3RMGIoXozvX7lx/bExYOxk4DrnUjD679dxqBuRkoJsEjWVWQ/J0Re+RiukD2ObSTPv+fcE7T7MI68gX40K82jV9Uq7ci+8F5nfOOt+2HFT1X8IaC08cDNIj34Hjk/ATO7vqA776Kygq3JRRhtJxCaaN2fxjSpQJz7CQwOkmj7zBIi2o+CnUr7/maIJVaFe42/3F3V2fwAYm1LDlw9g1vDsdci9k1wGIYhnCEQMiFn0jUvkIsGW64lnXY6qkni1tm8tfhDA3c+y+aoI4dwepgvBtMfDRlNwl+twlFgTDv+xbzXqMqvQ2aRoyCTH99vtbmdJ5xJXL0V/vriiOoGrzAbuwrwfGQw/GrzqdLbfDHj/qiZOBHlySFVdxZo8CiDQ9LAXJTpeNwUrh45Ecjp4b5ktgdS0GlwEkAskFcI/TwEpfEGFxbk3Zb3joBycsn3mxl6gE3qBwMS1aBdYI96xv624wLAWwoqigsweIMx7v1V8Q/XjIs2p6wpMTvBjn370SM/7Et4HQ7p5lMYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "text": "Subject evidence settles most rows. Next I'll search the accounts and analytics resources that are still open.",
+      "type": "text"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_015YtJwJ7ML1RZKRBuXDKuCh",
+      "input": {
+        "case_id": "case_207",
+        "mode": "by_resource",
+        "resource_id": "account_5678"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_011xPyedcpCaxxUNH8nHDguZ",
+      "input": {
+        "case_id": "case_207",
+        "mode": "by_resource",
+        "resource_id": "account_3685"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Atc3CRaMTs8B5hvnwn1XbU",
+      "input": {
+        "case_id": "case_181",
+        "mode": "by_resource",
+        "resource_id": "account_5309"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_019qSTPCvRTo9p56ucT3S6Kh",
+      "input": {
+        "case_id": "case_203",
+        "mode": "by_resource",
+        "resource_id": "account_2399"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01H9P1pWuFFswTJPmAZrkFpW",
+      "input": {
+        "case_id": "case_203",
+        "mode": "by_resource",
+        "resource_id": "account_6726"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_016CMNnHRmDvj3tGJ8W3Yuht",
+      "input": {
+        "case_id": "case_206",
+        "mode": "by_resource",
+        "resource_id": "analytics_9580"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01WnA3rgHHc2b9bmzhhRsEeC",
+      "input": {
+        "case_id": "case_193",
+        "mode": "by_resource",
+        "resource_id": "analytics_8037"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01AjuGKCcHRfPKZd12P7sM9D",
+      "input": {
+        "case_id": "case_203",
+        "mode": "by_resource",
+        "resource_id": "analytics_2463"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 934,
+  "stop_reason": "tool_use",
+  "text": "Subject evidence settles most rows. Next I'll search the accounts and analytics resources that are still open."
+}

@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "input_tokens": 0,
+  "model": "claude-haiku-5-5",
+  "output_tokens": 0,
+  "stop_reason": "intent_item",
+  "text": "{\"batch\": \"79adcfa73dd2a70030351917bc3794eacd8b26d2dc3c14234376932dfdc99b68\", \"confidence\": 0.97, \"deletion\": true, \"language\": \"en\", \"reason\": \"Asks to erase the account linked to the email address.\"}"
+}

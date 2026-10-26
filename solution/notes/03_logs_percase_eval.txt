@@ -1,0 +1,897 @@
+== case_33 ingrid.dahl@outlook.com user_18 req=2026-07-16T08:00:00Z audit=2026-07-19T13:00:00Z reported=COMPLETE
+   LATE evidence_01 L31 2026-09-15T11:53:13Z search_service search_2352 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_01 L68 2026-09-15T11:56:33Z export_service export_1260 PRESENT via[owner_key=cur_email] 
+   LATE evidence_01 L69 2026-09-15T11:56:34Z account_service account_2373 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_01 L75 2026-09-15T11:56:52Z security_service audit_record_8486 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_34 haruka.s1838@zoho.com user_11 req=2026-09-24T08:00:00Z audit=2026-09-27T13:00:00Z reported=COMPLETE
+   OK  evidence_01 L25 2026-09-15T11:51:46Z support_platform support_9538 ATTACHMENT_PRESENT via[matched_value=old_phone,scan_key=old_phone] preReq
+   OK  evidence_01 L40 2026-09-15T11:54:30Z account_service account_5762 ABSENT via[lookup_key=cur_email] preReq
+   OK  evidence_01 L59 2026-09-15T11:54:47Z security_service audit_record_3753 RETAINED_PRESENT via[correlation_key=user_id] preReq
+== case_35 g.silva76@gmail.com user_13 req=2026-08-30T03:00:00Z audit=2026-09-02T08:00:00Z reported=NOT_STARTED
+   LATE evidence_01 L90 2026-09-15T11:58:17Z security_service audit_record_8925 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_01 L97 2026-09-15T11:58:56Z account_service account_8491 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_01 L100 2026-09-15T11:59:20Z search_service search_428 PRESENT via[match_key=cur_email] 
+== case_39 jain.aditi@gmail.com user_14 req=2026-08-05T05:00:00Z audit=2026-08-08T10:00:00Z reported=COMPLETE
+   LATE evidence_01 L30 2026-09-15T11:53:09Z search_service search_4801 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_01 L35 2026-09-15T11:53:56Z security_service audit_record_7301 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_01 L58 2026-09-15T11:54:45Z integration_service data_flow_1121 ACTIVE via[subject_key=cur_email] 
+   LATE evidence_01 L79 2026-09-15T11:57:27Z account_service account_8926 ABSENT via[lookup_key=cur_email] 
+== case_43 javier.r940897@outlook.com user_41 req=2026-09-15T11:00:00Z audit=2026-09-26T11:00:00Z reported=COMPLETE
+   OK  evidence_94 L31 2026-09-26T09:21:55Z account_service account_8681 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_44 charlotte.wright@outlook.com user_42 req=2026-09-14T11:00:00Z audit=2026-09-26T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_94 L3 2026-09-26T07:49:50Z account_service account_2064 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_94 L13 2026-09-26T08:10:20Z security_service audit_record_1105 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_94 L27 2026-09-26T09:05:46Z integration_service data_flow_223 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_94 L29 2026-09-26T09:19:47Z support_platform support_1066 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_94 L51 2026-09-26T10:21:52Z backup_service backup_6266 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+== case_46 leonie.g9352@outlook.com user_17 req=2026-03-08T03:00:00Z audit=2026-03-11T08:00:00Z reported=COMPLETE
+   OK  evidence_67 L3 2026-03-10T06:18:01Z account_service account_6523 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_01 L21 2026-09-15T11:51:19Z account_service account_4092 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_01 L33 2026-09-15T11:53:53Z security_service audit_record_1797 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_01 L53 2026-09-15T11:54:41Z backup_service backup_3245 RESTORE_ACTIVE via[subject_key=cur_email] 
+== case_47 zofia-dvorak79@proton.me user_45 req=2026-09-11T11:00:00Z audit=2026-09-26T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_94 L17 2026-09-26T08:49:37Z support_platform support_5742 EXPOSED via[lookup_key=old_email,requester_email=old_email] 
+   OK  evidence_94 L37 2026-09-26T09:41:03Z search_service search_4324 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_48 lnajjar900380@fastmail.com user_46 req=2026-09-10T11:00:00Z audit=2026-09-26T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_94 L33 2026-09-26T09:33:53Z integration_service data_flow_7759 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+   OK  evidence_94 L45 2026-09-26T09:58:35Z search_service search_2127 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_49 tunde.c692281@zoho.com user_47 req=2026-09-09T11:00:00Z audit=2026-09-26T11:00:00Z reported=COMPLETE
+   OK  evidence_94 L39 2026-09-26T09:46:41Z integration_service data_flow_1043 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+   OK  evidence_94 L57 2026-09-26T10:38:56Z search_service search_459 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_50 darwish.omar@icloud.com user_20 req=2026-07-11T07:00:00Z audit=2026-07-14T12:00:00Z reported=NOT_STARTED
+   LATE evidence_01 L18 2026-09-15T11:51:16Z search_service search_4639 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_01 L49 2026-09-15T11:54:39Z analytics_platform analytics_7438 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+   LATE evidence_01 L55 2026-09-15T11:54:42Z account_service account_3270 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_01 L84 2026-09-15T11:57:56Z security_service audit_record_5080 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_51 n.masuku60@gmail.com user_49 req=2026-09-07T11:00:00Z audit=2026-09-26T11:00:00Z reported=COMPLETE
+   OK  evidence_94 L5 2026-09-26T07:51:26Z integration_service data_flow_4713 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_94 L7 2026-09-26T07:54:41Z backup_service backup_7809 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_94 L15 2026-09-26T08:37:56Z account_service account_3610 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_94 L49 2026-09-26T10:00:17Z support_platform support_1097 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_94 L55 2026-09-26T10:37:23Z security_service audit_record_3308 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_52 ingrid.dahl@outlook.com user_18 req=2026-06-16T09:00:00Z audit=2026-06-19T14:00:00Z reported=COMPLETE
+   LATE evidence_01 L31 2026-09-15T11:53:13Z search_service search_2352 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_01 L68 2026-09-15T11:56:33Z export_service export_1260 PRESENT via[owner_key=cur_email] 
+   LATE evidence_01 L69 2026-09-15T11:56:34Z account_service account_2373 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_01 L75 2026-09-15T11:56:52Z security_service audit_record_8486 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_55 areed1433@gmail.com user_16 req=2026-04-27T06:00:00Z audit=2026-04-30T11:00:00Z reported=NOT_STARTED
+   LATE evidence_01 L26 2026-09-15T11:51:47Z security_service audit_record_2857 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_01 L29 2026-09-15T11:52:44Z account_service account_9494 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_01 L62 2026-09-15T11:55:10Z search_service search_4882 PRESENT via[match_key=cur_email] 
+   LATE evidence_01 L94 2026-09-15T11:58:31Z backup_service backup_9287 RESTORE_ACTIVE via[subject_key=cur_email] 
+== case_64 zulu.lindiwe@gmail.com user_62 req=2026-09-04T09:00:00Z audit=2026-09-16T09:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_06 L19 2026-09-16T08:52:09Z integration_service data_flow_6846 DISABLED via[correlation_key=user_id] 
+   LATE evidence_06 L50 2026-09-16T08:54:49Z backup_service backup_3933 BLOCKED via[subject_key=user_id] 
+   LATE evidence_06 L61 2026-09-16T08:56:26Z account_service account_565 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_06 L64 2026-09-16T08:56:31Z security_service audit_record_1892 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_06 L78 2026-09-16T08:57:24Z support_platform support_6334 REDACTED via[subject_key=user_id,subject_ref=user_id] 
+== case_65 aoi-yamamoto@gmail.com user_63 req=2026-09-03T09:00:00Z audit=2026-09-16T09:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_06 L17 2026-09-16T08:51:33Z account_service account_5488 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_06 L34 2026-09-16T08:53:55Z analytics_platform analytics_9246 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+   LATE evidence_06 L42 2026-09-16T08:54:28Z search_service search_689 PRESENT via[match_key=cur_email] 
+   LATE evidence_06 L100 2026-09-16T08:58:57Z security_service audit_record_1848 RETAINED_PRESENT via[correlation_key=user_id] 
+== case_66 hcho154598@gmail.com user_64 req=2026-09-02T09:00:00Z audit=2026-09-16T09:00:00Z reported=NOT_STARTED
+   LATE evidence_06 L14 2026-09-16T08:51:30Z support_platform support_4249 EXPOSED via[matched_value=old_email,subject_key=old_email] 
+   LATE evidence_06 L72 2026-09-16T08:57:11Z security_service audit_record_184 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_06 L94 2026-09-16T08:58:06Z account_service account_1602 ABSENT via[lookup_key=old_email] 
+== case_67 rafael.r9464@outlook.com user_65 req=2026-09-01T09:00:00Z audit=2026-09-16T09:00:00Z reported=COMPLETE
+   LATE evidence_06 L46 2026-09-16T08:54:41Z security_service audit_record_2877 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_06 L66 2026-09-16T08:56:34Z account_service account_9079 PRESENT via[lookup_key=cur_email] 
+   LATE evidence_06 L106 2026-09-18T11:51:37Z search_service search_9837 PRESENT via[match_key=cur_email] 
+== case_68 ishaan.iyer@outlook.com user_66 req=2026-08-31T09:00:00Z audit=2026-09-16T09:00:00Z reported=NOT_STARTED
+   LATE evidence_06 L37 2026-09-16T08:54:00Z search_service search_2568 PRESENT via[match_key=cur_email] 
+   LATE evidence_06 L39 2026-09-16T08:54:05Z account_service account_902 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_06 L47 2026-09-16T08:54:45Z security_service audit_record_4049 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_06 L56 2026-09-16T08:56:20Z integration_service data_flow_2406 ACTIVE via[subject_key=cur_email] 
+== case_69 d.lopez02@yahoo.com user_67 req=2026-08-30T09:00:00Z audit=2026-09-16T09:00:00Z reported=COMPLETE
+   LATE evidence_06 L70 2026-09-16T08:56:52Z security_service audit_record_9011 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_06 L76 2026-09-16T08:57:19Z account_service account_6138 ABSENT via[lookup_key=cur_email] 
+== case_70 collins.grace@icloud.com user_68 req=2026-08-29T09:00:00Z audit=2026-09-16T09:00:00Z reported=COMPLETE
+   LATE evidence_06 L4 2026-09-10T08:56:20Z account_service account_6633 PRESENT via[lookup_key=cur_email] 
+   LATE evidence_06 L20 2026-09-16T08:52:11Z security_service audit_record_1738 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_06 L67 2026-09-16T08:56:42Z account_service account_6633 ABSENT via[correlation_key=cur_email] 
+== case_71 JULES-LAURENT@PROTON.ME user_69 req=2026-08-28T09:00:00Z audit=2026-09-16T09:00:00Z reported=COMPLETE
+   LATE evidence_06 L23 2026-09-16T08:52:24Z search_service search_684 PRESENT via[match_key=cur_email] 
+   LATE evidence_06 L85 2026-09-16T08:57:34Z account_service account_1378 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_06 L99 2026-09-16T08:58:32Z security_service audit_record_1096 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_06 L103 2026-09-16T08:59:28Z support_platform support_1370 ATTACHMENT_PRESENT via[matched_value=cur_email,scan_key=cur_email] 
+== case_72 ajohansson9059@fastmail.com user_70 req=2026-08-27T09:00:00Z audit=2026-09-16T09:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_06 L88 2026-09-16T08:57:36Z export_service export_4091 PRESENT via[owner_key=cur_email] 
+   LATE evidence_06 L91 2026-09-16T08:58:00Z account_service account_7643 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_06 L96 2026-09-16T08:58:14Z security_service audit_record_1310 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_06 L111 2026-09-18T11:55:22Z search_service search_209 PRESENT via[match_key=cur_email] 
+== case_73 ana.k6978@zoho.com user_71 req=2026-08-21T08:00:00Z audit=2026-09-11T08:00:00Z reported=COMPLETE
+   OK  evidence_91 L39 2026-09-11T06:55:19Z account_service account_6070 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_91 L51 2026-09-11T07:28:48Z security_service audit_record_5710 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_74 salma.mansour@gmail.com user_72 req=2026-08-20T08:00:00Z audit=2026-09-11T08:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_91 L21 2026-09-11T05:44:07Z integration_service data_flow_4595 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+== case_75 n.nwosu16@gmail.com user_73 req=2026-08-19T08:00:00Z audit=2026-09-11T08:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_91 L15 2026-09-11T05:22:44Z backup_service backup_8673 RESTORE_ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+== case_76 osei.ama@gmail.com user_74 req=2026-08-18T08:00:00Z audit=2026-09-11T08:00:00Z reported=COMPLETE
+   OK  evidence_91 L11 2026-09-11T05:10:36Z support_platform support_9746 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_77 kabelo-nkosi@gmail.com user_75 req=2026-08-17T08:00:00Z audit=2026-09-11T08:00:00Z reported=COMPLETE
+   OK  evidence_91 L9 2026-09-11T05:08:27Z integration_service data_flow_7773 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_91 L17 2026-09-11T05:29:07Z support_platform support_008 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_91 L25 2026-09-11T06:05:20Z backup_service backup_7303 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_91 L33 2026-09-11T06:31:32Z account_service account_9334 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_91 L59 2026-09-11T07:40:35Z security_service audit_record_5425 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_78 stakahashi6573@gmail.com user_76 req=2026-08-16T08:00:00Z audit=2026-09-11T08:00:00Z reported=COMPLETE
+   OK  evidence_91 L43 2026-09-11T06:58:48Z search_service search_8295 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_91 L61 2026-09-11T07:42:53Z support_platform support_9652 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_79 jieun.p449289@outlook.com user_77 req=2026-08-15T08:00:00Z audit=2026-09-11T08:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_91 L13 2026-09-11T05:15:16Z security_service audit_record_1734 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_91 L41 2026-09-11T06:55:37Z account_service account_5186 ABSENT via[lookup_key=old_email] 
+== case_80 isabela.oliveira90@outlook.com user_78 req=2026-08-14T08:00:00Z audit=2026-09-11T08:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_91 L19 2026-09-11T05:39:16Z account_service account_4006 ABSENT via[lookup_key=old_email] 
+   OK  evidence_91 L29 2026-09-11T06:19:44Z security_service audit_record_5681 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_81 k.rao30@yahoo.com user_79 req=2026-08-13T08:00:00Z audit=2026-09-11T08:00:00Z reported=COMPLETE
+   OK  evidence_91 L3 2026-09-11T04:47:51Z security_service audit_record_9645 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_91 L35 2026-09-11T06:36:30Z account_service account_9832 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_91 L47 2026-09-11T07:18:47Z backup_service backup_3332 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_91 L55 2026-09-11T07:34:48Z support_platform support_5953 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_91 L57 2026-09-11T07:40:09Z integration_service data_flow_3255 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+== case_82 castillo.camila@icloud.com user_80 req=2026-09-01T08:00:00Z audit=2026-09-11T08:00:00Z reported=COMPLETE
+   OK  evidence_91 L23 2026-09-11T06:04:30Z support_platform support_9166 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_91 L27 2026-09-11T06:10:22Z account_service account_4156 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_91 L37 2026-09-11T06:46:27Z backup_service backup_317 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_91 L45 2026-09-11T07:14:42Z security_service audit_record_3747 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_91 L53 2026-09-11T07:30:33Z integration_service data_flow_9666 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+== case_83 liam-walker@proton.me user_81 req=2026-08-26T07:00:00Z audit=2026-09-06T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_08 L3 2026-09-06T07:00:00Z account_service account_2449 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_08 L25 2026-09-06T07:00:00Z security_service audit_record_2636 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_84 cchevalier408794@fastmail.com user_82 req=2026-08-25T07:00:00Z audit=2026-09-06T07:00:00Z reported=NOT_STARTED
+   OK  evidence_08 L2 2026-09-06T07:00:00Z account_service account_2387 ABSENT/USER_PROFILE via[subject_reference=old_email] 
+   OK  evidence_08 L26 2026-09-06T07:00:00Z security_service audit_record_3787 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_85 NILS.L200695@ZOHO.COM user_83 req=2026-08-24T07:00:00Z audit=2026-09-06T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_08 L5 2026-09-06T07:00:00Z account_service account_4911 ABSENT/USER_PROFILE via[subject_reference=old_email] 
+   OK  evidence_08 L19 2026-09-06T07:00:00Z integration_service data_flow_9927 ACTIVE_OR_RESTORE/DATA_FLOW via[subject_reference=old_email] 
+   OK  evidence_08 L22 2026-09-06T07:00:00Z search_service search_6302 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=old_email] 
+   OK  evidence_08 L31 2026-09-06T07:00:00Z security_service audit_record_8094 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_86 marek.zielinski@gmail.com user_84 req=2026-08-23T07:00:00Z audit=2026-09-06T07:00:00Z reported=COMPLETE
+   OK  evidence_08 L1 2026-08-31T07:00:00Z account_service account_8473 PRESENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_08 L8 2026-09-06T07:00:00Z account_service account_8473 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_08 L29 2026-09-06T07:00:00Z security_service audit_record_5580 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_87 z.saleh44@gmail.com user_85 req=2026-08-22T07:00:00Z audit=2026-09-06T07:00:00Z reported=NOT_STARTED
+   OK  evidence_08 L7 2026-09-06T07:00:00Z account_service account_8166 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_08 L16 2026-09-06T07:00:00Z backup_service backup_4689 ACTIVE_OR_RESTORE/BACKUP_ARCHIVE via[subject_reference=cur_email] 
+   OK  evidence_08 L28 2026-09-06T07:00:00Z security_service audit_record_4474 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_88 oladipo.ikenna98@gmail.com user_86 req=2026-08-21T07:00:00Z audit=2026-09-06T07:00:00Z reported=COMPLETE
+   OK  evidence_08 L9 2026-09-06T07:00:00Z account_service account_868 ABSENT/USER_PROFILE via[subject_reference=old_email] 
+   OK  evidence_08 L27 2026-09-06T07:00:00Z security_service audit_record_3825 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+   OK  evidence_08 L35 2026-09-06T07:00:00Z support_platform support_2967 EXPOSED/SUPPORT_MESSAGE via[subject_reference=old_email] 
+== case_89 yaw-amponsah@gmail.com user_87 req=2026-08-20T07:00:00Z audit=2026-09-06T07:00:00Z reported=NOT_STARTED
+   OK  evidence_08 L10 2026-09-06T07:00:00Z account_service account_8764 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_08 L13 2026-09-06T07:00:00Z analytics_platform analytics_6499 EXPOSED/ANALYTICS_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_08 L20 2026-09-06T07:00:00Z search_service search_1839 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=cur_email] 
+   OK  evidence_08 L24 2026-09-06T07:00:00Z security_service audit_record_2539 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_90 zmahlangu160178@gmail.com user_88 req=2026-08-19T07:00:00Z audit=2026-09-06T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_08 L11 2026-09-06T07:00:00Z account_service account_9673 ABSENT/USER_PROFILE via[subject_reference=old_email] 
+   OK  evidence_08 L12 2026-09-06T07:00:00Z analytics_platform analytics_3181 EXPOSED/ANALYTICS_PROFILE via[subject_reference=old_email] 
+   OK  evidence_08 L17 2026-09-06T07:00:00Z integration_service data_flow_2085 ACTIVE_OR_RESTORE/DATA_FLOW via[subject_reference=old_email] 
+   OK  evidence_08 L21 2026-09-06T07:00:00Z search_service search_5561 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=old_email] 
+   OK  evidence_08 L33 2026-09-06T07:00:00Z security_service audit_record_9355 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+   OK  evidence_08 L36 2026-09-06T07:00:00Z support_platform support_7460 EXPOSED/SUPPORT_MESSAGE via[subject_reference=old_email] 
+== case_91 mei.k952079@outlook.com user_89 req=2026-08-18T07:00:00Z audit=2026-09-06T07:00:00Z reported=COMPLETE
+   OK  evidence_08 L6 2026-09-06T07:00:00Z account_service account_6075 PRESENT/USER_PROFILE via[subject_reference=old_email] 
+   OK  evidence_08 L14 2026-09-06T07:00:00Z analytics_platform analytics_8539 EXPOSED/ANALYTICS_PROFILE via[subject_reference=old_email] 
+   OK  evidence_08 L23 2026-09-06T07:00:00Z search_service search_9156 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=old_email] 
+   OK  evidence_08 L32 2026-09-06T07:00:00Z security_service audit_record_8304 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+   OK  evidence_08 L34 2026-09-06T07:00:00Z support_platform support_266 EXPOSED/SUPPORT_MESSAGE via[subject_reference=old_email] 
+== case_92 doyun.lim@outlook.com user_90 req=2026-08-17T07:00:00Z audit=2026-09-06T07:00:00Z reported=NOT_STARTED
+   OK  evidence_08 L4 2026-09-06T07:00:00Z account_service account_3609 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_08 L18 2026-09-06T07:00:00Z integration_service data_flow_7535 ACTIVE_OR_RESTORE/DATA_FLOW via[subject_reference=cur_email] 
+   OK  evidence_08 L30 2026-09-06T07:00:00Z security_service audit_record_5625 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_113 sami-elsayed@gmail.com user_111 req=2026-08-01T11:00:00Z audit=2026-08-22T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_88 L15 2026-08-22T08:39:55Z security_service audit_record_1127 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_88 L17 2026-08-22T08:41:31Z account_service account_6697 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_11 L17 2026-08-22T10:52:05Z account_service account_6697 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_11 L65 2026-08-22T10:55:04Z security_service audit_record_1127 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_114 oadeyemi1657@gmail.com user_112 req=2026-07-31T11:00:00Z audit=2026-08-22T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_88 L7 2026-08-22T08:03:57Z search_service search_5696 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_88 L9 2026-08-22T08:13:32Z support_platform support_3786 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+   LATE evidence_11 L40 2026-08-22T10:53:27Z support_platform support_3786 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   LATE evidence_11 L44 2026-08-22T10:53:32Z security_service audit_record_6504 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_11 L55 2026-08-22T10:54:36Z search_service search_5696 PRESENT via[match_key=cur_email] 
+   LATE evidence_11 L58 2026-08-22T10:54:40Z account_service account_4833 ABSENT via[lookup_key=cur_email] 
+== case_115 nana.b9576@outlook.com user_113 req=2026-07-30T11:00:00Z audit=2026-08-22T11:00:00Z reported=COMPLETE
+   OK  evidence_88 L11 2026-08-22T08:15:24Z account_service account_1785 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_88 L41 2026-08-22T10:35:13Z search_service search_4417 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   LATE evidence_11 L3 2026-08-22T10:51:17Z account_service account_1785 PRESENT via[lookup_key=cur_email] 
+   LATE evidence_11 L15 2026-08-22T10:52:01Z security_service audit_record_670 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_11 L94 2026-08-22T10:57:41Z search_service search_4417 PRESENT via[match_key=cur_email] 
+== case_116 ayanda.dlamini@outlook.com user_114 req=2026-07-29T11:00:00Z audit=2026-08-22T11:00:00Z reported=COMPLETE
+   OK  evidence_88 L19 2026-08-22T09:04:17Z search_service search_696 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_88 L21 2026-08-22T09:09:12Z integration_service data_flow_6699 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+   LATE evidence_11 L24 2026-08-22T10:52:29Z search_service search_696 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_11 L35 2026-08-22T10:53:04Z security_service audit_record_6007 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_11 L89 2026-08-22T10:57:28Z account_service account_1823 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_11 L97 2026-08-22T10:58:04Z integration_service data_flow_6699 ACTIVE via[subject_key=cur_email] 
+== case_117 r.suzuki14@yahoo.com user_115 req=2026-07-28T11:00:00Z audit=2026-08-22T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_88 L13 2026-08-22T08:29:55Z security_service audit_record_1598 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_88 L23 2026-08-22T09:16:26Z account_service account_1220 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_11 L26 2026-08-22T10:52:35Z account_service account_1220 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_11 L108 2026-08-22T10:59:03Z security_service audit_record_1598 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_118 lee.junseo84@icloud.com user_116 req=2026-07-27T11:00:00Z audit=2026-08-22T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_88 L27 2026-08-22T09:34:12Z support_platform support_036 EXPOSED via[lookup_key=old_email,requester_email=old_email] 
+   OK  evidence_88 L29 2026-08-22T09:34:43Z search_service search_9556 PRESENT via[email=old_email,lookup_key=old_email] 
+   LATE evidence_11 L20 2026-08-22T10:52:18Z search_service search_9556 PRESENT via[match_key=old_email] 
+   LATE evidence_11 L46 2026-08-22T10:53:37Z account_service account_5785 ABSENT via[lookup_key=old_email] 
+   LATE evidence_11 L49 2026-08-22T10:54:20Z security_service audit_record_2848 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_11 L53 2026-08-22T10:54:27Z support_platform support_036 EXPOSED via[matched_value=old_email,subject_key=old_email] 
+== case_119 joao-santos@proton.me user_117 req=2026-07-26T11:00:00Z audit=2026-08-22T11:00:00Z reported=NOT_STARTED
+   OK  evidence_88 L43 2026-08-22T10:39:09Z search_service search_5259 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_88 L45 2026-08-22T10:39:10Z support_platform support_9309 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+   LATE evidence_11 L6 2026-08-22T10:51:33Z support_platform support_9309 ATTACHMENT_PRESENT via[matched_value=cur_email,scan_key=cur_email] 
+   LATE evidence_11 L29 2026-08-22T10:52:37Z search_service search_5259 PRESENT via[match_key=cur_email] 
+   LATE evidence_11 L76 2026-08-22T10:56:22Z account_service account_8058 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_11 L84 2026-08-22T10:56:57Z security_service audit_record_9445 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_120 rbasu9171@fastmail.com user_118 req=2026-07-25T11:00:00Z audit=2026-08-22T11:00:00Z reported=COMPLETE
+   OK  evidence_88 L25 2026-08-22T09:25:21Z export_service export_4289 PRESENT via[lookup_key=cur_email,owner_email=cur_email] 
+   OK  evidence_88 L37 2026-08-22T10:14:38Z search_service search_943 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   LATE evidence_11 L23 2026-08-22T10:52:27Z account_service account_8656 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_11 L66 2026-08-22T10:55:06Z security_service audit_record_5496 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_11 L75 2026-08-22T10:55:39Z export_service export_4289 PRESENT via[owner_key=cur_email] 
+   LATE evidence_11 L100 2026-08-22T10:58:30Z search_service search_943 PRESENT via[match_key=cur_email] 
+== case_121 nicolas.n7090@zoho.com user_119 req=2026-07-24T11:00:00Z audit=2026-08-22T11:00:00Z reported=COMPLETE
+   OK  evidence_88 L31 2026-08-22T09:43:58Z security_service audit_record_2103 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_88 L39 2026-08-22T10:21:13Z account_service account_081 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_11 L32 2026-08-22T10:53:02Z security_service audit_record_2103 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_11 L92 2026-08-22T10:57:33Z account_service account_081 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_11 L118 2026-08-24T13:56:43Z search_service search_3573 PRESENT via[match_key=cur_email] 
+== case_122 hannah.sullivan@gmail.com user_120 req=2026-08-12T11:00:00Z audit=2026-08-22T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_88 L3 2026-08-22T07:45:59Z integration_service data_flow_3199 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+   OK  evidence_88 L5 2026-08-22T07:46:55Z search_service search_1752 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   LATE evidence_11 L9 2026-08-22T10:51:52Z account_service account_9580 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_11 L72 2026-08-22T10:55:30Z search_service search_1752 PRESENT via[match_key=cur_email] 
+   LATE evidence_11 L83 2026-08-22T10:56:57Z integration_service data_flow_3199 ACTIVE via[subject_key=cur_email] 
+   LATE evidence_11 L103 2026-08-22T10:58:45Z security_service audit_record_9833 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_163 erik.h9688@outlook.com user_161 req=2026-07-17T06:00:00Z audit=2026-07-28T06:00:00Z reported=COMPLETE
+   OK  evidence_85 L23 2026-07-28T04:17:33Z account_service account_4289 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_85 L45 2026-07-28T05:44:17Z search_service search_4509 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   LATE evidence_16 L11 2026-07-28T05:51:51Z account_service account_4289 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_16 L73 2026-07-28T05:58:32Z security_service audit_record_1053 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_16 L83 2026-07-28T05:59:09Z search_service search_4509 PRESENT via[match_key=cur_email] 
+== case_164 tomasz.stojanovic@outlook.com user_162 req=2026-07-16T06:00:00Z audit=2026-07-28T06:00:00Z reported=COMPLETE
+   OK  evidence_85 L29 2026-07-28T04:44:49Z account_service account_9549 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_85 L41 2026-07-28T05:05:14Z security_service audit_record_6780 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   LATE evidence_16 L25 2026-07-28T05:54:05Z security_service audit_record_6780 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_16 L66 2026-07-28T05:57:13Z account_service account_9549 ABSENT via[lookup_key=cur_email] 
+== case_165 n.farouk26@yahoo.com user_163 req=2026-07-15T06:00:00Z audit=2026-07-28T06:00:00Z reported=COMPLETE
+   OK  evidence_85 L7 2026-07-28T02:52:12Z account_service account_3064 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_85 L21 2026-07-28T03:52:52Z analytics_platform analytics_2713 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_85 L33 2026-07-28T05:02:50Z search_service search_8678 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_85 L37 2026-07-28T05:03:55Z support_platform support_3586 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+   LATE evidence_16 L10 2026-07-28T05:51:49Z security_service audit_record_4964 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_16 L57 2026-07-28T05:56:35Z account_service account_3064 PRESENT via[lookup_key=cur_email] 
+   LATE evidence_16 L60 2026-07-28T05:56:53Z support_platform support_3586 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   LATE evidence_16 L72 2026-07-28T05:58:05Z search_service search_8678 PRESENT via[match_key=cur_email] 
+   LATE evidence_16 L79 2026-07-28T05:59:03Z analytics_platform analytics_2713 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+== case_166 OBI.ADAEZE@ICLOUD.COM user_164 req=2026-07-14T06:00:00Z audit=2026-07-28T06:00:00Z reported=COMPLETE
+   OK  evidence_85 L3 2026-07-28T02:49:32Z search_service search_5261 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_85 L35 2026-07-28T05:03:37Z support_platform support_3155 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+   LATE evidence_16 L17 2026-07-28T05:53:19Z account_service account_1837 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_16 L24 2026-07-28T05:54:04Z search_service search_5261 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_16 L31 2026-07-28T05:54:33Z security_service audit_record_7082 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_16 L38 2026-07-28T05:55:35Z support_platform support_3155 EXPOSED via[matched_value=cur_email] 
+== case_167 abena-frimpong@proton.me user_165 req=2026-07-13T06:00:00Z audit=2026-07-28T06:00:00Z reported=COMPLETE
+   OK  evidence_85 L9 2026-07-28T02:53:27Z account_service account_5284 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_85 L19 2026-07-28T03:44:08Z security_service audit_record_3088 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   LATE evidence_16 L47 2026-07-28T05:55:56Z account_service account_5284 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_16 L58 2026-07-28T05:56:42Z security_service audit_record_3088 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_16 L90 2026-07-30T05:55:34Z account_service account_5284 PRESENT via[lookup_key=cur_email] 
+== case_168 stshabalala9283@fastmail.com user_166 req=2026-07-12T06:00:00Z audit=2026-07-28T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_85 L15 2026-07-28T03:38:41Z export_service export_4102 PRESENT via[lookup_key=cur_email,owner_email=cur_email] 
+   LATE evidence_16 L23 2026-07-28T05:53:55Z account_service account_8748 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_16 L42 2026-07-28T05:55:39Z security_service audit_record_2503 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_16 L69 2026-07-28T05:57:25Z export_service export_4102 PRESENT via[owner_key=cur_email] 
+== case_169 yuki.k7202@zoho.com user_167 req=2026-07-11T06:00:00Z audit=2026-07-28T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_85 L17 2026-07-28T03:41:20Z search_service search_2126 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_85 L27 2026-07-28T04:24:19Z integration_service data_flow_7004 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+   LATE evidence_16 L12 2026-07-28T05:52:42Z account_service account_7268 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_16 L36 2026-07-28T05:55:24Z security_service audit_record_5374 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_16 L56 2026-07-28T05:56:33Z search_service search_2126 PRESENT via[match_key=cur_email] 
+   LATE evidence_16 L63 2026-07-28T05:57:08Z integration_service data_flow_7004 ACTIVE via[subject_key=cur_email] 
+== case_170 jihoon.jang@gmail.com user_168 req=2026-07-10T06:00:00Z audit=2026-07-28T06:00:00Z reported=NOT_STARTED
+   OK  evidence_85 L25 2026-07-28T04:20:46Z security_service audit_record_4443 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_85 L31 2026-07-28T04:56:58Z account_service account_665 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_16 L44 2026-07-28T05:55:46Z security_service audit_record_4443 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_16 L80 2026-07-28T05:59:04Z account_service account_665 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_16 L92 2026-07-30T08:53:10Z search_service search_3619 PRESENT via[match_key=cur_email] 
+== case_171 l.nascimento40@gmail.com user_169 req=2026-07-09T06:00:00Z audit=2026-07-28T06:00:00Z reported=NOT_STARTED
+   OK  evidence_85 L39 2026-07-28T05:04:52Z backup_service backup_5520 RESTORE_ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+   LATE evidence_16 L4 2026-07-28T05:51:21Z account_service account_7947 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_16 L33 2026-07-28T05:54:49Z security_service audit_record_1665 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_16 L52 2026-07-28T05:56:08Z backup_service backup_5520 RESTORE_ACTIVE via[subject_key=cur_email] 
+== case_172 menon.arjun@gmail.com user_170 req=2026-07-08T06:00:00Z audit=2026-07-28T06:00:00Z reported=COMPLETE
+   OK  evidence_85 L5 2026-07-28T02:51:36Z support_platform support_2322 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+   OK  evidence_85 L43 2026-07-28T05:36:40Z search_service search_7102 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   LATE evidence_16 L8 2026-07-28T05:51:41Z support_platform support_2322 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   LATE evidence_16 L20 2026-07-28T05:53:25Z search_service search_7102 PRESENT via[match_key=cur_email] 
+   LATE evidence_16 L45 2026-07-28T05:55:47Z account_service account_5675 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_16 L53 2026-07-28T05:56:14Z security_service audit_record_6136 RETAINED_PRESENT via[correlation_key=user_id] 
+== case_193 kojo.m7258@zoho.com user_191 req=2026-06-22T10:00:00Z audit=2026-07-13T10:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_82 L29 2026-07-13T08:08:21Z account_service account_1065 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_82 L39 2026-07-13T08:41:11Z security_service audit_record_1839 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_194 lindiwe.ndlovu94@gmail.com user_192 req=2026-06-21T10:00:00Z audit=2026-07-13T10:00:00Z reported=COMPLETE
+   OK  evidence_82 L17 2026-07-13T07:25:54Z integration_service data_flow_3195 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+   OK  evidence_82 L27 2026-07-13T08:03:45Z search_service search_8302 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_195 a.sato96@gmail.com user_193 req=2026-06-20T10:00:00Z audit=2026-07-13T10:00:00Z reported=COMPLETE
+   OK  evidence_82 L5 2026-07-13T06:53:09Z account_service account_4320 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_82 L7 2026-07-13T07:05:05Z security_service audit_record_1524 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_196 kim.hyunwoo@gmail.com user_194 req=2026-06-19T10:00:00Z audit=2026-07-13T10:00:00Z reported=COMPLETE
+   OK  evidence_82 L13 2026-07-13T07:20:27Z account_service account_5599 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_82 L37 2026-07-13T08:28:57Z security_service audit_record_6389 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_197 rafael-silva@gmail.com user_195 req=2026-06-18T10:00:00Z audit=2026-07-13T10:00:00Z reported=COMPLETE
+   OK  evidence_82 L23 2026-07-13T07:52:45Z analytics_platform analytics_6093 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_82 L25 2026-07-13T07:57:23Z search_service search_6762 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_198 ijain6853@gmail.com user_196 req=2026-06-17T10:00:00Z audit=2026-07-13T10:00:00Z reported=NOT_STARTED
+   OK  evidence_82 L47 2026-07-13T09:10:03Z search_service search_1414 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_82 L49 2026-07-13T09:13:20Z support_platform support_6131 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_199 diego.t477299@outlook.com user_197 req=2026-06-16T10:00:00Z audit=2026-07-13T10:00:00Z reported=COMPLETE
+   OK  evidence_82 L19 2026-07-13T07:39:16Z search_service search_9161 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_82 L51 2026-07-13T09:20:12Z account_service account_9917 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_200 grace.reed@outlook.com user_198 req=2026-06-15T10:00:00Z audit=2026-07-13T10:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_82 L9 2026-07-13T07:13:44Z integration_service data_flow_2310 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+   OK  evidence_82 L15 2026-07-13T07:24:22Z search_service search_7472 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_201 j.girard1079@yahoo.com user_199 req=2026-06-14T10:00:00Z audit=2026-07-13T10:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_82 L3 2026-07-13T06:48:43Z account_service account_2933 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_82 L31 2026-07-13T08:12:10Z search_service search_5135 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_82 L45 2026-07-13T09:09:52Z support_platform support_2863 EXPOSED via[lookup_key=old_email,requester_email=old_email] 
+   OK  evidence_82 L53 2026-07-13T09:33:59Z integration_service data_flow_5688 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+== case_202 dahl.astrid@icloud.com user_200 req=2026-07-03T10:00:00Z audit=2026-07-13T10:00:00Z reported=COMPLETE
+   OK  evidence_82 L21 2026-07-13T07:43:22Z account_service account_5547 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_82 L33 2026-07-13T08:23:17Z security_service audit_record_5401 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_213 l.foster38@yahoo.com user_211 req=2026-06-12T08:00:00Z audit=2026-07-03T08:00:00Z reported=NOT_STARTED
+   LATE evidence_21 L2 2026-07-03T07:51:32Z security_service audit_record_4413 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_21 L66 2026-07-03T07:57:07Z backup_service backup_5626 BLOCKED via[subject_key=user_id] 
+   LATE evidence_21 L88 2026-07-03T07:58:36Z account_service account_6674 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_21 L95 2026-07-03T07:58:41Z support_platform support_1360 REDACTED via[subject_key=user_id,subject_ref=user_id] 
+   LATE evidence_21 L110 2026-07-03T07:59:22Z integration_service data_flow_5279 DISABLED via[subject_key=user_id] 
+== case_214 bernard.chloe@icloud.com user_212 req=2026-06-11T08:00:00Z audit=2026-07-03T08:00:00Z reported=NOT_STARTED
+   LATE evidence_21 L60 2026-07-03T07:56:58Z support_platform support_1146 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   LATE evidence_21 L80 2026-07-03T07:57:49Z search_service search_7351 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_21 L100 2026-07-03T07:58:45Z security_service audit_record_1666 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_21 L115 2026-07-03T07:59:34Z account_service account_4752 ABSENT via[lookup_key=cur_email] 
+== case_215 nils-lindberg@proton.me user_213 req=2026-06-10T08:00:00Z audit=2026-07-03T08:00:00Z reported=COMPLETE
+   LATE evidence_21 L8 2026-07-03T07:52:02Z security_service audit_record_1718 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_21 L20 2026-07-03T07:54:47Z account_service account_1956 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_21 L127 2026-07-05T07:54:25Z account_service account_1956 PRESENT via[lookup_key=cur_email] 
+== case_216 mnovak939594@fastmail.com user_214 req=2026-06-09T08:00:00Z audit=2026-07-03T08:00:00Z reported=COMPLETE
+   LATE evidence_21 L14 2026-07-03T07:52:31Z account_service account_9682 ABSENT via[lookup_key=old_email] 
+   LATE evidence_21 L17 2026-07-03T07:54:16Z export_service export_5351 PRESENT via[owner_key=old_email] 
+   LATE evidence_21 L48 2026-07-03T07:56:03Z security_service audit_record_713 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_21 L72 2026-07-03T07:57:20Z search_service search_5216 PRESENT via[match_key=old_email] 
+   LATE evidence_21 L101 2026-07-03T07:58:45Z support_platform support_8453 EXPOSED via[matched_value=old_email,subject_key=old_email] 
+   LATE evidence_21 L118 2026-07-03T07:59:41Z analytics_platform analytics_4527 EXPOSED via[lookup_key=old_email,matched_value=old_email] 
+== case_217 zayd.k7314@zoho.com user_215 req=2026-06-08T08:00:00Z audit=2026-07-03T08:00:00Z reported=NOT_STARTED
+   LATE evidence_21 L21 2026-07-03T07:54:57Z security_service audit_record_188 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_21 L26 2026-07-03T07:55:06Z search_service search_3120 PRESENT via[match_key=cur_email] 
+   LATE evidence_21 L34 2026-07-03T07:55:35Z integration_service data_flow_1791 ACTIVE via[subject_key=cur_email] 
+   LATE evidence_21 L104 2026-07-03T07:59:04Z account_service account_7030 ABSENT via[lookup_key=cur_email] 
+== case_218 ikenna.adebayo@gmail.com user_216 req=2026-06-07T08:00:00Z audit=2026-07-03T08:00:00Z reported=COMPLETE
+   LATE evidence_21 L79 2026-07-03T07:57:40Z security_service audit_record_8792 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_21 L84 2026-07-03T07:58:08Z account_service account_4066 ABSENT via[lookup_key=cur_email] 
+== case_219 y.owusu52@gmail.com user_217 req=2026-06-06T08:00:00Z audit=2026-07-03T08:00:00Z reported=COMPLETE
+   LATE evidence_21 L96 2026-07-03T07:58:42Z security_service audit_record_3382 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_21 L106 2026-07-03T07:59:11Z account_service account_4678 ABSENT via[lookup_key=cur_email] 
+== case_220 mokoena.zanele98@gmail.com user_218 req=2026-06-05T08:00:00Z audit=2026-07-03T08:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_21 L39 2026-07-03T07:55:56Z security_service audit_record_3698 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_21 L57 2026-07-03T07:56:33Z support_platform support_4529 EXPOSED via[matched_value=old_email,subject_key=old_email] 
+   LATE evidence_21 L63 2026-07-03T07:57:01Z legal_service legal_hold_4961 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_21 L77 2026-07-03T07:57:30Z account_service account_1007 ABSENT via[lookup_key=old_email] 
+   LATE evidence_21 L83 2026-07-03T07:57:58Z search_service search_941 PRESENT via[match_key=old_email] 
+== case_221 mei-tanaka@gmail.com user_219 req=2026-06-04T08:00:00Z audit=2026-07-03T08:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_21 L11 2026-07-03T07:52:15Z account_service account_4512 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_21 L51 2026-07-03T07:56:08Z security_service audit_record_3880 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_222 dchoi6909@gmail.com user_220 req=2026-06-23T08:00:00Z audit=2026-07-03T08:00:00Z reported=COMPLETE
+   LATE evidence_21 L41 2026-07-03T07:55:58Z support_platform support_111 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   LATE evidence_21 L62 2026-07-03T07:56:59Z security_service audit_record_7211 RETAINED_PRESENT via[correlation_key=user_id] 
+   LATE evidence_21 L75 2026-07-03T07:57:29Z search_service search_6405 PRESENT via[match_key=cur_email] 
+   LATE evidence_21 L86 2026-07-03T07:58:33Z account_service account_7237 ABSENT via[correlation_key=cur_email] 
+== case_233 mandla-masuku@gmail.com user_231 req=2026-06-02T06:00:00Z audit=2026-06-23T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_79 L7 2026-06-23T02:48:26Z security_service audit_record_8350 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_79 L15 2026-06-23T03:12:04Z support_platform support_9670 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_79 L35 2026-06-23T04:17:27Z account_service account_5264 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_79 L51 2026-06-23T05:15:55Z integration_service data_flow_6754 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_79 L57 2026-06-23T05:35:07Z backup_service backup_8162 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+== case_234 kmori1937@gmail.com user_232 req=2026-06-01T06:00:00Z audit=2026-06-23T06:00:00Z reported=COMPLETE
+   OK  evidence_79 L41 2026-06-23T04:42:25Z search_service search_2615 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_79 L47 2026-06-23T05:12:38Z support_platform support_1254 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_235 haeun.h9856@outlook.com user_233 req=2026-05-31T06:00:00Z audit=2026-06-23T06:00:00Z reported=COMPLETE
+   OK  evidence_79 L11 2026-06-23T03:00:12Z backup_service backup_2775 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_79 L19 2026-06-23T03:28:05Z account_service account_886 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_79 L43 2026-06-23T05:06:03Z support_platform support_9391 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_79 L53 2026-06-23T05:19:09Z security_service audit_record_7103 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_79 L59 2026-06-23T05:37:26Z integration_service data_flow_593 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+== case_236 larissa.carvalho@outlook.com user_234 req=2026-05-30T06:00:00Z audit=2026-06-23T06:00:00Z reported=NOT_STARTED
+   OK  evidence_79 L27 2026-06-23T03:55:37Z search_service search_5385 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_79 L29 2026-06-23T03:56:07Z integration_service data_flow_7352 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+== case_237 p.kapoor94@yahoo.com user_235 req=2026-05-29T06:00:00Z audit=2026-06-23T06:00:00Z reported=COMPLETE
+   OK  evidence_79 L17 2026-06-23T03:15:07Z search_service search_2433 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_79 L23 2026-06-23T03:44:28Z account_service account_2788 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_238 romero.valeria94@icloud.com user_236 req=2026-05-28T06:00:00Z audit=2026-06-23T06:00:00Z reported=COMPLETE
+   OK  evidence_79 L31 2026-06-23T03:58:14Z security_service audit_record_6797 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_79 L55 2026-06-23T05:28:47Z account_service account_945 ABSENT via[lookup_key=old_email] 
+== case_239 daniel-parker@proton.me user_237 req=2026-05-27T06:00:00Z audit=2026-06-23T06:00:00Z reported=COMPLETE
+   OK  evidence_79 L5 2026-06-23T02:47:51Z account_service account_2838 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_79 L25 2026-06-23T03:53:59Z security_service audit_record_4940 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_240 ifournier945196@fastmail.com user_238 req=2026-05-26T06:00:00Z audit=2026-06-23T06:00:00Z reported=COMPLETE
+   OK  evidence_79 L33 2026-06-23T04:07:22Z search_service search_9335 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_79 L39 2026-06-23T04:32:55Z export_service export_5242 PRESENT via[lookup_key=old_email,owner_email=old_email] 
+== case_241 oskar.n737097@zoho.com user_239 req=2026-05-25T06:00:00Z audit=2026-06-23T06:00:00Z reported=COMPLETE
+   OK  evidence_79 L9 2026-06-23T02:59:55Z search_service search_5659 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_79 L49 2026-06-23T05:15:38Z integration_service data_flow_4568 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+== case_242 pavel.nowak98@gmail.com user_240 req=2026-06-13T06:00:00Z audit=2026-06-23T06:00:00Z reported=COMPLETE
+   OK  evidence_79 L13 2026-06-23T03:00:52Z integration_service data_flow_4475 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+   OK  evidence_79 L45 2026-06-23T05:10:14Z search_service search_2904 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_263 aarav-singh@proton.me user_261 req=2026-05-28T10:00:00Z audit=2026-06-08T10:00:00Z reported=COMPLETE
+   OK  evidence_25 L9 2026-06-08T09:51:04Z support_platform support_2498 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_25 L47 2026-06-08T09:52:44Z analytics_platform analytics_515 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+   OK  evidence_25 L56 2026-06-08T09:53:34Z search_service search_5331 PRESENT via[correlation_key=cur_email] 
+   OK  evidence_25 L75 2026-06-08T09:54:59Z support_platform support_5234 ATTACHMENT_PRESENT via[matched_value=cur_email,scan_key=cur_email] 
+   OK  evidence_25 L97 2026-06-08T09:55:47Z account_service account_106 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_25 L121 2026-06-08T09:57:22Z security_service audit_record_6863 RETAINED_PRESENT via[correlation_key=user_id] 
+== case_264 mrios950798@fastmail.com user_262 req=2026-05-27T10:00:00Z audit=2026-06-08T10:00:00Z reported=NOT_STARTED
+   OK  evidence_25 L24 2026-06-08T09:51:47Z support_platform support_9996 REDACTED via[subject_key=user_id,subject_ref=user_id] 
+   OK  evidence_25 L83 2026-06-08T09:55:17Z backup_service backup_3250 BLOCKED via[subject_key=user_id] 
+   OK  evidence_25 L93 2026-06-08T09:55:35Z security_service audit_record_6711 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_25 L103 2026-06-08T09:55:58Z integration_service data_flow_4885 DISABLED via[subject_key=user_id] 
+   OK  evidence_25 L105 2026-06-08T09:56:01Z account_service account_8316 ABSENT via[lookup_key=old_email] 
+== case_265 oliver.w7426@zoho.com user_263 req=2026-05-26T10:00:00Z audit=2026-06-08T10:00:00Z reported=COMPLETE
+   OK  evidence_25 L38 2026-06-08T09:52:24Z security_service audit_record_6378 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_25 L65 2026-06-08T09:53:46Z account_service account_5015 ABSENT via[lookup_key=cur_email] 
+== case_266 hugo.fontaine@gmail.com user_264 req=2026-05-25T10:00:00Z audit=2026-06-08T10:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_25 L53 2026-06-08T09:53:26Z search_service search_8935 PRESENT via[match_key=cur_email] 
+   OK  evidence_25 L71 2026-06-08T09:54:50Z account_service account_1057 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_25 L89 2026-06-08T09:55:29Z security_service audit_record_1857 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_25 L109 2026-06-08T09:56:18Z integration_service data_flow_8277 ACTIVE via[correlation_key=cur_email] 
+== case_267 j.nystrom64@gmail.com user_265 req=2026-05-24T10:00:00Z audit=2026-06-08T10:00:00Z reported=COMPLETE
+   OK  evidence_25 L30 2026-06-08T09:51:52Z account_service account_8384 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_25 L41 2026-06-08T09:52:27Z security_service audit_record_6621 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_268 dvorak.nadia@gmail.com user_266 req=2026-05-23T10:00:00Z audit=2026-06-08T10:00:00Z reported=COMPLETE
+   OK  evidence_25 L55 2026-06-08T09:53:34Z account_service account_9179 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_25 L63 2026-06-08T09:53:44Z search_service search_3000 PRESENT via[match_key=cur_email] 
+   OK  evidence_25 L68 2026-06-08T09:54:19Z security_service audit_record_4636 RETAINED_PRESENT via[correlation_key=user_id] 
+   OK  evidence_25 L80 2026-06-08T09:55:05Z support_platform support_8215 EXPOSED via[matched_value=cur_email] 
+== case_269 farah-najjar@gmail.com user_267 req=2026-05-22T10:00:00Z audit=2026-06-08T10:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_25 L32 2026-06-08T09:52:10Z account_service account_7699 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_25 L59 2026-06-08T09:53:39Z analytics_platform analytics_6766 EXPOSED via[matched_value=cur_email] 
+   OK  evidence_25 L67 2026-06-08T09:54:05Z search_service search_1730 PRESENT via[correlation_key=cur_email] 
+   OK  evidence_25 L79 2026-06-08T09:55:04Z integration_service data_flow_8612 ACTIVE via[subject_key=cur_email] 
+   OK  evidence_25 L100 2026-06-08T09:55:52Z support_platform support_8301 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_25 L108 2026-06-08T09:56:14Z security_service audit_record_4534 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_270 cchukwu7021@gmail.com user_268 req=2026-05-21T10:00:00Z audit=2026-06-08T10:00:00Z reported=COMPLETE
+   OK  evidence_25 L17 2026-06-08T09:51:35Z account_service account_4331 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_25 L43 2026-06-08T09:52:29Z search_service search_9020 PRESENT via[match_key=cur_email] 
+   OK  evidence_25 L118 2026-06-08T09:57:11Z support_platform support_7707 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_25 L119 2026-06-08T09:57:14Z security_service audit_record_5206 RETAINED_PRESENT via[correlation_key=user_id] 
+== case_271 kwame.g4940@outlook.com user_269 req=2026-05-20T10:00:00Z audit=2026-06-08T10:00:00Z reported=COMPLETE
+   OK  evidence_25 L27 2026-06-08T09:51:49Z account_service account_7107 PRESENT via[lookup_key=cur_email] 
+   OK  evidence_25 L45 2026-06-08T09:52:31Z search_service search_1390 PRESENT via[match_key=cur_email] 
+   OK  evidence_25 L126 2026-06-08T09:57:40Z security_service audit_record_2546 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_272 thabo.masuku@outlook.com user_270 req=2026-05-19T10:00:00Z audit=2026-06-08T10:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_25 L12 2026-06-08T09:51:18Z integration_service data_flow_2010 ACTIVE via[subject_key=cur_email] 
+   OK  evidence_25 L66 2026-06-08T09:53:48Z account_service account_4226 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_25 L112 2026-06-08T09:56:27Z search_service search_3875 PRESENT via[match_key=cur_email] 
+   OK  evidence_25 L116 2026-06-08T09:57:07Z security_service audit_record_4646 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_283 amara.o9968@outlook.com user_281 req=2026-05-18T08:00:00Z audit=2026-05-29T08:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_76 L41 2026-05-29T07:28:05Z security_service audit_record_5680 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_76 L45 2026-05-29T07:38:43Z account_service account_947 ABSENT via[lookup_key=cur_email] 
+== case_284 kofi.appiah96@outlook.com user_282 req=2026-05-17T08:00:00Z audit=2026-05-29T08:00:00Z reported=COMPLETE
+   OK  evidence_76 L31 2026-05-29T06:46:09Z integration_service data_flow_6953 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+== case_285 t.zulu0697@yahoo.com user_283 req=2026-05-16T08:00:00Z audit=2026-05-29T08:00:00Z reported=NOT_STARTED
+   OK  evidence_76 L3 2026-05-29T04:54:21Z account_service account_285 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_76 L29 2026-05-29T06:39:38Z search_service search_036 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_286 yamamoto.keiko@icloud.com user_284 req=2026-05-15T08:00:00Z audit=2026-05-29T08:00:00Z reported=COMPLETE
+   OK  evidence_76 L13 2026-05-29T05:46:12Z security_service audit_record_1714 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_76 L47 2026-05-29T07:43:13Z account_service account_2016 ABSENT via[lookup_key=cur_email] 
+== case_287 soojin-cho@proton.me user_285 req=2026-05-14T08:00:00Z audit=2026-05-29T08:00:00Z reported=COMPLETE
+   OK  evidence_76 L5 2026-05-29T05:22:37Z support_platform support_7432 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+   OK  evidence_76 L35 2026-05-29T06:50:34Z search_service search_5705 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_288 mrodrigues956378@fastmail.com user_286 req=2026-05-13T08:00:00Z audit=2026-05-29T08:00:00Z reported=NOT_STARTED
+   OK  evidence_76 L15 2026-05-29T05:49:15Z export_service export_7906 PRESENT via[lookup_key=old_email,owner_email=old_email] 
+== case_289 ananya.i7482@zoho.com user_287 req=2026-05-12T08:00:00Z audit=2026-05-29T08:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_76 L27 2026-05-29T06:36:35Z search_service search_6432 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_76 L39 2026-05-29T07:26:53Z integration_service data_flow_743 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+== case_290 sofia.lopez@gmail.com user_288 req=2026-05-11T08:00:00Z audit=2026-05-29T08:00:00Z reported=COMPLETE
+   OK  evidence_76 L7 2026-05-29T05:26:36Z search_service search_3144 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_76 L11 2026-05-29T05:42:55Z integration_service data_flow_179 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+== case_291 n.collins20@gmail.com user_289 req=2026-05-10T08:00:00Z audit=2026-05-29T08:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_76 L23 2026-05-29T06:06:44Z backup_service backup_7079 RESTORE_ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+== case_292 laurent.camille@gmail.com user_290 req=2026-05-09T08:00:00Z audit=2026-05-29T08:00:00Z reported=COMPLETE
+   OK  evidence_76 L9 2026-05-29T05:36:24Z backup_service backup_1825 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_76 L17 2026-05-29T05:54:49Z integration_service data_flow_5598 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_76 L33 2026-05-29T06:48:53Z security_service audit_record_3432 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_76 L37 2026-05-29T07:10:16Z account_service account_1125 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_76 L43 2026-05-29T07:37:13Z support_platform support_1526 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+== case_313 seoyeon.l7538@zoho.com user_311 req=2026-04-23T12:00:00Z audit=2026-05-14T12:00:00Z reported=NOT_STARTED
+   LATE evidence_30 L30 2026-05-14T11:54:21Z account_service account_8264 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_30 L70 2026-05-14T11:56:38Z security_service audit_record_7020 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_314 beatriz.lima@gmail.com user_312 req=2026-04-22T12:00:00Z audit=2026-05-14T12:00:00Z reported=COMPLETE
+   LATE evidence_30 L21 2026-05-14T11:53:44Z security_service audit_record_7893 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_30 L82 2026-05-14T11:57:49Z account_service account_591 ABSENT via[correlation_key=cur_email] 
+== case_315 d.mehta76@gmail.com user_313 req=2026-04-21T12:00:00Z audit=2026-05-14T12:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_30 L50 2026-05-14T11:55:29Z backup_service backup_7421 RESTORE_ACTIVE via[correlation_key=cur_email] 
+   LATE evidence_30 L60 2026-05-14T11:55:39Z account_service account_782 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_30 L94 2026-05-14T11:58:48Z security_service audit_record_2407 RETAINED_PRESENT via[correlation_key=user_id] 
+== case_316 alvarez.elena@gmail.com user_314 req=2026-04-20T12:00:00Z audit=2026-05-14T12:00:00Z reported=COMPLETE
+   LATE evidence_30 L35 2026-05-14T11:54:44Z account_service account_9523 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_30 L75 2026-05-14T11:56:51Z support_platform support_1176 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   LATE evidence_30 L84 2026-05-14T11:58:01Z search_service search_8583 PRESENT via[match_key=cur_email] 
+   LATE evidence_30 L100 2026-05-14T11:59:37Z security_service audit_record_4286 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_317 ethan-morgan@gmail.com user_315 req=2026-04-19T12:00:00Z audit=2026-05-14T12:00:00Z reported=COMPLETE
+   LATE evidence_30 L4 2026-05-14T11:51:33Z search_service search_8665 PRESENT via[match_key=cur_email] 
+   LATE evidence_30 L32 2026-05-14T11:54:23Z integration_service data_flow_3064 ACTIVE via[subject_key=cur_email] 
+   LATE evidence_30 L43 2026-05-14T11:55:13Z analytics_platform analytics_1488 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+   LATE evidence_30 L86 2026-05-14T11:58:27Z account_service account_1972 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_30 L91 2026-05-14T11:58:44Z support_platform support_4439 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   LATE evidence_30 L95 2026-05-14T11:58:50Z security_service audit_record_6170 RETAINED_PRESENT via[correlation_key=user_id] 
+== case_318 mrousseau7133@gmail.com user_316 req=2026-04-18T12:00:00Z audit=2026-05-14T12:00:00Z reported=COMPLETE
+   LATE evidence_30 L1 2026-05-14T11:51:20Z account_service account_1530 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_30 L23 2026-05-14T11:53:53Z search_service search_5472 PRESENT via[correlation_key=cur_email] 
+   LATE evidence_30 L27 2026-05-14T11:54:03Z security_service audit_record_6708 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_30 L73 2026-05-14T11:56:43Z support_platform support_7995 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+== case_319 lars.e5052@outlook.com user_317 req=2026-04-17T12:00:00Z audit=2026-05-14T12:00:00Z reported=NOT_STARTED
+   LATE evidence_30 L92 2026-05-14T11:58:45Z account_service account_2088 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_30 L97 2026-05-14T11:58:51Z security_service audit_record_7337 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_30 L109 2026-05-16T11:58:23Z account_service account_2088 PRESENT via[lookup_key=cur_email] 
+== case_320 andrei.horvat@outlook.com user_318 req=2026-04-16T12:00:00Z audit=2026-05-14T12:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_30 L12 2026-05-14T11:52:56Z account_service account_9178 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_30 L18 2026-05-14T11:53:37Z search_service search_2256 PRESENT via[match_key=cur_email] 
+   LATE evidence_30 L51 2026-05-14T11:55:29Z integration_service data_flow_8828 ACTIVE via[subject_key=cur_email] 
+   LATE evidence_30 L81 2026-05-14T11:57:43Z security_service audit_record_1409 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_321 k.nasser9089@yahoo.com user_319 req=2026-04-15T12:00:00Z audit=2026-05-14T12:00:00Z reported=COMPLETE
+   LATE evidence_30 L7 2026-05-14T11:52:38Z account_service account_3525 ABSENT via[lookup_key=old_email] 
+   LATE evidence_30 L54 2026-05-14T11:55:30Z security_service audit_record_5151 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_30 L57 2026-05-14T11:55:36Z search_service search_3667 PRESENT via[match_key=old_email] 
+   LATE evidence_30 L63 2026-05-14T11:55:48Z integration_service data_flow_4964 ACTIVE via[subject_key=old_email] 
+== case_322 eze.emeka@icloud.com user_320 req=2026-05-04T12:00:00Z audit=2026-05-14T12:00:00Z reported=COMPLETE
+   LATE evidence_30 L28 2026-05-14T11:54:06Z account_service account_9354 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_30 L66 2026-05-14T11:56:01Z security_service audit_record_3201 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_323 kojo-addo@proton.me user_321 req=2026-04-28T11:00:00Z audit=2026-05-09T11:00:00Z reported=COMPLETE
+   OK  evidence_73 L9 2026-05-09T07:55:18Z account_service account_2917 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_73 L47 2026-05-09T10:00:38Z security_service audit_record_3338 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_324 lmolefe4647@fastmail.com user_322 req=2026-04-27T11:00:00Z audit=2026-05-09T11:00:00Z reported=COMPLETE
+   OK  evidence_73 L3 2026-05-09T07:46:43Z security_service audit_record_4466 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_73 L11 2026-05-09T08:13:45Z integration_service data_flow_4769 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_73 L27 2026-05-09T08:36:31Z backup_service backup_6458 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_73 L31 2026-05-09T09:07:26Z account_service account_1242 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_73 L59 2026-05-09T10:28:19Z support_platform support_7249 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+== case_325 aoi.i256693@zoho.com user_323 req=2026-04-26T11:00:00Z audit=2026-05-09T11:00:00Z reported=COMPLETE
+   OK  evidence_73 L29 2026-05-09T08:54:23Z integration_service data_flow_9962 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+   OK  evidence_73 L63 2026-05-09T10:32:52Z search_service search_4054 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_326 HYUNWOO.KANG94@GMAIL.COM user_324 req=2026-04-25T11:00:00Z audit=2026-05-09T11:00:00Z reported=NOT_STARTED
+   OK  evidence_73 L5 2026-05-09T07:47:14Z integration_service data_flow_2468 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_73 L33 2026-05-09T09:15:52Z security_service audit_record_1219 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_73 L41 2026-05-09T09:32:04Z account_service account_3785 ABSENT via[lookup_key=old_email] 
+   OK  evidence_73 L43 2026-05-09T09:33:04Z backup_service backup_2894 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_73 L53 2026-05-09T10:09:26Z support_platform support_305 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+== case_327 R.COSTA04@GMAIL.COM user_325 req=2026-04-24T11:00:00Z audit=2026-05-09T11:00:00Z reported=COMPLETE
+   OK  evidence_73 L13 2026-05-09T08:14:05Z security_service audit_record_461 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_73 L61 2026-05-09T10:29:49Z account_service account_4606 ABSENT via[lookup_key=cur_email] 
+== case_328 patel.ishaan@gmail.com user_326 req=2026-04-23T11:00:00Z audit=2026-05-09T11:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_73 L23 2026-05-09T08:35:56Z search_service search_9107 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_73 L45 2026-05-09T09:49:24Z support_platform support_7926 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_329 diego-fernandez@gmail.com user_327 req=2026-04-22T11:00:00Z audit=2026-05-09T11:00:00Z reported=NOT_STARTED
+   OK  evidence_73 L17 2026-05-09T08:22:47Z analytics_platform analytics_671 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_73 L67 2026-05-09T10:43:53Z search_service search_5226 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_330 gcarter216198@gmail.com user_328 req=2026-04-21T11:00:00Z audit=2026-05-09T11:00:00Z reported=COMPLETE
+   OK  evidence_73 L49 2026-05-09T10:05:21Z support_platform support_4851 EXPOSED via[lookup_key=old_email,requester_email=old_email] 
+   OK  evidence_73 L55 2026-05-09T10:16:21Z search_service search_4560 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_331 jules.m080@outlook.com user_329 req=2026-04-20T11:00:00Z audit=2026-05-09T11:00:00Z reported=COMPLETE
+   OK  evidence_73 L7 2026-05-09T07:49:25Z support_platform support_1403 REDACTED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_73 L15 2026-05-09T08:15:29Z account_service account_6814 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_73 L19 2026-05-09T08:27:31Z security_service audit_record_6731 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_73 L25 2026-05-09T08:36:30Z integration_service data_flow_8534 DISABLED via[customer_reference=user_id,lookup_key=user_id] 
+   OK  evidence_73 L35 2026-05-09T09:26:12Z backup_service backup_9376 BLOCKED via[customer_reference=user_id,lookup_key=user_id] 
+== case_332 astrid.andersson@outlook.com user_330 req=2026-04-19T11:00:00Z audit=2026-05-09T11:00:00Z reported=NOT_STARTED
+   OK  evidence_73 L21 2026-05-09T08:30:55Z search_service search_049 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_73 L51 2026-05-09T10:08:40Z integration_service data_flow_4392 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+== case_363 m.khumalo88@gmail.com user_361 req=2026-04-08T07:00:00Z audit=2026-04-19T07:00:00Z reported=COMPLETE
+   OK  evidence_34 L15 2026-04-19T06:51:41Z backup_service backup_7253 RESTORE_ACTIVE via[subject_key=cur_email] 
+   OK  evidence_34 L67 2026-04-19T06:54:14Z security_service audit_record_9777 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_34 L131 2026-04-19T06:58:59Z account_service account_9205 ABSENT via[lookup_key=cur_email] 
+== case_364 watanabe.kenta@gmail.com user_362 req=2026-04-07T07:00:00Z audit=2026-04-19T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_34 L20 2026-04-19T06:51:55Z account_service account_7653 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_34 L69 2026-04-19T06:54:27Z search_service search_8198 PRESENT via[correlation_key=cur_email] 
+   OK  evidence_34 L119 2026-04-19T06:58:06Z support_platform support_9699 EXPOSED via[matched_value=cur_email] 
+   OK  evidence_34 L121 2026-04-19T06:58:13Z security_service audit_record_7136 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_365 haeun-jung@gmail.com user_363 req=2026-04-06T07:00:00Z audit=2026-04-19T07:00:00Z reported=COMPLETE
+   OK  evidence_34 L12 2026-04-19T06:51:35Z security_service audit_record_5798 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_34 L14 2026-04-19T06:51:41Z analytics_platform analytics_547 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+   OK  evidence_34 L17 2026-04-19T06:51:45Z support_platform support_3294 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_34 L25 2026-04-19T06:52:30Z account_service account_3016 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_34 L77 2026-04-19T06:54:37Z search_service search_6311 PRESENT via[match_key=cur_email] 
+   OK  evidence_34 L111 2026-04-19T06:56:50Z integration_service data_flow_1021 ACTIVE via[subject_key=cur_email] 
+== case_366 lpereira7245@gmail.com user_364 req=2026-04-05T07:00:00Z audit=2026-04-19T07:00:00Z reported=NOT_STARTED
+   OK  evidence_34 L7 2026-04-19T06:51:21Z support_platform support_5609 EXPOSED via[matched_value=cur_email] 
+   OK  evidence_34 L39 2026-04-19T06:53:19Z integration_service data_flow_8256 ACTIVE via[correlation_key=cur_email] 
+   OK  evidence_34 L68 2026-04-19T06:54:16Z analytics_platform analytics_8593 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+   OK  evidence_34 L110 2026-04-19T06:56:50Z account_service account_4788 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_34 L132 2026-04-19T06:59:20Z security_service audit_record_4655 RETAINED_PRESENT via[correlation_key=user_id] 
+   OK  evidence_34 L135 2026-04-19T06:59:41Z search_service search_5301 PRESENT via[match_key=cur_email] 
+== case_367 priya.s5164@outlook.com user_365 req=2026-04-04T07:00:00Z audit=2026-04-19T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_34 L58 2026-04-19T06:54:03Z search_service search_9950 PRESENT via[match_key=cur_email] 
+   OK  evidence_34 L91 2026-04-19T06:55:10Z security_service audit_record_9082 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_34 L101 2026-04-19T06:56:25Z support_platform support_4691 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_34 L124 2026-04-19T06:58:17Z account_service account_3204 PRESENT via[lookup_key=cur_email] 
+   OK  evidence_34 L126 2026-04-19T06:58:34Z analytics_platform analytics_946 EXPOSED via[matched_value=cur_email] 
+== case_368 valeria.garcia92@outlook.com user_366 req=2026-04-03T07:00:00Z audit=2026-04-19T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_34 L40 2026-04-19T06:53:19Z search_service search_4359 PRESENT via[match_key=old_email] 
+   OK  evidence_34 L79 2026-04-19T06:54:38Z security_service audit_record_3738 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_34 L93 2026-04-19T06:56:10Z account_service account_9570 ABSENT via[correlation_key=old_email] 
+   OK  evidence_34 L130 2026-04-19T06:58:52Z integration_service data_flow_8293 ACTIVE via[correlation_key=old_email] 
+== case_369 d.bennett02@yahoo.com user_367 req=2026-04-02T07:00:00Z audit=2026-04-19T07:00:00Z reported=COMPLETE
+   OK  evidence_34 L32 2026-04-19T06:53:06Z account_service account_8590 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_34 L88 2026-04-19T06:55:01Z security_service audit_record_337 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_370 dubois.ines94@icloud.com user_368 req=2026-04-01T07:00:00Z audit=2026-04-19T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_34 L6 2026-04-19T06:51:21Z search_service search_9365 PRESENT via[match_key=old_email] 
+   OK  evidence_34 L36 2026-04-19T06:53:12Z support_platform support_6949 EXPOSED via[matched_value=old_email,subject_key=old_email] 
+   OK  evidence_34 L53 2026-04-19T06:54:00Z security_service audit_record_9696 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_34 L99 2026-04-19T06:56:24Z analytics_platform analytics_7215 EXPOSED via[lookup_key=old_email,matched_value=old_email] 
+   OK  evidence_34 L102 2026-04-19T06:56:32Z integration_service data_flow_5608 ACTIVE via[correlation_key=old_email] 
+   OK  evidence_34 L115 2026-04-19T06:56:59Z account_service account_6567 ABSENT via[lookup_key=old_email] 
+== case_371 oskar-berg@proton.me user_369 req=2026-03-31T07:00:00Z audit=2026-04-19T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_34 L45 2026-04-19T06:53:30Z account_service account_5896 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_34 L81 2026-04-19T06:54:45Z search_service search_6847 PRESENT via[match_key=cur_email] 
+   OK  evidence_34 L87 2026-04-19T06:55:00Z support_platform support_3110 ATTACHMENT_PRESENT via[matched_value=cur_email] 
+   OK  evidence_34 L128 2026-04-19T06:58:38Z security_service audit_record_689 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_372 ppetrescu4759@fastmail.com user_370 req=2026-03-30T07:00:00Z audit=2026-04-19T07:00:00Z reported=COMPLETE
+   OK  evidence_34 L59 2026-04-19T06:54:04Z account_service account_2062 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_34 L65 2026-04-19T06:54:12Z security_service audit_record_5705 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_34 L92 2026-04-19T06:55:49Z export_service export_5081 PRESENT via[correlation_key=cur_email] 
+== case_373 sami.h267897@zoho.com user_371 req=2026-03-24T06:00:00Z audit=2026-04-14T06:00:00Z reported=COMPLETE
+   OK  evidence_70 L9 2026-04-14T03:27:15Z integration_service data_flow_2984 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+   OK  evidence_70 L29 2026-04-14T04:38:41Z search_service search_7859 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_374 obinna.okafor@gmail.com user_372 req=2026-03-23T06:00:00Z audit=2026-04-14T06:00:00Z reported=COMPLETE
+   OK  evidence_70 L13 2026-04-14T03:37:08Z account_service account_8598 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_70 L41 2026-04-14T05:19:59Z security_service audit_record_5137 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_375 n.mensah16@gmail.com user_373 req=2026-03-22T06:00:00Z audit=2026-04-14T06:00:00Z reported=COMPLETE
+   OK  evidence_70 L7 2026-04-14T03:26:36Z account_service account_2854 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_70 L39 2026-04-14T05:13:55Z security_service audit_record_6359 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_376 ndlovu.ayanda78@gmail.com user_374 req=2026-03-21T06:00:00Z audit=2026-04-14T06:00:00Z reported=NOT_STARTED
+   OK  evidence_70 L25 2026-04-14T04:27:18Z search_service search_3126 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_70 L43 2026-04-14T05:31:08Z support_platform support_475 EXPOSED via[lookup_key=old_email,requester_email=old_email] 
+== case_377 rina-sato@gmail.com user_375 req=2026-03-20T06:00:00Z audit=2026-04-14T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_70 L15 2026-04-14T03:47:02Z analytics_platform analytics_3651 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+== case_378 jkim227380@gmail.com user_376 req=2026-03-19T06:00:00Z audit=2026-04-14T06:00:00Z reported=COMPLETE
+   OK  evidence_70 L21 2026-04-14T03:55:48Z account_service account_976 ABSENT via[lookup_key=old_email] 
+   OK  evidence_70 L45 2026-04-14T05:36:48Z security_service audit_record_7312 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_379 joao.s192@outlook.com user_377 req=2026-03-18T06:00:00Z audit=2026-04-14T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_70 L19 2026-04-14T03:48:23Z account_service account_6246 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_70 L47 2026-04-14T05:38:04Z search_service search_9124 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_380 rohan.jain@outlook.com user_378 req=2026-03-17T06:00:00Z audit=2026-04-14T06:00:00Z reported=COMPLETE
+   OK  evidence_70 L31 2026-04-14T04:45:32Z account_service account_4001 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_70 L37 2026-04-14T05:02:54Z security_service audit_record_4489 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_381 n.torres30@yahoo.com user_379 req=2026-03-16T06:00:00Z audit=2026-04-14T06:00:00Z reported=NOT_STARTED
+   OK  evidence_70 L17 2026-04-14T03:48:14Z account_service account_6784 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_382 reed.hannah@icloud.com user_380 req=2026-04-04T06:00:00Z audit=2026-04-14T06:00:00Z reported=NOT_STARTED
+   OK  evidence_70 L5 2026-04-14T03:19:12Z analytics_platform analytics_9918 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_70 L11 2026-04-14T03:29:14Z integration_service data_flow_6090 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+   OK  evidence_70 L27 2026-04-14T04:28:38Z support_platform support_5071 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+   OK  evidence_70 L49 2026-04-14T05:40:07Z search_service search_8171 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_413 amara-okafor@gmail.com user_411 req=2026-03-04T09:00:00Z audit=2026-03-25T09:00:00Z reported=NOT_STARTED
+   OK  evidence_39 L33 2026-03-25T08:53:50Z security_service audit_record_9099 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_39 L35 2026-03-25T08:54:22Z search_service search_6162 PRESENT via[match_key=cur_email] 
+   OK  evidence_39 L39 2026-03-25T08:55:11Z analytics_platform analytics_4523 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+   OK  evidence_39 L73 2026-03-25T08:57:33Z account_service account_563 ABSENT via[lookup_key=cur_email] 
+== case_414 kmensah735794@gmail.com user_412 req=2026-03-03T09:00:00Z audit=2026-03-25T09:00:00Z reported=NOT_STARTED
+   OK  evidence_39 L45 2026-03-25T08:56:00Z account_service account_5260 ABSENT via[correlation_key=old_email] 
+   OK  evidence_39 L85 2026-03-25T08:58:22Z support_platform support_3768 EXPOSED via[matched_value=old_email] 
+   OK  evidence_39 L87 2026-03-25T08:58:27Z search_service search_8770 PRESENT via[match_key=old_email] 
+   OK  evidence_39 L91 2026-03-25T08:58:33Z security_service audit_record_3768 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_415 thandiwe.n5276@outlook.com user_413 req=2026-03-02T09:00:00Z audit=2026-03-25T09:00:00Z reported=COMPLETE
+   OK  evidence_39 L18 2026-03-25T08:52:52Z support_platform support_1993 EXPOSED via[matched_value=cur_email] 
+   OK  evidence_39 L44 2026-03-25T08:55:32Z security_service audit_record_6154 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_39 L58 2026-03-25T08:56:41Z search_service search_3864 PRESENT via[correlation_key=cur_email] 
+   OK  evidence_39 L60 2026-03-25T08:56:48Z analytics_platform analytics_2102 EXPOSED via[matched_value=cur_email] 
+   OK  evidence_39 L81 2026-03-25T08:58:06Z account_service account_9975 PRESENT via[lookup_key=cur_email] 
+== case_416 KEIKO.SATO@OUTLOOK.COM user_414 req=2026-03-01T09:00:00Z audit=2026-03-25T09:00:00Z reported=COMPLETE
+   OK  evidence_39 L12 2026-03-25T08:52:11Z account_service account_3075 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_39 L67 2026-03-25T08:57:06Z security_service audit_record_8832 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_39 L103 2026-03-25T08:59:08Z search_service search_6600 PRESENT via[match_key=cur_email] 
+   OK  evidence_39 L106 2026-03-25T08:59:15Z integration_service data_flow_1412 ACTIVE via[subject_key=cur_email] 
+== case_417 s.kim14@yahoo.com user_415 req=2026-02-28T09:00:00Z audit=2026-03-25T09:00:00Z reported=NOT_STARTED
+   OK  evidence_39 L17 2026-03-25T08:52:27Z search_service search_5479 PRESENT via[match_key=cur_email] 
+   OK  evidence_39 L31 2026-03-25T08:53:25Z account_service account_4921 PRESENT via[lookup_key=cur_email] 
+   OK  evidence_39 L98 2026-03-25T08:58:43Z security_service audit_record_7959 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_418 silva.mariana@icloud.com user_416 req=2026-02-27T09:00:00Z audit=2026-03-25T09:00:00Z reported=COMPLETE
+   OK  evidence_39 L4 2026-03-25T08:51:23Z support_platform support_9464 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_39 L22 2026-03-25T08:53:09Z account_service account_9120 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_39 L26 2026-03-25T08:53:15Z search_service search_8686 PRESENT via[match_key=cur_email] 
+   OK  evidence_39 L61 2026-03-25T08:56:52Z security_service audit_record_5493 RETAINED_PRESENT via[correlation_key=user_id] 
+== case_419 ananya-jain@proton.me user_417 req=2026-02-26T09:00:00Z audit=2026-03-25T09:00:00Z reported=COMPLETE
+   OK  evidence_39 L7 2026-03-25T08:51:55Z support_platform support_2944 ATTACHMENT_PRESENT via[matched_value=cur_email,scan_key=cur_email] 
+   OK  evidence_39 L49 2026-03-25T08:56:17Z security_service audit_record_7716 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_39 L68 2026-03-25T08:57:08Z search_service search_5797 PRESENT via[correlation_key=cur_email] 
+   OK  evidence_39 L82 2026-03-25T08:58:08Z account_service account_1966 ABSENT via[lookup_key=cur_email] 
+== case_420 storres487178@fastmail.com user_418 req=2026-02-25T09:00:00Z audit=2026-03-25T09:00:00Z reported=NOT_STARTED
+   OK  evidence_39 L6 2026-03-25T08:51:54Z account_service account_7606 ABSENT via[correlation_key=old_email] 
+   OK  evidence_39 L66 2026-03-25T08:57:06Z security_service audit_record_9687 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_39 L74 2026-03-25T08:57:36Z export_service export_389 PRESENT via[correlation_key=old_email] 
+   OK  evidence_39 L114 2026-03-25T08:59:44Z search_service search_8472 PRESENT via[match_key=old_email] 
+== case_421 noah.r2790@zoho.com user_419 req=2026-02-24T09:00:00Z audit=2026-03-25T09:00:00Z reported=NOT_STARTED
+   OK  evidence_39 L37 2026-03-25T08:55:00Z integration_service data_flow_4750 ACTIVE via[correlation_key=cur_email] 
+   OK  evidence_39 L56 2026-03-25T08:56:24Z security_service audit_record_1256 RETAINED_PRESENT via[correlation_key=user_id] 
+   OK  evidence_39 L59 2026-03-25T08:56:43Z account_service account_8482 ABSENT via[correlation_key=cur_email] 
+   OK  evidence_39 L109 2026-03-25T08:59:32Z search_service search_3251 PRESENT via[match_key=cur_email] 
+== case_422 camille.girard80@gmail.com user_420 req=2026-03-15T09:00:00Z audit=2026-03-25T09:00:00Z reported=COMPLETE
+   OK  evidence_39 L55 2026-03-25T08:56:22Z search_service search_7614 PRESENT via[match_key=old_email] 
+   OK  evidence_39 L57 2026-03-25T08:56:26Z security_service audit_record_4218 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_39 L99 2026-03-25T08:58:44Z account_service account_4087 ABSENT via[lookup_key=old_email] 
+   OK  evidence_39 L104 2026-03-25T08:59:09Z integration_service data_flow_8871 ACTIVE via[correlation_key=old_email] 
+== case_433 javier.m7818@zoho.com user_431 req=2026-02-22T07:00:00Z audit=2026-03-15T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_41 L8 2026-03-15T07:00:00Z account_service account_5817 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L15 2026-03-15T07:00:00Z integration_service data_flow_1283 ACTIVE_OR_RESTORE/DATA_FLOW via[subject_reference=cur_email] 
+   OK  evidence_41 L25 2026-03-15T07:00:00Z search_service search_9100 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=cur_email] 
+   OK  evidence_41 L32 2026-03-15T07:00:00Z security_service audit_record_6665 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_434 charlotte.foster@gmail.com user_432 req=2026-02-21T07:00:00Z audit=2026-03-15T07:00:00Z reported=NOT_STARTED
+   OK  evidence_41 L7 2026-03-15T07:00:00Z account_service account_4813 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L11 2026-03-15T07:00:00Z analytics_platform analytics_2354 EXPOSED/ANALYTICS_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L18 2026-03-15T07:00:00Z integration_service data_flow_9854 ACTIVE_OR_RESTORE/DATA_FLOW via[subject_reference=cur_email] 
+   OK  evidence_41 L23 2026-03-15T07:00:00Z search_service search_5626 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=cur_email] 
+   OK  evidence_41 L29 2026-03-15T07:00:00Z security_service audit_record_4043 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+   OK  evidence_41 L37 2026-03-15T07:00:00Z support_platform support_3364 EXPOSED/SUPPORT_MESSAGE via[subject_reference=cur_email] 
+== case_435 l.bernard56@gmail.com user_433 req=2026-02-20T07:00:00Z audit=2026-03-15T07:00:00Z reported=COMPLETE
+   OK  evidence_41 L10 2026-03-15T07:00:00Z account_service account_9194 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L14 2026-03-15T07:00:00Z backup_service backup_5237 ACTIVE_OR_RESTORE/BACKUP_ARCHIVE via[subject_reference=cur_email] 
+   OK  evidence_41 L35 2026-03-15T07:00:00Z security_service audit_record_9695 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_436 lindberg.freja@gmail.com user_434 req=2026-02-19T07:00:00Z audit=2026-03-15T07:00:00Z reported=NOT_STARTED
+   OK  evidence_41 L6 2026-03-15T07:00:00Z account_service account_3078 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L24 2026-03-15T07:00:00Z search_service search_6599 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=cur_email] 
+   OK  evidence_41 L28 2026-03-15T07:00:00Z security_service audit_record_2748 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+   OK  evidence_41 L36 2026-03-15T07:00:00Z support_platform support_165 EXPOSED/SUPPORT_MESSAGE via[subject_reference=cur_email] 
+== case_437 zofia-novak@gmail.com user_435 req=2026-02-18T07:00:00Z audit=2026-03-15T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_41 L1 2026-03-15T07:00:00Z account_service account_022 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L12 2026-03-15T07:00:00Z analytics_platform analytics_6172 EXPOSED/ANALYTICS_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L33 2026-03-15T07:00:00Z security_service audit_record_6846 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_438 lkhalil7413@gmail.com user_436 req=2026-02-17T07:00:00Z audit=2026-03-15T07:00:00Z reported=COMPLETE
+   OK  evidence_41 L3 2026-03-15T07:00:00Z account_service account_1680 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L13 2026-03-15T07:00:00Z analytics_platform analytics_6528 EXPOSED/ANALYTICS_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L16 2026-03-15T07:00:00Z integration_service data_flow_3226 ACTIVE_OR_RESTORE/DATA_FLOW via[subject_reference=cur_email] 
+   OK  evidence_41 L20 2026-03-15T07:00:00Z search_service search_2052 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=cur_email] 
+   OK  evidence_41 L27 2026-03-15T07:00:00Z security_service audit_record_1366 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+   OK  evidence_41 L39 2026-03-15T07:00:00Z support_platform support_6688 EXPOSED/SUPPORT_MESSAGE via[subject_reference=cur_email] 
+== case_439 tunde.a533297@outlook.com user_437 req=2026-02-16T07:00:00Z audit=2026-03-15T07:00:00Z reported=COMPLETE
+   OK  evidence_41 L5 2026-03-15T07:00:00Z account_service account_3002 PRESENT/USER_PROFILE via[subject_reference=old_email] 
+   OK  evidence_41 L26 2026-03-15T07:00:00Z security_service audit_record_1149 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_440 akosua.owusu@outlook.com user_438 req=2026-02-15T07:00:00Z audit=2026-03-15T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_41 L9 2026-03-15T07:00:00Z account_service account_790 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L17 2026-03-15T07:00:00Z integration_service data_flow_5967 ACTIVE_OR_RESTORE/DATA_FLOW via[subject_reference=cur_email] 
+   OK  evidence_41 L21 2026-03-15T07:00:00Z search_service search_2922 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=cur_email] 
+   OK  evidence_41 L31 2026-03-15T07:00:00Z security_service audit_record_5488 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_441 n.mokoena70@yahoo.com user_439 req=2026-02-14T07:00:00Z audit=2026-03-15T07:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_41 L2 2026-03-15T07:00:00Z account_service account_1538 PRESENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L22 2026-03-15T07:00:00Z search_service search_3058 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=cur_email] 
+   OK  evidence_41 L34 2026-03-15T07:00:00Z security_service audit_record_7313 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+== case_442 tanaka.ren@icloud.com user_440 req=2026-03-05T07:00:00Z audit=2026-03-15T07:00:00Z reported=COMPLETE
+   OK  evidence_41 L4 2026-03-15T07:00:00Z account_service account_1897 ABSENT/USER_PROFILE via[subject_reference=cur_email] 
+   OK  evidence_41 L19 2026-03-15T07:00:00Z search_service search_1194 PRESENT/SEARCH_INDEX_ENTRY via[subject_reference=cur_email] 
+   OK  evidence_41 L30 2026-03-15T07:00:00Z security_service audit_record_4839 PRESENT/SECURITY_AUDIT_LOG via[subject_reference=user_id] 
+   OK  evidence_41 L38 2026-03-15T07:00:00Z support_platform support_4123 EXPOSED/SUPPORT_MESSAGE via[subject_reference=cur_email] 
+== case_463 ana.n5388@outlook.com user_461 req=2026-02-17T11:00:00Z audit=2026-02-28T11:00:00Z reported=NOT_STARTED
+   LATE evidence_44 L13 2026-02-28T10:51:26Z integration_service data_flow_8024 DISABLED via[correlation_key=user_id] 
+   LATE evidence_44 L53 2026-02-28T10:55:40Z security_service audit_record_8444 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_44 L97 2026-02-28T10:57:57Z support_platform support_2659 REDACTED via[subject_key=user_id,subject_ref=user_id] 
+   LATE evidence_44 L108 2026-02-28T10:59:08Z backup_service backup_2005 BLOCKED via[subject_key=user_id] 
+   LATE evidence_44 L121 2026-02-28T10:59:43Z account_service account_1698 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_44 L124 2026-03-02T10:59:21Z account_service account_1698 PRESENT via[lookup_key=cur_email] 
+== case_464 salma.hamdan@outlook.com user_462 req=2026-02-16T11:00:00Z audit=2026-02-28T11:00:00Z reported=COMPLETE
+   LATE evidence_44 L20 2026-02-28T10:51:46Z backup_service backup_7400 BLOCKED via[subject_key=user_id] 
+   LATE evidence_44 L32 2026-02-28T10:52:49Z integration_service data_flow_1344 DISABLED via[subject_key=user_id] 
+   LATE evidence_44 L52 2026-02-28T10:55:37Z account_service account_2480 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_44 L101 2026-02-28T10:58:36Z support_platform support_5586 REDACTED via[subject_key=user_id,subject_ref=user_id] 
+   LATE evidence_44 L117 2026-02-28T10:59:35Z security_service audit_record_5183 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_465 n.ogunleye2679@yahoo.com user_463 req=2026-02-15T11:00:00Z audit=2026-02-28T11:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_44 L14 2026-02-28T10:51:37Z search_service search_728 PRESENT via[correlation_key=old_email] 
+   LATE evidence_44 L48 2026-02-28T10:54:29Z account_service account_3653 PRESENT via[lookup_key=old_email] 
+   LATE evidence_44 L95 2026-02-28T10:57:56Z security_service audit_record_7099 RETAINED_PRESENT via[correlation_key=user_id] 
+== case_466 appiah.ama80@icloud.com user_464 req=2026-02-14T11:00:00Z audit=2026-02-28T11:00:00Z reported=COMPLETE
+   LATE evidence_44 L12 2026-02-28T10:51:16Z search_service search_8417 PRESENT via[match_key=old_email] 
+   LATE evidence_44 L68 2026-02-28T10:56:51Z account_service account_7503 ABSENT via[lookup_key=old_email] 
+   LATE evidence_44 L69 2026-02-28T10:56:52Z security_service audit_record_8892 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_467 kabelo-zulu81@proton.me user_465 req=2026-02-13T11:00:00Z audit=2026-02-28T11:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_44 L45 2026-02-28T10:54:14Z security_service audit_record_8992 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_44 L65 2026-02-28T10:56:40Z account_service account_2437 ABSENT via[lookup_key=old_email] 
+== case_468 syamamoto4983@fastmail.com user_466 req=2026-02-12T11:00:00Z audit=2026-02-28T11:00:00Z reported=NOT_STARTED
+   LATE evidence_44 L26 2026-02-28T10:52:07Z export_service export_9399 PRESENT via[owner_key=cur_email] 
+   LATE evidence_44 L35 2026-02-28T10:53:10Z search_service search_9827 PRESENT via[match_key=cur_email] 
+   LATE evidence_44 L56 2026-02-28T10:55:52Z security_service audit_record_307 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_44 L88 2026-02-28T10:57:40Z account_service account_641 ABSENT via[lookup_key=cur_email] 
+== case_469 jieun.c2902@zoho.com user_467 req=2026-02-11T11:00:00Z audit=2026-02-28T11:00:00Z reported=COMPLETE
+   LATE evidence_44 L38 2026-02-28T10:53:18Z account_service account_6645 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_44 L40 2026-02-28T10:53:56Z security_service audit_record_7723 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_44 L76 2026-02-28T10:57:11Z integration_service data_flow_8730 ACTIVE via[subject_key=cur_email] 
+   LATE evidence_44 L84 2026-02-28T10:57:35Z search_service search_8450 PRESENT via[correlation_key=cur_email] 
+== case_470 isabela.rodrigues@gmail.com user_468 req=2026-02-10T11:00:00Z audit=2026-02-28T11:00:00Z reported=COMPLETE
+   LATE evidence_44 L3 2026-02-22T10:58:51Z account_service account_7023 PRESENT via[lookup_key=cur_email] 
+   LATE evidence_44 L77 2026-02-28T10:57:11Z security_service audit_record_2706 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_44 L112 2026-02-28T10:59:13Z account_service account_7023 ABSENT via[lookup_key=cur_email] 
+== case_471 k.iyer40@gmail.com user_469 req=2026-02-09T11:00:00Z audit=2026-02-28T11:00:00Z reported=COMPLETE
+   LATE evidence_44 L29 2026-02-28T10:52:40Z security_service audit_record_3862 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_44 L82 2026-02-28T10:57:27Z account_service account_9034 ABSENT via[lookup_key=cur_email] 
+   LATE evidence_44 L115 2026-02-28T10:59:32Z backup_service backup_7543 RESTORE_ACTIVE via[correlation_key=cur_email] 
+== case_472 lopez.camila@gmail.com user_470 req=2026-02-08T11:00:00Z audit=2026-02-28T11:00:00Z reported=PARTIALLY_COMPLETE
+   LATE evidence_44 L21 2026-02-28T10:51:52Z security_service audit_record_157 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_44 L93 2026-02-28T10:57:55Z search_service search_9152 PRESENT via[match_key=cur_email] 
+   LATE evidence_44 L98 2026-02-28T10:58:18Z account_service account_1957 ABSENT via[correlation_key=cur_email] 
+   LATE evidence_44 L105 2026-02-28T10:59:01Z support_platform support_6987 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+== case_483 t.oliveira6897@gmail.com user_481 req=2026-02-07T09:00:00Z audit=2026-02-18T09:00:00Z reported=COMPLETE
+   OK  evidence_64 L3 2026-02-18T05:47:12Z integration_service data_flow_3669 ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+   OK  evidence_64 L17 2026-02-18T06:47:34Z support_platform support_4364 EXPOSED via[lookup_key=old_email,requester_email=old_email] 
+   OK  evidence_64 L23 2026-02-18T07:00:55Z search_service search_1613 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_64 L41 2026-02-18T08:15:47Z backup_service backup_4600 RESTORE_ACTIVE via[customer_email=old_email,lookup_key=old_email] 
+== case_484 rao.neel@gmail.com user_482 req=2026-02-06T09:00:00Z audit=2026-02-18T09:00:00Z reported=COMPLETE
+   OK  evidence_64 L13 2026-02-18T06:44:21Z support_platform support_7973 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_485 andres-castillo@gmail.com user_483 req=2026-02-05T09:00:00Z audit=2026-02-18T09:00:00Z reported=NOT_STARTED
+   OK  evidence_64 L49 2026-02-18T08:36:51Z search_service search_3582 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_64 L51 2026-02-18T08:39:05Z analytics_platform analytics_1981 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+== case_486 swalker752578@gmail.com user_484 req=2026-02-04T09:00:00Z audit=2026-02-18T09:00:00Z reported=COMPLETE
+   OK  evidence_64 L21 2026-02-18T06:55:54Z security_service audit_record_5451 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+   OK  evidence_64 L31 2026-02-18T07:22:31Z account_service account_9031 ABSENT via[lookup_key=old_email] 
+== case_487 arthur.c5444@outlook.com user_485 req=2026-02-03T09:00:00Z audit=2026-02-18T09:00:00Z reported=COMPLETE
+   OK  evidence_64 L9 2026-02-18T06:22:53Z search_service search_901 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_64 L11 2026-02-18T06:26:43Z account_service account_5293 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_64 L15 2026-02-18T06:45:22Z analytics_platform analytics_7818 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_64 L43 2026-02-18T08:26:31Z support_platform support_5361 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_488 maja.lund@outlook.com user_486 req=2026-02-02T09:00:00Z audit=2026-02-18T09:00:00Z reported=COMPLETE
+   OK  evidence_64 L27 2026-02-18T07:10:40Z integration_service data_flow_3755 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+   OK  evidence_64 L47 2026-02-18T08:36:10Z search_service search_4216 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_489 i.zielinski8281@yahoo.com user_487 req=2026-02-01T09:00:00Z audit=2026-02-18T09:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_64 L37 2026-02-18T07:57:06Z account_service account_6654 PRESENT via[email=old_email,lookup_key=old_email] 
+   OK  evidence_64 L53 2026-02-18T08:39:11Z search_service search_3426 PRESENT via[email=old_email,lookup_key=old_email] 
+== case_490 saleh.mariam@icloud.com user_488 req=2026-01-31T09:00:00Z audit=2026-02-18T09:00:00Z reported=COMPLETE
+   OK  evidence_64 L35 2026-02-18T07:48:34Z search_service search_9931 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_64 L45 2026-02-18T08:27:20Z support_platform support_4247 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_491 chioma-oladipo@proton.me user_489 req=2026-01-30T09:00:00Z audit=2026-02-18T09:00:00Z reported=COMPLETE
+   OK  evidence_64 L33 2026-02-18T07:28:11Z account_service account_7455 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_64 L39 2026-02-18T07:57:31Z security_service audit_record_7073 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_492 eamponsah5039@fastmail.com user_490 req=2026-01-29T09:00:00Z audit=2026-02-18T09:00:00Z reported=COMPLETE
+   OK  evidence_64 L5 2026-02-18T05:47:23Z analytics_platform analytics_1575 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_64 L7 2026-02-18T06:02:13Z export_service export_6406 PRESENT via[lookup_key=cur_email,owner_email=cur_email] 
+   OK  evidence_64 L19 2026-02-18T06:54:06Z search_service search_9733 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_64 L25 2026-02-18T07:08:59Z support_platform support_6737 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+== case_513 m.moreau38@yahoo.com user_511 req=2026-01-13T06:00:00Z audit=2026-02-03T06:00:00Z reported=COMPLETE
+   OK  evidence_48 L55 2026-02-03T05:55:14Z search_service search_4739 PRESENT via[match_key=cur_email] 
+   OK  evidence_48 L74 2026-02-03T05:57:45Z security_service audit_record_2044 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_48 L78 2026-02-03T05:57:51Z account_service account_1334 PRESENT via[correlation_key=cur_email] 
+== case_514 andersson.linnea@icloud.com user_512 req=2026-01-12T06:00:00Z audit=2026-02-03T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_48 L20 2026-02-03T05:52:46Z security_service audit_record_1967 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_48 L33 2026-02-03T05:53:45Z account_service account_6473 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_48 L49 2026-02-03T05:54:19Z integration_service data_flow_9556 ACTIVE via[correlation_key=cur_email] 
+   OK  evidence_48 L61 2026-02-03T05:56:22Z analytics_platform analytics_9920 EXPOSED via[lookup_key=cur_email,matched_value=cur_email] 
+   OK  evidence_48 L94 2026-02-03T05:58:59Z support_platform support_3982 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_48 L96 2026-02-03T05:59:24Z search_service search_2715 PRESENT via[match_key=cur_email] 
+== case_515 katarina-ionescu@proton.me user_513 req=2026-01-11T06:00:00Z audit=2026-02-03T06:00:00Z reported=NOT_STARTED
+   OK  evidence_48 L7 2026-02-03T05:51:50Z security_service audit_record_7062 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_48 L28 2026-02-03T05:53:36Z search_service search_1928 PRESENT via[match_key=cur_email] 
+   OK  evidence_48 L41 2026-02-03T05:53:58Z account_service account_3411 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_48 L97 2026-02-03T05:59:27Z support_platform support_4533 ATTACHMENT_PRESENT via[matched_value=cur_email] 
+== case_516 yelsayed5095@fastmail.com user_514 req=2026-01-10T06:00:00Z audit=2026-02-03T06:00:00Z reported=COMPLETE
+   OK  evidence_48 L13 2026-02-03T05:52:14Z account_service account_141 ABSENT via[correlation_key=cur_email] 
+   OK  evidence_48 L51 2026-02-03T05:54:21Z security_service audit_record_3777 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_517 yetunde.a3014@zoho.com user_515 req=2026-01-09T06:00:00Z audit=2026-02-03T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_48 L24 2026-02-03T05:52:51Z integration_service data_flow_8165 ACTIVE via[subject_key=cur_email] 
+   OK  evidence_48 L36 2026-02-03T05:53:49Z account_service account_3407 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_48 L39 2026-02-03T05:53:54Z search_service search_2818 PRESENT via[match_key=cur_email] 
+   OK  evidence_48 L102 2026-02-03T05:59:40Z security_service audit_record_946 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_518 adwoa.boateng@gmail.com user_516 req=2026-01-08T06:00:00Z audit=2026-02-03T06:00:00Z reported=COMPLETE
+   OK  evidence_48 L12 2026-02-03T05:51:59Z security_service audit_record_5572 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_48 L25 2026-02-03T05:52:59Z search_service search_6401 PRESENT via[correlation_key=cur_email] 
+   OK  evidence_48 L48 2026-02-03T05:54:17Z account_service account_9641 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_48 L57 2026-02-03T05:56:16Z integration_service data_flow_3518 ACTIVE via[subject_key=cur_email] 
+== case_519 s.dlamini52@gmail.com user_517 req=2026-01-07T06:00:00Z audit=2026-02-03T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_48 L3 2026-02-03T05:51:30Z security_service audit_record_4027 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_48 L67 2026-02-03T05:57:13Z account_service account_1506 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_48 L89 2026-02-03T05:58:20Z backup_service backup_8264 RESTORE_ACTIVE via[subject_key=cur_email] 
+== case_520 suzuki.daichi90@gmail.com user_518 req=2026-01-06T06:00:00Z audit=2026-02-03T06:00:00Z reported=NOT_STARTED
+   OK  evidence_48 L17 2026-02-03T05:52:39Z account_service account_4979 ABSENT via[lookup_key=old_email] 
+   OK  evidence_48 L64 2026-02-03T05:56:38Z security_service audit_record_9504 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_48 L83 2026-02-03T05:58:08Z support_platform support_9251 EXPOSED via[matched_value=old_email,subject_key=old_email] 
+== case_521 yuna-lee@gmail.com user_519 req=2026-01-05T06:00:00Z audit=2026-02-03T06:00:00Z reported=COMPLETE
+   OK  evidence_48 L44 2026-02-03T05:54:10Z account_service account_1482 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_48 L87 2026-02-03T05:58:14Z security_service audit_record_3567 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_522 csantos2609@gmail.com user_520 req=2026-01-24T06:00:00Z audit=2026-02-03T06:00:00Z reported=PARTIALLY_COMPLETE
+   OK  evidence_48 L70 2026-02-03T05:57:34Z security_service audit_record_5513 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_48 L77 2026-02-03T05:57:48Z support_platform support_8538 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_48 L80 2026-02-03T05:57:59Z account_service account_1096 ABSENT via[correlation_key=cur_email] 

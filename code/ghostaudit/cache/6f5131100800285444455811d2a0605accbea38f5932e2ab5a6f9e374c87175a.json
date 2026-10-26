@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 1164,
+  "input_tokens": 881,
+  "model": "claude-opus-5-5",
+  "output_tokens": 422,
+  "stop_reason": "end_turn",
+  "text": "{\"routes\":[{\"case_id\":\"case_89\",\"route\":\"investigate\",\"reason\":\"Many contested rows shared with many competing cases.\"},{\"case_id\":\"case_90\",\"route\":\"investigate\",\"reason\":\"Many contested rows shared with many competing cases.\"},{\"case_id\":\"case_91\",\"route\":\"investigate\",\"reason\":\"Many contested rows shared with many competing cases.\"},{\"case_id\":\"case_92\",\"route\":\"investigate\",\"reason\":\"Many contested rows shared with many competing cases.\"},{\"case_id\":\"case_93\",\"route\":\"investigate\",\"reason\":\"Many contested rows shared with many competing cases.\"},{\"case_id\":\"case_94\",\"route\":\"investigate\",\"reason\":\"Many contested rows shared with many competing cases.\"},{\"case_id\":\"case_95\",\"route\":\"investigate\",\"reason\":\"Tied accounts and many contested rows.\"},{\"case_id\":\"case_96\",\"route\":\"investigate\",\"reason\":\"Tied accounts and many contested rows.\"},{\"case_id\":\"case_97\",\"route\":\"investigate\",\"reason\":\"Many contested rows with many competitors could change its findings.\"},{\"case_id\":\"case_98\",\"route\":\"investigate\",\"reason\":\"Tied accounts and many contested rows.\"},{\"case_id\":\"case_99\",\"route\":\"investigate\",\"reason\":\"Tied accounts and many contested rows.\"}]}"
+}

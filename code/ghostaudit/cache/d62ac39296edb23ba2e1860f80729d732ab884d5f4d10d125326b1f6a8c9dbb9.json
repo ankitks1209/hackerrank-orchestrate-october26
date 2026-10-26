@@ -1,0 +1,55 @@
+{
+  "cache_creation_tokens": 2239,
+  "cache_read_tokens": 14805,
+  "content": [
+    {
+      "signature": "CAQS4AYKEAgTGAI4AUIIdGhpbmtpbmcSDDTdiGVLUsOwSu66SRoM/0hWzRGJwThQzY3YIjA551nHbR1MXzrmZ3oz4f8G2ZjAYvj2lDoLdnRyi77lWDfrlA5m8vPhZzfyJoGAZqQq/QUmHDDw3DSnvn3JEGUTry7MwdhVmCMyRmoxW62fEHdGSMPSoYWwFlzTxPHRX3tAvoFAsdjsC62rvQRZ9HLo2FI5ZHFwhYsfNR+I8TiroDd0woiNlOaaDePzlBjeMySXP0FD7mRGsIvdTonODyolOd0vkVbyKHFGduA1xc0QcOQUgepidRA+Wsc5yUKa1ZJ6uRuoX0iVxQB/IwyM5B3WJ9dwGa8lwMC6w8lUVkosUCweIaz1oT6SFlEfz3E/SQQUrhMrJ6VoEBvTPCL5Xsa+ac9HCNkA4dgZB0yQG3i9gH2KN/0gFfHUlX1PR03xxnDmxmI1zo5La3N9z5JZYSZNseziN/+T34UcJ2MxpCYuZPpE7T6DZNrgXo9mpQPWyJv0rW9s1DJ+HhKhrafIU/Kdo+V6Yg0bkvZGR2z7uXpwYt4gzno5FywvK9RoS+xl+CaL8HpYT9uUF726enD4VCuivIpcr1dBgWYFajJQf+Fss23yy1VARdTU+THMKlkHPhTR21h0psmHBG2lNHoCnMd5fIfYDnlvfq/3Om36PplD7wja6I3/WPzteblz7LMeCRqHX1pLkb9RILHfCGI2Od6YySgKkjJPQoCohfogsqG2SO901iBO5SQCJWSVCcMWF2zb4HAJp9SOS0w9DvLC1FSbA9r48x+EO3m6KAI6TAy7WGCMOJKprsKy10bcJyZOQdS8NQEG788vojw01mAKZKQQtVt4NoF1Uvx2+tGlnCKftJD8C2nLNwtwOKjHnafDL/o5BONCLCZV7JjVDN5TF0f8NKbB8oGuOK1zAeFZoY5NxRCxGrrw3m4VB4GKVoGe4Rl6vxblqV/hsNjoZ+eID3PNyXUjE82hqAVQE5irUTaWpp6EOpu83QQgsLCJzTeMELHWjCN11gbZ1OHwKkyyhD2rs3hTX3KChLhEfSsBNPrG3pySBXd1CtuYbwUgNk22XY+BUlN8avbjIBRKuCFD4qpIih3n2Hr1Q9IJVJ62MOF2dVXANU/ZJAtCu6DC/LkoBJMYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01M3Mri9JSS3YW2EfwPQwP3L",
+      "input": {
+        "case_id": "case_284",
+        "mode": "by_resource",
+        "resource_id": "analytics_7283"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_016P45BnTWTxhxJvDiKDv3Yd",
+      "input": {
+        "case_id": "case_287",
+        "mode": "by_resource",
+        "resource_id": "legal_hold_1745"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01AVJdChLu9RNx6CJEkf7R46",
+      "input": {
+        "case_id": "case_274",
+        "mode": "by_resource",
+        "resource_id": "legal_hold_1745"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 364,
+  "stop_reason": "tool_use",
+  "text": ""
+}

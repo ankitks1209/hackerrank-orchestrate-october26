@@ -1,0 +1,641 @@
+
+### evidence_47 customer_data_reporting_replica_20260208.sql captured_at=2026-02-08T07:00:00Z
+  account_1035      [REP] customer_reference=user_509; full_name=Nicolás Fernández; email=nicolas.f550081@outlook.com; phone=+34 733 038 927; account_status=ACTIVE | users=user_509 via=hist_email,name,phone,user_id | case_511@2026-02-08T07:00
+  analytics_1558    [P+REP]  | users=- via=- | no-case
+  analytics_784     [P+REP] user_id=user_507; email=joao-costa@gmail.com; phone=+55 31 94739-9361; email_hash=c83e1f4e.. | users=user_507 via=email,hash,phone,user_id | case_509@2026-02-08T07:00
+  audit_record_1361 [P+REP] subject_reference=user_504; event_name=account_deletion_reviewed | users=user_504 via=user_id | case_506@2026-02-08T07:00
+  audit_record_2323 [P+REP] subject_reference=user_507; event_name=account_deletion_reviewed | users=user_507 via=user_id | case_509@2026-02-08T07:00
+  audit_record_3441 [P+REP] subject_reference=user_503; event_name=account_deletion_reviewed | users=user_503 via=user_id | case_505@2026-02-08T07:00
+  audit_record_3733 [P+REP] subject_reference=user_502; event_name=account_deletion_reviewed | users=user_502 via=user_id | case_504@2026-02-08T07:00
+  audit_record_4219 [P+REP] subject_reference=user_510; event_name=account_deletion_reviewed | users=user_510 via=user_id | case_512@2026-02-08T07:00
+  audit_record_4266 [P+REP] subject_reference=user_508; event_name=account_deletion_reviewed | users=user_508 via=user_id | case_510@2026-02-08T07:00
+  audit_record_4883 [P+REP] subject_reference=user_509; event_name=account_deletion_reviewed | users=user_509 via=user_id | case_511@2026-02-08T07:00
+  audit_record_5454 [P+REP] subject_reference=user_501; event_name=account_deletion_reviewed | users=user_501 via=user_id | case_503@2026-02-08T07:00
+  audit_record_7627 [P+REP] subject_reference=user_505; event_name=account_deletion_reviewed | users=user_505 via=user_id | case_507@2026-02-08T07:00
+  audit_record_8154 [P+REP] subject_reference=user_506; event_name=account_deletion_reviewed | users=user_506 via=user_id | case_508@2026-02-08T07:00
+  backup_369        [P+REP] subject_reference=r.ito24@gmail.com; restore_allowed=True | users=user_505 via=email | case_507@2026-02-08T07:00
+  data_flow_5281    [P+REP] subject_selector=nana.a7986@zoho.com; enabled=True | users=user_503 via=email | case_505@2026-02-08T07:00
+  export_3120       [P+REP] owner_email=oeze0067@fastmail.com; created_at=2026-01-28T07:00:00Z; expires_at=2026-03-10T07:00:00Z; download_available=True | users=user_502 via=email | case_504@2026-02-08T07:00
+  legal_hold_2227   [P+REP] subject_reference=user_503; retained_until=2033-12-31T23:59:59Z | users=user_503 via=user_id | case_505@2026-02-08T07:00
+  legal_hold_4887   [P+REP] subject_reference=user_509; retained_until=2033-12-31T23:59:59Z | users=user_509 via=user_id | case_511@2026-02-08T07:00
+  search_2591       [P+REP] display_name=Nana Addo; email=nana.a7986@zoho.com; customer_reference=user_503 | users=user_503 via=email,name,user_id | case_505@2026-02-08T07:00
+  search_4725       [P+REP] email=hannah.carter.jr@outlook.com | users=- via=- UNKNOWN=hannah.carter.jr@outlook.com | no-case
+  search_6147       [P+REP] display_name=Rohan Patel; email=rpatel7581@gmail.com; customer_reference=user_508 | users=user_508 via=email,name,user_id | case_510@2026-02-08T07:00
+  search_6246       [P+REP] display_name=João Costa; email=joao-costa@gmail.com; customer_reference=user_507 | users=user_507 via=email,name,user_id | case_509@2026-02-08T07:00
+  support_2295      [P+REP] uploaded_by=sami-nasser@proton.me | users=user_501 via=email | case_503@2026-02-08T07:00
+  support_2691      [P+REP] subject_reference=user_506; message_text=Please send the delivery update to kang.junseo@gmail.com. The affected order includes: Mec | users=user_506 via=email,user_id | case_508@2026-02-08T07:00
+  support_9648      [P+REP] subject_reference=user_508; message_text=Please send the delivery update to rpatel7581@gmail.com. The affected order includes: Nois | users=user_508 via=email,user_id | case_510@2026-02-08T07:00
+
+### evidence_63 customer_data_inventory_20260213.sql captured_at=2026-02-13T07:43:27Z
+  account_3626      [customer_profiles] email=daniel.m47291@outlook.com; account_status=DELETION_PENDING | users=user_497 via=hist_email | case_499@2026-02-13T08:00
+  account_634       [customer_profiles] email=O.ERIKSEN10@YAHOO.COM; account_status=DELETION_PENDING | users=user_499 via=email | case_501@2026-02-13T08:00
+  scope: account_service
+  analytics_5443    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_5893    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_6565    [customer_analytics_profiles]  | users=- via=- | no-case
+  scope: analytics_platform
+  audit_record_1112 [security_audit_records] subject_reference=user_492; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_492 via=user_id | case_494@2026-02-13T08:00
+  audit_record_5238 [security_audit_records] subject_reference=user_500; event_code=PRIVACY_REQUEST_ACCEPTED; retention_until=2032-06-30T23:59:59Z | users=user_500 via=user_id | case_502@2026-02-13T08:00
+  audit_record_730  [security_audit_records] subject_reference=user_491; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_491 via=user_id | case_493@2026-02-13T08:00
+  audit_record_9796 [security_audit_records] subject_reference=user_495; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_495 via=user_id | case_497@2026-02-13T08:00
+  backup_5061       [backup_restore_entries] customer_email=H.LIM96@GMAIL.COM; restore_allowed=1 | users=user_493 via=email | case_495@2026-02-13T08:00
+  scope: backup_service
+  data_flow_006     [connector_subscriptions] customer_email=INES.ROUSSEAU@OUTLOOK.COM; enabled=1 | users=user_498 via=email | case_500@2026-02-13T08:00
+  scope: integration_service
+  search_2799       [customer_search_documents] email=O.ERIKSEN10@YAHOO.COM | users=user_499 via=email | case_501@2026-02-13T08:00
+  search_3169       [customer_search_documents] email=lima.larissa@gmail.com | users=user_494 via=email | case_496@2026-02-13T08:00
+  search_6092       [customer_search_documents] email=INES.ROUSSEAU@OUTLOOK.COM | users=user_498 via=email | case_500@2026-02-13T08:00
+  search_6093       [customer_search_documents] email=valvarez255390@gmail.com | users=user_496 via=hist_email | case_498@2026-02-13T08:00
+  scope: search_service
+  scope: security_service
+  support_6391      [support_records] requester_email=lima.larissa@gmail.com; message_excerpt=Customer supplied contact details for a delivery query. | users=user_494 via=email | case_496@2026-02-13T08:00
+  support_9075      [support_records] requester_email=valvarez255390@gmail.com; message_excerpt=Customer contacted support about account access. | users=user_496 via=hist_email | case_498@2026-02-13T08:00
+  scope: support_platform
+
+### evidence_43 customer_data_reporting_replica_20260305.sql captured_at=2026-03-05T12:00:00Z
+  account_3183      [REP] customer_reference=user_451; full_name=Kojo Gyasi; email=k.gyasi98@yahoo.com; phone=+233 24 797 9252; account_status=ACTIVE | users=user_451 via=email,name,phone,user_id | case_453@2026-03-05T12:00
+  analytics_1126    [P+REP]  | users=- via=- | no-case
+  analytics_5221    [P+REP]  | users=- via=- | no-case
+  analytics_6750    [P+REP]  | users=- via=- | no-case
+  analytics_8403    [P+REP] user_id=user_459; email=jules-fournier@gmail.com; phone=+33 6 38 73 52 67; email_hash=6a28eb21.. | users=user_459 via=email,hash,phone,user_id | case_461@2026-03-05T12:00
+  audit_record_1171 [P+REP] subject_reference=user_455; event_name=account_deletion_reviewed | users=user_455 via=user_id | case_457@2026-03-05T12:00
+  audit_record_1369 [P+REP] subject_reference=user_458; event_name=account_deletion_reviewed | users=user_458 via=user_id | case_460@2026-03-05T12:00
+  audit_record_2775 [P+REP] subject_reference=user_452; event_name=account_deletion_reviewed | users=user_452 via=user_id | case_454@2026-03-05T12:00
+  audit_record_2788 [P+REP] subject_reference=user_453; event_name=account_deletion_reviewed | users=user_453 via=user_id | case_455@2026-03-05T12:00
+  audit_record_3600 [P+REP] subject_reference=user_451; event_name=account_deletion_reviewed | users=user_451 via=user_id | case_453@2026-03-05T12:00
+  audit_record_3883 [P+REP] subject_reference=user_459; event_name=account_deletion_reviewed | users=user_459 via=user_id | case_461@2026-03-05T12:00
+  audit_record_6171 [P+REP] subject_reference=user_457; event_name=account_deletion_reviewed | users=user_457 via=user_id | case_459@2026-03-05T12:00
+  audit_record_641  [P+REP] subject_reference=user_460; event_name=account_deletion_reviewed | users=user_460 via=user_id | case_462@2026-03-05T12:00
+  audit_record_6750 [P+REP] subject_reference=user_456; event_name=account_deletion_reviewed | users=user_456 via=user_id | case_458@2026-03-05T12:00
+  audit_record_8176 [P+REP] subject_reference=user_454; event_name=account_deletion_reviewed | users=user_454 via=user_id | case_456@2026-03-05T12:00
+  backup_1140       [P+REP] subject_reference=d.romero12@gmail.com; restore_allowed=True | users=user_457 via=email | case_459@2026-03-05T12:00
+  data_flow_4612    [P+REP] subject_selector=jules-fournier@gmail.com; enabled=True | users=user_459 via=email | case_461@2026-03-05T12:00
+  legal_hold_5622   [P+REP] subject_reference=user_458; retained_until=2033-12-31T23:59:59Z | users=user_458 via=user_id | case_460@2026-03-05T12:00
+  search_1317       [P+REP] display_name=Kojo Gyasi; email=k.gyasi98@yahoo.com; customer_reference=user_451 | users=user_451 via=email,name,user_id | case_453@2026-03-05T12:00
+  search_8371       [P+REP] email=hhan9955.jr@fastmail.com | users=- via=- UNKNOWN=hhan9955.jr@fastmail.com | no-case
+  search_887        [P+REP] display_name=Aoi Mori; email=aoi-mori@proton.me; customer_reference=user_453 | users=user_453 via=email,name,user_id | case_455@2026-03-05T12:00
+  search_892        [P+REP] display_name=Lindiwe Masuku; email=masuku.lindiwe@icloud.com; customer_reference=user_452 | users=user_452 via=email,name,user_id | case_454@2026-03-05T12:00
+  search_9014       [P+REP] display_name=Jules Fournier; email=jules-fournier@gmail.com; customer_reference=user_459 | users=user_459 via=email,name,user_id | case_461@2026-03-05T12:00
+  support_2055      [P+REP] uploaded_by=aoi-mori@proton.me | users=user_453 via=email | case_455@2026-03-05T12:00
+  support_3901      [P+REP] subject_reference=user_459; message_text=Please send the delivery update to jules-fournier@gmail.com. The affected order includes:  | users=user_459 via=email,user_id | case_461@2026-03-05T12:00
+  support_4146      [P+REP] subject_reference=user_458; message_text=Please send the delivery update to parker.grace@gmail.com. The affected order includes: Ce | users=user_458 via=email,user_id | case_460@2026-03-05T12:00
+
+### evidence_66 customer_data_inventory_20260310.sql captured_at=2026-03-10T05:38:48Z
+  scope: account_service
+  analytics_1138    [customer_analytics_profiles] email=lars-nystrom@gmail.com | users=user_447 via=email | case_449@2026-03-10T06:00
+  analytics_195     [customer_analytics_profiles] email=elena.rios@gmail.com | users=user_444 via=email | case_446@2026-03-10T06:00
+  analytics_4031    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_7270    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_8202    [customer_analytics_profiles] email=advorak2441@gmail.com | users=user_448 via=email | case_450@2026-03-10T06:00
+  scope: analytics_platform
+  audit_record_753  [security_audit_records] subject_reference=user_446; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_446 via=user_id | case_448@2026-03-10T06:00
+  audit_record_8608 [security_audit_records] subject_reference=user_450; event_code=IDENTITY_CHANGE_RECORDED; retention_until=2034-09-30T23:59:59Z | users=user_450 via=user_id | case_452@2026-03-10T06:00
+  backup_5192       [backup_restore_entries] customer_email=e.wright8483@gmail.com; restore_allowed=1 | users=user_445 via=hist_email | case_447@2026-03-10T06:00
+  scope: backup_service
+  data_flow_1068    [connector_subscriptions] customer_email=elena.rios@gmail.com; enabled=1 | users=user_444 via=email | case_446@2026-03-10T06:00
+  data_flow_7263    [connector_subscriptions] customer_email=karim.n36087@outlook.com; enabled=1 | users=user_449 via=hist_email | case_451@2026-03-10T06:00
+  data_flow_7584    [connector_subscriptions] customer_email=diya.s284681@zoho.com; enabled=1 | users=user_443 via=hist_email | case_445@2026-03-10T06:00
+  data_flow_9755    [connector_subscriptions] customer_email=advorak2441@gmail.com; enabled=1 | users=user_448 via=email | case_450@2026-03-10T06:00
+  export_4293       [customer_exports] owner_email=bsouza4927@fastmail.com | users=user_442 via=email | case_444@2026-03-10T06:00
+  scope: export_service
+  scope: integration_service
+  search_1685       [customer_search_documents] email=lars-nystrom@gmail.com | users=user_447 via=email | case_449@2026-03-10T06:00
+  search_2365       [customer_search_documents] email=advorak2441@gmail.com | users=user_448 via=email | case_450@2026-03-10T06:00
+  search_2886       [customer_search_documents] email=diya.s284681@zoho.com | users=user_443 via=hist_email | case_445@2026-03-10T06:00
+  search_3250       [customer_search_documents] email=bsouza4927@fastmail.com | users=user_442 via=email | case_444@2026-03-10T06:00
+  search_360        [customer_search_documents] email=karim.n36087@outlook.com | users=user_449 via=hist_email | case_451@2026-03-10T06:00
+  search_3780       [customer_search_documents] email=elena.rios@gmail.com | users=user_444 via=email | case_446@2026-03-10T06:00
+  search_4925       [customer_search_documents] email=seoyeon-choi@proton.me | users=user_441 via=email | case_443@2026-03-10T06:00
+  scope: search_service
+  scope: security_service
+  support_7245      [support_records] requester_email=advorak2441@gmail.com; message_excerpt=Customer supplied contact details for a delivery query. | users=user_448 via=email | case_450@2026-03-10T06:00
+  support_8341      [support_records] requester_email=seoyeon-choi@proton.me; message_excerpt=Customer contacted support about account access. | users=user_441 via=email | case_443@2026-03-10T06:00
+  support_9938      [support_records] requester_email=elena.rios@gmail.com; message_excerpt=Customer asked support to correct delivery details. | users=user_444 via=email | case_446@2026-03-10T06:00
+  scope: support_platform
+
+### evidence_38 customer_data_regional_replicas_20260330.sql captured_at=2026-03-30T10:00:00Z
+  account_5389      [AP] customer_reference=user_403; full_name=Gabriel Pereira; email=g.pereira86@yahoo.com; phone=+55 11 98147-1572; account_status=ACTIVE | users=user_403 via=email,name,phone,user_id | case_405@2026-03-30T10:00
+  analytics_1792    [P+AP+EU] user_id=user_402; email=minjun.jung@outlook.com; phone=+82 10 8655 5230; email_hash=2971cbd0.. | users=user_402 via=email,hash,phone,user_id | case_404@2026-03-30T10:00
+  analytics_1922    [P+AP+EU] user_id=user_405; email=lucia-garcia@proton.me; phone=+34 775 705 836; email_hash=4c877035.. | users=user_405 via=email,hash,phone,user_id | case_407@2026-03-30T10:00
+  analytics_298     [P+AP+EU]  | users=- via=- | no-case
+  analytics_542     [P+AP+EU]  | users=- via=- | no-case
+  analytics_7090    [P+AP+EU]  | users=- via=- | no-case
+  analytics_8973    [P+AP+EU]  | users=- via=- | no-case
+  audit_record_2559 [P+AP+EU] subject_reference=user_407; event_name=account_deletion_reviewed | users=user_407 via=user_id | case_409@2026-03-30T10:00
+  audit_record_4216 [P+AP+EU] subject_reference=user_406; event_name=account_deletion_reviewed | users=user_406 via=user_id | case_408@2026-03-30T10:00
+  audit_record_4330 [P+AP+EU] subject_reference=user_409; event_name=account_deletion_reviewed | users=user_409 via=user_id | case_411@2026-03-30T10:00
+  audit_record_4522 [P+AP+EU] subject_reference=user_403; event_name=account_deletion_reviewed | users=user_403 via=user_id | case_405@2026-03-30T10:00
+  audit_record_4733 [P+AP+EU] subject_reference=user_401; event_name=account_deletion_reviewed | users=user_401 via=user_id | case_403@2026-03-30T10:00
+  audit_record_5455 [P+AP+EU] subject_reference=user_404; event_name=account_deletion_reviewed | users=user_404 via=user_id | case_406@2026-03-30T10:00
+  audit_record_5637 [P+AP+EU] subject_reference=user_410; event_name=account_deletion_reviewed | users=user_410 via=user_id | case_412@2026-03-30T10:00
+  audit_record_6099 [P+AP+EU] subject_reference=user_402; event_name=account_deletion_reviewed | users=user_402 via=user_id | case_404@2026-03-30T10:00
+  audit_record_6152 [P+AP+EU] subject_reference=user_405; event_name=account_deletion_reviewed | users=user_405 via=user_id | case_407@2026-03-30T10:00
+  audit_record_896  [P+AP+EU] subject_reference=user_408; event_name=account_deletion_reviewed | users=user_408 via=user_id | case_410@2026-03-30T10:00
+  data_flow_8093    [P+AP+EU] subject_selector=minjun.jung@outlook.com; enabled=True | users=user_402 via=email | case_404@2026-03-30T10:00
+  data_flow_8300    [P+AP+EU] subject_selector=ingrid.berg@gmail.com; enabled=True | users=user_408 via=email | case_410@2026-03-30T10:00
+  search_1606       [P+AP+EU] display_name=Gabriel Pereira; email=g.pereira86@yahoo.com; customer_reference=user_403 | users=user_403 via=email,name,user_id | case_405@2026-03-30T10:00
+  search_2804       [P+AP+EU] display_name=Aditi Sharma; email=sharma.aditi86@icloud.com; customer_reference=user_404 | users=user_404 via=hist_email,name,user_id | case_406@2026-03-30T10:00
+  search_5146       [P+AP+EU] display_name=Lucía García; email=lucia-garcia@proton.me; customer_reference=user_405 | users=user_405 via=email,name,user_id | case_407@2026-03-30T10:00
+  search_5582       [P+AP+EU] email=abennett9843.jr@fastmail.com | users=- via=- UNKNOWN=abennett9843.jr@fastmail.com | no-case
+  search_7022       [P+AP+EU] display_name=Min-jun Jung; email=minjun.jung@outlook.com; customer_reference=user_402 | users=user_402 via=email,name,user_id | case_404@2026-03-30T10:00
+  search_9987       [P+AP+EU] display_name=Ingrid Berg; email=ingrid.berg@gmail.com; customer_reference=user_408 | users=user_408 via=email,name,user_id | case_410@2026-03-30T10:00
+  support_3802      [P+AP+EU] uploaded_by=lucia-garcia@proton.me | users=user_405 via=email | case_407@2026-03-30T10:00
+  support_6047      [P+AP+EU] subject_reference=user_404; message_text=Please send the delivery update to sharma.aditi86@icloud.com. The affected order includes: | users=user_404 via=hist_email,user_id | case_406@2026-03-30T10:00
+  support_6569      [P+AP+EU] subject_reference=user_405; message_text=Please send the delivery update to lucia-garcia@proton.me. The affected order includes: Ru | users=user_405 via=email,user_id | case_407@2026-03-30T10:00
+  support_880       [P+AP+EU] subject_reference=user_402; message_text=Please send the delivery update to minjun.jung@outlook.com. The affected order includes: N | users=user_402 via=email,user_id | case_404@2026-03-30T10:00
+
+### evidence_69 customer_data_inventory_20260404.sql captured_at=2026-04-04T10:04:19Z
+  scope: account_service
+  analytics_4455    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_4651    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_5811    [customer_analytics_profiles] email=tkhumalo2329@gmail.com | users=user_400 via=email | case_402@2026-04-04T11:00
+  analytics_6872    [customer_analytics_profiles] email=kwame-asante@gmail.com | users=user_399 via=email | case_401@2026-04-04T11:00
+  scope: analytics_platform
+  audit_record_2839 [security_audit_records] subject_reference=user_393; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_393 via=user_id | case_395@2026-04-04T11:00
+  audit_record_7330 [security_audit_records] subject_reference=user_391; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_391 via=user_id | case_393@2026-04-04T11:00
+  audit_record_7361 [security_audit_records] subject_reference=user_396; event_code=PRIVACY_REQUEST_ACCEPTED; retention_until=2032-06-30T23:59:59Z | users=user_396 via=user_id | case_398@2026-04-04T11:00
+  backup_2642       [backup_restore_entries] customer_email=f.rahman72@gmail.com; restore_allowed=1 | users=user_397 via=email | case_399@2026-04-04T11:00
+  scope: backup_service
+  data_flow_626     [connector_subscriptions] customer_email=jonas.s2734@zoho.com; enabled=1 | users=user_395 via=email | case_397@2026-04-04T11:00
+  data_flow_9411    [connector_subscriptions] customer_email=tkhumalo2329@gmail.com; enabled=1 | users=user_400 via=email | case_402@2026-04-04T11:00
+  export_4664       [customer_exports] owner_email=HLEFEVRE4815@FASTMAIL.COM | users=user_394 via=email | case_396@2026-04-04T11:00
+  scope: export_service
+  scope: integration_service
+  search_1338       [customer_search_documents] email=tkhumalo2329@gmail.com | users=user_400 via=email | case_402@2026-04-04T11:00
+  search_195        [customer_search_documents] email=rodriguez.mateo@icloud.com | users=user_392 via=email | case_394@2026-04-04T11:00
+  search_3232       [customer_search_documents] email=jonas.s2734@zoho.com | users=user_395 via=email | case_397@2026-04-04T11:00
+  search_4649       [customer_search_documents] email=balogun.chidi@gmail.com | users=user_398 via=email | case_400@2026-04-04T11:00
+  search_7293       [customer_search_documents] email=HLEFEVRE4815@FASTMAIL.COM | users=user_394 via=email | case_396@2026-04-04T11:00
+  scope: search_service
+  scope: security_service
+  support_4290      [support_records] requester_email=tkhumalo2329@gmail.com; message_excerpt=Customer supplied contact details for a delivery query. | users=user_400 via=email | case_402@2026-04-04T11:00
+  support_4521      [support_records] requester_email=balogun.chidi@gmail.com; message_excerpt=Customer asked support to correct delivery details. | users=user_398 via=email | case_400@2026-04-04T11:00
+  scope: support_platform
+
+### evidence_33 customer_data_regional_replicas_20260424.sql captured_at=2026-04-24T08:00:00Z
+  account_6539      [EU] customer_reference=user_353; full_name=Andrés Rodríguez; email=andres.r136@outlook.com; phone=+34 610 074 260; account_status=ACTIVE | users=user_353 via=email,name,phone,user_id | case_355@2026-04-24T08:00
+  account_8105      [EU] customer_reference=user_355; full_name=Arthur Lefèvre; email=a.lefevre74@yahoo.com; phone=+33 6 10 19 61 86; account_status=ACTIVE | users=user_355 via=email,name,phone,user_id | case_357@2026-04-24T08:00
+  analytics_4273    [P+AP+EU]  | users=- via=- | no-case
+  analytics_439     [P+AP+EU]  | users=- via=- | no-case
+  analytics_5413    [P+AP+EU] user_id=user_354; email=sophie.hughes@outlook.com; phone=+44 7700 900354; email_hash=d429ccf2.. | users=user_354 via=email,hash,phone,user_id | case_356@2026-04-24T08:00
+  analytics_8011    [P+AP+EU] user_id=user_351; email=thiago-nascimento@gmail.com; phone=+55 31 95213-2663; email_hash=86f7583a.. | users=user_351 via=email,hash,phone,user_id | case_353@2026-04-24T08:00
+  audit_record_1151 [P+AP+EU] subject_reference=user_353; event_name=account_deletion_reviewed | users=user_353 via=user_id | case_355@2026-04-24T08:00
+  audit_record_1395 [P+AP+EU] subject_reference=user_356; event_name=account_deletion_reviewed | users=user_356 via=user_id | case_358@2026-04-24T08:00
+  audit_record_2605 [P+AP+EU] subject_reference=user_358; event_name=account_deletion_reviewed | users=user_358 via=user_id | case_360@2026-04-24T08:00
+  audit_record_2641 [P+AP+EU] subject_reference=user_357; event_name=account_deletion_reviewed | users=user_357 via=user_id | case_359@2026-04-24T08:00
+  audit_record_350  [P+AP+EU] subject_reference=user_355; event_name=account_deletion_reviewed | users=user_355 via=user_id | case_357@2026-04-24T08:00
+  audit_record_5773 [P+AP+EU] subject_reference=user_351; event_name=account_deletion_reviewed | users=user_351 via=user_id | case_353@2026-04-24T08:00
+  audit_record_7587 [P+AP+EU] subject_reference=user_359; event_name=account_deletion_reviewed | users=user_359 via=user_id | case_361@2026-04-24T08:00
+  audit_record_771  [P+AP+EU] subject_reference=user_354; event_name=account_deletion_reviewed | users=user_354 via=user_id | case_356@2026-04-24T08:00
+  audit_record_8638 [P+AP+EU] subject_reference=user_360; event_name=account_deletion_reviewed | users=user_360 via=user_id | case_362@2026-04-24T08:00
+  audit_record_9286 [P+AP+EU] subject_reference=user_352; event_name=account_deletion_reviewed | users=user_352 via=user_id | case_354@2026-04-24T08:00
+  data_flow_3052    [P+AP+EU] subject_selector=chioma.b7650@zoho.com; enabled=True | users=user_359 via=email | case_361@2026-04-24T08:00
+  data_flow_3180    [P+AP+EU] subject_selector=thiago-nascimento@gmail.com; enabled=True | users=user_351 via=email | case_353@2026-04-24T08:00
+  data_flow_4472    [P+AP+EU] subject_selector=sophie.hughes@outlook.com; enabled=True | users=user_354 via=email | case_356@2026-04-24T08:00
+  export_350        [P+AP+EU] owner_email=mrahman973184@fastmail.com; created_at=2026-04-09T08:00:00Z; expires_at=2026-05-24T08:00:00Z; download_available=True | users=user_358 via=hist_email | case_360@2026-04-24T08:00
+  search_2492       [P+AP+EU] display_name=Iulia Popescu; email=iulia-popescu@proton.me; customer_reference=user_357 | users=user_357 via=email,name,user_id | case_359@2026-04-24T08:00
+  search_4067       [P+AP+EU] display_name=Maja Svensson; email=svensson.maja@icloud.com; customer_reference=user_356 | users=user_356 via=email,name,user_id | case_358@2026-04-24T08:00
+  search_495        [P+AP+EU] display_name=Thiago Nascimento; email=thiago-nascimento@gmail.com; customer_reference=user_351 | users=user_351 via=email,name,user_id | case_353@2026-04-24T08:00
+  search_496        [P+AP+EU] display_name=Chioma Balogun; email=chioma.b7650@zoho.com; customer_reference=user_359 | users=user_359 via=email,name,user_id | case_361@2026-04-24T08:00
+  search_5025       [P+AP+EU] display_name=Sophie Hughes; email=sophie.hughes@outlook.com; customer_reference=user_354 | users=user_354 via=email,name,user_id | case_356@2026-04-24T08:00
+  search_6828       [P+AP+EU] display_name=Arthur Lefèvre; email=a.lefevre74@yahoo.com; customer_reference=user_355 | users=user_355 via=email,name,user_id | case_357@2026-04-24T08:00
+  search_957        [P+AP+EU] display_name=Mariam Rahman; email=mrahman973184@fastmail.com; customer_reference=user_358 | users=user_358 via=hist_email,name,user_id | case_360@2026-04-24T08:00
+  support_1846      [P+AP+EU] subject_reference=user_356; message_text=Please send the delivery update to svensson.maja@icloud.com. The affected order includes:  | users=user_356 via=email,user_id | case_358@2026-04-24T08:00
+  support_2406      [P+AP+EU] subject_reference=user_351; message_text=Please send the delivery update to thiago-nascimento@gmail.com. The affected order include | users=user_351 via=email,user_id | case_353@2026-04-24T08:00
+  support_2537      [P+AP+EU] uploaded_by=iulia-popescu@proton.me | users=user_357 via=email | case_359@2026-04-24T08:00
+  support_6224      [P+AP+EU] subject_reference=user_354; message_text=Please send the delivery update to sophie.hughes@outlook.com. The affected order includes: | users=user_354 via=email,user_id | case_356@2026-04-24T08:00
+
+### evidence_72 customer_data_inventory_20260504.sql captured_at=2026-05-04T09:41:47Z
+  account_2475      [customer_profiles] email=a.ionescu1879@yahoo.com; account_status=DELETION_PENDING | users=user_331 via=hist_email | case_333@2026-05-04T10:00
+  scope: account_service
+  analytics_183     [customer_analytics_profiles] email=kavya-basu@gmail.com | users=user_339 via=email | case_341@2026-05-04T10:00
+  analytics_2079    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_3108    [customer_analytics_profiles]  | users=- via=- | no-case
+  scope: analytics_platform
+  audit_record_2922 [security_audit_records] subject_reference=user_337; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_337 via=user_id | case_339@2026-05-04T10:00
+  audit_record_5022 [security_audit_records] subject_reference=user_334; event_code=PRIVACY_REQUEST_ACCEPTED; retention_until=2032-06-30T23:59:59Z | users=user_334 via=user_id | case_336@2026-05-04T10:00
+  audit_record_711  [security_audit_records] subject_reference=user_333; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_333 via=user_id | case_335@2026-05-04T10:00
+  backup_3136       [backup_restore_entries] customer_reference=user_333; restore_allowed=0 | users=user_333 via=user_id | case_335@2026-05-04T10:00
+  scope: backup_service
+  data_flow_5200    [connector_subscriptions] customer_email=kabelo.d759483@zoho.com; enabled=1 | users=user_335 via=hist_email | case_337@2026-05-04T10:00
+  data_flow_5916    [connector_subscriptions] customer_email=santos.isabela@gmail.com; enabled=1 | users=user_338 via=email | case_340@2026-05-04T10:00
+  data_flow_7452    [connector_subscriptions] customer_reference=user_333; enabled=0 | users=user_333 via=user_id | case_335@2026-05-04T10:00
+  data_flow_9392    [connector_subscriptions] customer_email=sota.suzuki@gmail.com; enabled=1 | users=user_336 via=email | case_338@2026-05-04T10:00
+  scope: integration_service
+  search_1392       [customer_search_documents] email=sota.suzuki@gmail.com | users=user_336 via=email | case_338@2026-05-04T10:00
+  search_3773       [customer_search_documents] email=kabelo.d759483@zoho.com | users=user_335 via=hist_email | case_337@2026-05-04T10:00
+  search_5411       [customer_search_documents] email=santos.isabela@gmail.com | users=user_338 via=email | case_340@2026-05-04T10:00
+  search_5970       [customer_search_documents] email=a.ionescu1879@yahoo.com | users=user_331 via=hist_email | case_333@2026-05-04T10:00
+  search_7348       [customer_search_documents] email=elsayed.salma@icloud.com | users=user_332 via=email | case_334@2026-05-04T10:00
+  search_7367       [customer_search_documents] email=kavya-basu@gmail.com | users=user_339 via=email | case_341@2026-05-04T10:00
+  scope: search_service
+  scope: security_service
+  support_214       [support_records] requester_email=elsayed.salma@icloud.com; message_excerpt=Customer asked support to correct delivery details. | users=user_332 via=email | case_334@2026-05-04T10:00
+  support_3399      [support_records] requester_email=cnavarro7189@gmail.com; message_excerpt=Customer asked support to correct delivery details. | users=user_340 via=email | case_342@2026-05-04T10:00
+  support_4712      [support_records] customer_reference=user_333; message_excerpt=Customer followed up about an order update. | users=user_333 via=user_id | case_335@2026-05-04T10:00
+  scope: support_platform
+
+### evidence_29 customer_data_regional_replicas_20260519.sql captured_at=2026-05-19T06:00:00Z
+  account_585       [AP] customer_reference=user_305; full_name=Zofia Zieliński; email=zofia.z024@outlook.com; phone=+48 608 009 355; account_status=ACTIVE | users=user_305 via=email,name,phone,user_id | case_307@2026-05-19T06:00
+  analytics_096     [P+AP+EU]  | users=- via=- | no-case
+  analytics_3678    [P+AP+EU]  | users=- via=- | no-case
+  analytics_9285    [P+AP+EU] user_id=user_303; email=louis-chevalier@gmail.com; phone=+33 6 63 02 04 88; email_hash=1c9fc93d.. | users=user_303 via=email,hash,phone,user_id | case_305@2026-05-19T06:00
+  audit_record_1945 [P+AP+EU] subject_reference=user_307; event_name=account_deletion_reviewed | users=user_307 via=user_id | case_309@2026-05-19T06:00
+  audit_record_3221 [P+AP+EU] subject_reference=user_306; event_name=account_deletion_reviewed | users=user_306 via=user_id | case_308@2026-05-19T06:00
+  audit_record_4759 [P+AP+EU] subject_reference=user_302; event_name=account_deletion_reviewed | users=user_302 via=user_id | case_304@2026-05-19T06:00
+  audit_record_507  [P+AP+EU] subject_reference=user_303; event_name=account_deletion_reviewed | users=user_303 via=user_id | case_305@2026-05-19T06:00
+  audit_record_5129 [P+AP+EU] subject_reference=user_305; event_name=account_deletion_reviewed | users=user_305 via=user_id | case_307@2026-05-19T06:00
+  audit_record_5640 [P+AP+EU] subject_reference=user_308; event_name=account_deletion_reviewed | users=user_308 via=user_id | case_310@2026-05-19T06:00
+  audit_record_6245 [P+AP+EU] subject_reference=user_309; event_name=account_deletion_reviewed | users=user_309 via=user_id | case_311@2026-05-19T06:00
+  audit_record_6559 [P+AP+EU] subject_reference=user_310; event_name=account_deletion_reviewed | users=user_310 via=user_id | case_312@2026-05-19T06:00
+  audit_record_7923 [P+AP+EU] subject_reference=user_301; event_name=account_deletion_reviewed | users=user_301 via=user_id | case_303@2026-05-19T06:00
+  audit_record_9051 [P+AP+EU] subject_reference=user_304; event_name=account_deletion_reviewed | users=user_304 via=user_id | case_306@2026-05-19T06:00
+  backup_4917       [P+AP+EU] subject_reference=user_306; restore_allowed=False | users=user_306 via=user_id | case_308@2026-05-19T06:00
+  backup_4935       [P+AP+EU] subject_reference=j.castillo4893@gmail.com; restore_allowed=True | users=user_301 via=hist_email | case_303@2026-05-19T06:00
+  data_flow_8933    [P+AP+EU] subject_selector=user_306; enabled=False | users=user_306 via=user_id | case_308@2026-05-19T06:00
+  export_9860       [P+AP+EU] owner_email=rkato9619@fastmail.com; created_at=2026-04-24T06:00:00Z; expires_at=2026-06-18T06:00:00Z; download_available=True | users=user_310 via=email | case_312@2026-05-19T06:00
+  search_3004       [P+AP+EU] display_name=Naledi Mahlangu; email=naledi-mahlangu79@proton.me; customer_reference=user_309 | users=user_309 via=hist_email,name,user_id | case_311@2026-05-19T06:00
+  search_4321       [P+AP+EU] display_name=Louis Chevalier; email=louis-chevalier@gmail.com; customer_reference=user_303 | users=user_303 via=email,name,user_id | case_305@2026-05-19T06:00
+  search_6265       [P+AP+EU] display_name=Akosua Amponsah; email=amponsah.akosua@icloud.com; customer_reference=user_308 | users=user_308 via=email,name,user_id | case_310@2026-05-19T06:00
+  search_6505       [P+AP+EU] email=walker.charlotte.jr@gmail.com | users=- via=- UNKNOWN=walker.charlotte.jr@gmail.com | no-case
+  search_6805       [P+AP+EU] display_name=Ren Kato; email=rkato9619@fastmail.com; customer_reference=user_310 | users=user_310 via=email,name,user_id | case_312@2026-05-19T06:00
+  search_7660       [P+AP+EU] display_name=Zofia Zieliński; email=zofia.z024@outlook.com; customer_reference=user_305 | users=user_305 via=email,name,user_id | case_307@2026-05-19T06:00
+  search_8250       [P+AP+EU] display_name=Freja Lund; email=flund2105@gmail.com; customer_reference=user_304 | users=user_304 via=email,name,user_id | case_306@2026-05-19T06:00
+  support_4263      [P+AP+EU] subject_reference=user_308; message_text=Please send the delivery update to amponsah.akosua@icloud.com. The affected order includes | users=user_308 via=email,user_id | case_310@2026-05-19T06:00
+  support_450       [P+AP+EU] subject_reference=user_304; message_text=Please send the delivery update to flund2105@gmail.com. The affected order includes: Ceram | users=user_304 via=email,user_id | case_306@2026-05-19T06:00
+  support_4952      [P+AP+EU] uploaded_by=naledi-mahlangu79@proton.me | users=user_309 via=hist_email | case_311@2026-05-19T06:00
+  support_6046      [P+AP+EU] subject_reference=user_306; message_text=[REDACTED] | users=user_306 via=user_id | case_308@2026-05-19T06:00
+
+### evidence_75 customer_data_inventory_20260524.sql captured_at=2026-05-24T06:39:55Z
+  scope: account_service
+  analytics_061     [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_1133    [customer_analytics_profiles] email=arjun.rao@gmail.com | users=user_300 via=email | case_302@2026-05-24T07:00
+  analytics_1733    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_5854    [customer_analytics_profiles] email=erik-johansson@gmail.com | users=user_291 via=email | case_293@2026-05-24T07:00
+  analytics_7164    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_7575    [customer_analytics_profiles]  | users=- via=- | no-case
+  scope: analytics_platform
+  audit_record_1269 [security_audit_records] subject_reference=user_293; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_293 via=user_id | case_295@2026-05-24T07:00
+  audit_record_4387 [security_audit_records] subject_reference=user_292; event_code=PRIVACY_REQUEST_ACCEPTED; retention_until=2032-06-30T23:59:59Z | users=user_292 via=user_id | case_294@2026-05-24T07:00
+  audit_record_5194 [security_audit_records] subject_reference=user_297; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_297 via=user_id | case_299@2026-05-24T07:00
+  audit_record_7878 [security_audit_records] subject_reference=user_295; event_code=IDENTITY_CHANGE_RECORDED; retention_until=2034-09-30T23:59:59Z | users=user_295 via=user_id | case_297@2026-05-24T07:00
+  backup_7308       [backup_restore_entries] customer_reference=user_295; restore_allowed=0 | users=user_295 via=user_id | case_297@2026-05-24T07:00
+  scope: backup_service
+  data_flow_085     [connector_subscriptions] customer_email=adaeze.nwosu@outlook.com; enabled=1 | users=user_294 via=email | case_296@2026-05-24T07:00
+  data_flow_3391    [connector_subscriptions] customer_reference=user_295; enabled=0 | users=user_295 via=user_id | case_297@2026-05-24T07:00
+  data_flow_4521    [connector_subscriptions] customer_email=lucas.o2510@zoho.com; enabled=1 | users=user_299 via=email | case_301@2026-05-24T07:00
+  data_flow_7594    [connector_subscriptions] customer_email=arjun.rao@gmail.com; enabled=1 | users=user_300 via=email | case_302@2026-05-24T07:00
+  export_6623       [customer_exports] owner_email=jpark4591@fastmail.com | users=user_298 via=email | case_300@2026-05-24T07:00
+  scope: export_service
+  scope: integration_service
+  search_1033       [customer_search_documents] email=arjun.rao@gmail.com | users=user_300 via=email | case_302@2026-05-24T07:00
+  search_4299       [customer_search_documents] email=jpark4591@fastmail.com | users=user_298 via=email | case_300@2026-05-24T07:00
+  search_5268       [customer_search_documents] email=lucas.o2510@zoho.com | users=user_299 via=email | case_301@2026-05-24T07:00
+  search_6282       [customer_search_documents] email=nkosi.sipho88@icloud.com | users=user_296 via=hist_email | case_298@2026-05-24T07:00
+  search_9631       [customer_search_documents] email=adaeze.nwosu@outlook.com | users=user_294 via=email | case_296@2026-05-24T07:00
+  scope: search_service
+  scope: security_service
+  support_1983      [support_records] customer_reference=user_295; message_excerpt=Customer supplied contact details for a delivery query. | users=user_295 via=user_id | case_297@2026-05-24T07:00
+  support_2983      [support_records] requester_email=arjun.rao@gmail.com; message_excerpt=Customer asked support to correct delivery details. | users=user_300 via=email | case_302@2026-05-24T07:00
+  support_643       [support_records] requester_email=nkosi.sipho88@icloud.com; message_excerpt=Customer supplied contact details for a delivery query. | users=user_296 via=hist_email | case_298@2026-05-24T07:00
+  scope: support_platform
+
+### evidence_24 customer_data_read_replica_20260613.sql captured_at=2026-06-13T11:00:00Z
+  account_3150      [RR] customer_reference=user_259; full_name=Yu-na Park; email=y.park50@yahoo.com; phone=+82 10 1182 9176; account_status=ACTIVE | users=user_259 via=email,name,phone,user_id | case_261@2026-06-13T11:00
+  account_9608      [RR] customer_reference=user_257; full_name=Sibusiso Nkosi; email=sibusiso.n9912@outlook.com; phone=+27 72 753 9868; account_status=ACTIVE | users=user_257 via=email,name,phone,user_id | case_259@2026-06-13T11:00
+  analytics_2977    [P+RR]  | users=- via=- | no-case
+  analytics_5053    [P+RR]  | users=- via=- | no-case
+  analytics_6136    [P+RR]  | users=- via=- | no-case
+  audit_record_1421 [P+RR] subject_reference=user_257; event_name=account_deletion_reviewed | users=user_257 via=user_id | case_259@2026-06-13T11:00
+  audit_record_1876 [P+RR] subject_reference=user_258; event_name=account_deletion_reviewed | users=user_258 via=user_id | case_260@2026-06-13T11:00
+  audit_record_2453 [P+RR] subject_reference=user_254; event_name=account_deletion_reviewed | users=user_254 via=user_id | case_256@2026-06-13T11:00
+  audit_record_2513 [P+RR] subject_reference=user_253; event_name=account_deletion_reviewed | users=user_253 via=user_id | case_255@2026-06-13T11:00
+  audit_record_2927 [P+RR] subject_reference=user_251; event_name=account_deletion_reviewed | users=user_251 via=user_id | case_253@2026-06-13T11:00
+  audit_record_3335 [P+RR] subject_reference=user_259; event_name=account_deletion_reviewed | users=user_259 via=user_id | case_261@2026-06-13T11:00
+  audit_record_4812 [P+RR] subject_reference=user_260; event_name=account_deletion_reviewed | users=user_260 via=user_id | case_262@2026-06-13T11:00
+  audit_record_7193 [P+RR] subject_reference=user_255; event_name=account_deletion_reviewed | users=user_255 via=user_id | case_257@2026-06-13T11:00
+  audit_record_9256 [P+RR] subject_reference=user_252; event_name=account_deletion_reviewed | users=user_252 via=user_id | case_254@2026-06-13T11:00
+  audit_record_9890 [P+RR] subject_reference=user_256; event_name=account_deletion_reviewed | users=user_256 via=user_id | case_258@2026-06-13T11:00
+  backup_2427       [P+RR] subject_reference=K.KOWALSKI36@GMAIL.COM; restore_allowed=True | users=user_253 via=email | case_255@2026-06-13T11:00
+  data_flow_6233    [P+RR] subject_selector=linnea.johansson@gmail.com; enabled=True | users=user_252 via=email | case_254@2026-06-13T11:00
+  legal_hold_8017   [P+RR] subject_reference=user_259; retained_until=2033-12-31T23:59:59Z | users=user_259 via=user_id | case_261@2026-06-13T11:00
+  search_2228       [P+RR] display_name=Camila Oliveira; email=oliveira.camila@icloud.com; customer_reference=user_260 | users=user_260 via=email,name,user_id | case_262@2026-06-13T11:00
+  search_3011       [P+RR] display_name=Linnea Johansson; email=linnea.johansson@gmail.com; customer_reference=user_252 | users=user_252 via=email,name,user_id | case_254@2026-06-13T11:00
+  search_4027       [P+RR] display_name=Yasmine Mansour; email=mansour.yasmine@gmail.com; customer_reference=user_254 | users=user_254 via=email,name,user_id | case_256@2026-06-13T11:00
+  search_5296       [P+RR] display_name=Adwoa Osei; email=aosei1993@gmail.com; customer_reference=user_256 | users=user_256 via=email,name,user_id | case_258@2026-06-13T11:00
+  search_6781       [P+RR] display_name=Yu-na Park; email=y.park50@yahoo.com; customer_reference=user_259 | users=user_259 via=email,name,user_id | case_261@2026-06-13T11:00
+  search_6990       [P+RR] display_name=Sibusiso Nkosi; email=sibusiso.n9912@outlook.com; customer_reference=user_257 | users=user_257 via=email,name,user_id | case_259@2026-06-13T11:00
+  support_3772      [P+RR] subject_reference=user_254; message_text=Please send the delivery update to mansour.yasmine@gmail.com. The affected order includes: | users=user_254 via=email,user_id | case_256@2026-06-13T11:00
+  support_3834      [P+RR] subject_reference=user_256; message_text=Please send the delivery update to aosei1993@gmail.com. The affected order includes: Ceram | users=user_256 via=email,user_id | case_258@2026-06-13T11:00
+
+### evidence_78 customer_data_inventory_20260618.sql captured_at=2026-06-18T11:44:03Z
+  account_2981      [customer_profiles] email=rina.y488481@outlook.com; account_status=DELETION_PENDING | users=user_245 via=hist_email | case_247@2026-06-18T12:00
+  account_4181      [customer_profiles] email=j.rodrigues22@yahoo.com; account_status=DELETION_PENDING | users=user_247 via=email | case_249@2026-06-18T12:00
+  scope: account_service
+  analytics_4010    [customer_analytics_profiles] email=nana-appiah@gmail.com | users=user_243 via=email | case_245@2026-06-18T12:00
+  analytics_5891    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_8527    [customer_analytics_profiles] email=j.rodrigues22@yahoo.com | users=user_247 via=email | case_249@2026-06-18T12:00
+  analytics_9166    [customer_analytics_profiles]  | users=- via=- | no-case
+  scope: analytics_platform
+  audit_record_7202 [security_audit_records] subject_reference=user_241; event_code=IDENTITY_CHANGE_RECORDED; retention_until=2034-09-30T23:59:59Z | users=user_241 via=user_id | case_243@2026-06-18T12:00
+  audit_record_9314 [security_audit_records] subject_reference=user_242; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_242 via=user_id | case_244@2026-06-18T12:00
+  data_flow_677     [connector_subscriptions] customer_email=junseo.cho@outlook.com; enabled=1 | users=user_246 via=email | case_248@2026-06-18T12:00
+  export_8598       [customer_exports] owner_email=hcollins447986@fastmail.com | users=user_250 via=hist_email | case_252@2026-06-18T12:00
+  scope: export_service
+  scope: integration_service
+  search_2725       [customer_search_documents] email=azulu6965@gmail.com | users=user_244 via=email | case_246@2026-06-18T12:00
+  search_2936       [customer_search_documents] email=hcollins447986@fastmail.com | users=user_250 via=hist_email | case_252@2026-06-18T12:00
+  search_3760       [customer_search_documents] email=iyer.rohan@icloud.com | users=user_248 via=email | case_250@2026-06-18T12:00
+  search_730        [customer_search_documents] email=nicolas-lopez@proton.me | users=user_249 via=email | case_251@2026-06-18T12:00
+  search_8190       [customer_search_documents] email=j.rodrigues22@yahoo.com | users=user_247 via=email | case_249@2026-06-18T12:00
+  search_9473       [customer_search_documents] email=rina.y488481@outlook.com | users=user_245 via=hist_email | case_247@2026-06-18T12:00
+  scope: search_service
+  scope: security_service
+  support_1364      [support_records] requester_email=j.rodrigues22@yahoo.com; message_excerpt=Customer followed up about an order update. | users=user_247 via=email | case_249@2026-06-18T12:00
+  support_4541      [support_records] requester_email=nicolas-lopez@proton.me; message_excerpt=Customer contacted support about account access. | users=user_249 via=email | case_251@2026-06-18T12:00
+  support_579       [support_records] requester_email=azulu6965@gmail.com; message_excerpt=Customer contacted support about account access. | users=user_244 via=email | case_246@2026-06-18T12:00
+  scope: support_platform
+
+### evidence_81 customer_data_inventory_20260703.sql captured_at=2026-07-03T07:43:56Z
+  scope: account_service
+  analytics_2504    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_257     [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_4460    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_4527    [customer_analytics_profiles] email=mnovak939594@fastmail.com | users=user_214 via=hist_email | case_216@2026-07-03T08:00
+  analytics_7004    [customer_analytics_profiles]  | users=- via=- | no-case
+  scope: analytics_platform
+  audit_record_1718 [security_audit_records] subject_reference=user_213; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_213 via=user_id | case_215@2026-07-03T08:00
+  audit_record_3382 [security_audit_records] subject_reference=user_217; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_217 via=user_id | case_219@2026-07-03T08:00
+  audit_record_3880 [security_audit_records] subject_reference=user_219; event_code=IDENTITY_CHANGE_RECORDED; retention_until=2034-09-30T23:59:59Z | users=user_219 via=user_id | case_221@2026-07-03T08:00
+  audit_record_4413 [security_audit_records] subject_reference=user_211; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_211 via=user_id | case_213@2026-07-03T08:00
+  audit_record_8792 [security_audit_records] subject_reference=user_216; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_216 via=user_id | case_218@2026-07-03T08:00
+  backup_5626       [backup_restore_entries] customer_reference=user_211; restore_allowed=0 | users=user_211 via=user_id | case_213@2026-07-03T08:00
+  scope: backup_service
+  data_flow_1791    [connector_subscriptions] customer_email=zayd.k7314@zoho.com; enabled=1 | users=user_215 via=email | case_217@2026-07-03T08:00
+  data_flow_5279    [connector_subscriptions] customer_reference=user_211; enabled=0 | users=user_211 via=user_id | case_213@2026-07-03T08:00
+  export_5351       [customer_exports] owner_email=mnovak939594@fastmail.com | users=user_214 via=hist_email | case_216@2026-07-03T08:00
+  scope: export_service
+  scope: integration_service
+  search_3120       [customer_search_documents] email=zayd.k7314@zoho.com | users=user_215 via=email | case_217@2026-07-03T08:00
+  search_5216       [customer_search_documents] email=mnovak939594@fastmail.com | users=user_214 via=hist_email | case_216@2026-07-03T08:00
+  search_6405       [customer_search_documents] email=dchoi6909@gmail.com | users=user_220 via=email | case_222@2026-07-03T08:00
+  search_7351       [customer_search_documents] email=bernard.chloe@icloud.com | users=user_212 via=email | case_214@2026-07-03T08:00
+  search_941        [customer_search_documents] email=mokoena.zanele98@gmail.com | users=user_218 via=hist_email | case_220@2026-07-03T08:00
+  scope: search_service
+  scope: security_service
+  support_111       [support_records] requester_email=dchoi6909@gmail.com; message_excerpt=Customer contacted support about account access. | users=user_220 via=email | case_222@2026-07-03T08:00
+  support_1146      [support_records] requester_email=bernard.chloe@icloud.com; message_excerpt=Customer supplied contact details for a delivery query. | users=user_212 via=email | case_214@2026-07-03T08:00
+  support_1360      [support_records] customer_reference=user_211; message_excerpt=Customer followed up about an order update. | users=user_211 via=user_id | case_213@2026-07-03T08:00
+  support_4529      [support_records] requester_email=mokoena.zanele98@gmail.com; message_excerpt=Customer asked support to correct delivery details. | users=user_218 via=hist_email | case_220@2026-07-03T08:00
+  support_8453      [support_records] requester_email=mnovak939594@fastmail.com; message_excerpt=Customer supplied contact details for a delivery query. | users=user_214 via=hist_email | case_216@2026-07-03T08:00
+  scope: support_platform
+
+### evidence_20 customer_data_read_replica_20260708.sql captured_at=2026-07-08T09:00:00Z
+  account_4348      [RR] customer_reference=user_209; full_name=Kavya Nair; email=kavya.n9800@outlook.com; phone=+91 92545 55079; account_status=ACTIVE | users=user_209 via=email,name,phone,user_id | case_211@2026-07-08T09:00
+  analytics_2463    [P+RR]  | users=- via=- | no-case
+  analytics_3156    [P+RR] user_id=user_207; email=jieun-yoon@gmail.com; phone=+82 10 0843 4211; email_hash=e24e535d.. | users=user_207 via=email,hash,phone,user_id | case_209@2026-07-08T09:00
+  analytics_9580    [P+RR]  | users=- via=- | no-case
+  audit_record_1159 [P+RR] subject_reference=user_201; event_name=account_deletion_reviewed | users=user_201 via=user_id | case_203@2026-07-08T09:00
+  audit_record_2697 [P+RR] subject_reference=user_206; event_name=account_deletion_reviewed | users=user_206 via=user_id | case_208@2026-07-08T09:00
+  audit_record_2736 [P+RR] subject_reference=user_202; event_name=account_deletion_reviewed | users=user_202 via=user_id | case_204@2026-07-08T09:00
+  audit_record_3261 [P+RR] subject_reference=user_210; event_name=account_deletion_reviewed | users=user_210 via=user_id | case_212@2026-07-08T09:00
+  audit_record_3578 [P+RR] subject_reference=user_205; event_name=account_deletion_reviewed | users=user_205 via=user_id | case_207@2026-07-08T09:00
+  audit_record_5023 [P+RR] subject_reference=user_203; event_name=account_deletion_reviewed | users=user_203 via=user_id | case_205@2026-07-08T09:00
+  audit_record_6796 [P+RR] subject_reference=user_208; event_name=account_deletion_reviewed | users=user_208 via=user_id | case_210@2026-07-08T09:00
+  audit_record_7804 [P+RR] subject_reference=user_209; event_name=account_deletion_reviewed | users=user_209 via=user_id | case_211@2026-07-08T09:00
+  audit_record_8189 [P+RR] subject_reference=user_207; event_name=account_deletion_reviewed | users=user_207 via=user_id | case_209@2026-07-08T09:00
+  audit_record_9878 [P+RR] subject_reference=user_204; event_name=account_deletion_reviewed | users=user_204 via=user_id | case_206@2026-07-08T09:00
+  backup_6407       [P+RR] subject_reference=k.mthembu24@gmail.com; restore_allowed=True | users=user_205 via=email | case_207@2026-07-08T09:00
+  backup_9519       [P+RR] subject_reference=user_202; restore_allowed=False | users=user_202 via=user_id | case_204@2026-07-08T09:00
+  data_flow_3530    [P+RR] subject_selector=nneka.o2286@zoho.com; enabled=True | users=user_203 via=email | case_205@2026-07-08T09:00
+  data_flow_5196    [P+RR] subject_selector=jieun-yoon@gmail.com; enabled=True | users=user_207 via=email | case_209@2026-07-08T09:00
+  data_flow_5877    [P+RR] subject_selector=user_202; enabled=False | users=user_202 via=user_id | case_204@2026-07-08T09:00
+  data_flow_8676    [P+RR] subject_selector=camila.martinez@outlook.com; enabled=True | users=user_210 via=email | case_212@2026-07-08T09:00
+  search_045        [P+RR] display_name=Isabela Almeida; email=ialmeida1881@gmail.com; customer_reference=user_208 | users=user_208 via=email,name,user_id | case_210@2026-07-08T09:00
+  search_1118       [P+RR] display_name=Sota Nakamura; email=nakamura.sota@gmail.com; customer_reference=user_206 | users=user_206 via=email,name,user_id | case_208@2026-07-08T09:00
+  search_2274       [P+RR] display_name=Camila Martínez; email=camila.martinez@outlook.com; customer_reference=user_210 | users=user_210 via=email,name,user_id | case_212@2026-07-08T09:00
+  search_540        [P+RR] display_name=Nneka Okeke; email=nneka.o2286@zoho.com; customer_reference=user_203 | users=user_203 via=email,name,user_id | case_205@2026-07-08T09:00
+  search_7288       [P+RR] display_name=Ji-eun Yoon; email=jieun-yoon@gmail.com; customer_reference=user_207 | users=user_207 via=email,name,user_id | case_209@2026-07-08T09:00
+  search_7542       [P+RR] display_name=Ana Varga; email=ana-varga@proton.me; customer_reference=user_201 | users=user_201 via=email,name,user_id | case_203@2026-07-08T09:00
+  search_9955       [P+RR] display_name=Kavya Nair; email=kavya.n9800@outlook.com; customer_reference=user_209 | users=user_209 via=email,name,user_id | case_211@2026-07-08T09:00
+  support_2134      [P+RR] subject_reference=user_206; message_text=Please send the delivery update to nakamura.sota@gmail.com. The affected order includes: C | users=user_206 via=email,user_id | case_208@2026-07-08T09:00
+  support_4491      [P+RR] subject_reference=user_208; message_text=Please send the delivery update to ialmeida1881@gmail.com. The affected order includes: Me | users=user_208 via=email,user_id | case_210@2026-07-08T09:00
+  support_8903      [P+RR] uploaded_by=ana-varga@proton.me | users=user_201 via=email | case_203@2026-07-08T09:00
+  support_8999      [P+RR] subject_reference=user_207; message_text=Please send the delivery update to jieun-yoon@gmail.com. The affected order includes: Stai | users=user_207 via=email,user_id | case_209@2026-07-08T09:00
+  support_9505      [P+RR] subject_reference=user_202; message_text=[REDACTED] | users=user_202 via=user_id | case_204@2026-07-08T09:00
+
+### evidence_84 customer_data_inventory_20260723.sql captured_at=2026-07-23T11:43:30Z
+  account_8423      [customer_profiles] email=z.popescu54@yahoo.com; account_status=DELETION_PENDING | users=user_175 via=email | case_177@2026-07-23T12:00
+  scope: account_service
+  analytics_1391    [customer_analytics_profiles] email=aasante4311@fastmail.com | users=user_178 via=email | case_180@2026-07-23T12:00
+  analytics_1522    [customer_analytics_profiles] email=ren.watanabe@gmail.com | users=user_180 via=email | case_182@2026-07-23T12:00
+  analytics_2414    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_6000    [customer_analytics_profiles] email=javier-rodriguez@gmail.com | users=user_171 via=email | case_173@2026-07-23T12:00
+  analytics_9505    [customer_analytics_profiles]  | users=- via=- | no-case
+  scope: analytics_platform
+  audit_record_7166 [security_audit_records] subject_reference=user_173; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_173 via=user_id | case_175@2026-07-23T12:00
+  audit_record_8521 [security_audit_records] subject_reference=user_176; event_code=PRIVACY_REQUEST_ACCEPTED; retention_until=2032-06-30T23:59:59Z | users=user_176 via=user_id | case_178@2026-07-23T12:00
+  backup_549        [backup_restore_entries] customer_reference=user_173; restore_allowed=0 | users=user_173 via=user_id | case_175@2026-07-23T12:00
+  scope: backup_service
+  data_flow_296     [connector_subscriptions] customer_email=freja.svensson@outlook.com; enabled=1 | users=user_174 via=email | case_176@2026-07-23T12:00
+  data_flow_4319    [connector_subscriptions] customer_reference=user_173; enabled=0 | users=user_173 via=user_id | case_175@2026-07-23T12:00
+  data_flow_7450    [connector_subscriptions] customer_email=ren.watanabe@gmail.com; enabled=1 | users=user_180 via=email | case_182@2026-07-23T12:00
+  data_flow_8346    [connector_subscriptions] customer_email=naledi.k2230@zoho.com; enabled=1 | users=user_179 via=email | case_181@2026-07-23T12:00
+  export_7156       [customer_exports] owner_email=aasante4311@fastmail.com | users=user_178 via=email | case_180@2026-07-23T12:00
+  scope: export_service
+  scope: integration_service
+  search_2073       [customer_search_documents] email=ren.watanabe@gmail.com | users=user_180 via=email | case_182@2026-07-23T12:00
+  search_2138       [customer_search_documents] email=chughes6797@gmail.com | users=user_172 via=email | case_174@2026-07-23T12:00
+  search_3038       [customer_search_documents] email=z.popescu54@yahoo.com | users=user_175 via=email | case_177@2026-07-23T12:00
+  search_4894       [customer_search_documents] email=naledi.k2230@zoho.com | users=user_179 via=email | case_181@2026-07-23T12:00
+  search_5570       [customer_search_documents] email=aasante4311@fastmail.com | users=user_178 via=email | case_180@2026-07-23T12:00
+  search_8860       [customer_search_documents] email=freja.svensson@outlook.com | users=user_174 via=email | case_176@2026-07-23T12:00
+  search_9523       [customer_search_documents] email=javier-rodriguez@gmail.com | users=user_171 via=email | case_173@2026-07-23T12:00
+  scope: search_service
+  scope: security_service
+  support_1887      [support_records] requester_email=chughes6797@gmail.com; message_excerpt=Customer followed up about an order update. | users=user_172 via=email | case_174@2026-07-23T12:00
+  support_2283      [support_records] requester_email=tunde-balogun@proton.me; message_excerpt=Customer contacted support about account access. | users=user_177 via=email | case_179@2026-07-23T12:00
+  support_2609      [support_records] requester_email=aasante4311@fastmail.com; message_excerpt=Customer contacted support about account access. | users=user_178 via=email | case_180@2026-07-23T12:00
+  support_4806      [support_records] requester_email=ren.watanabe@gmail.com; message_excerpt=Customer asked support to correct delivery details. | users=user_180 via=email | case_182@2026-07-23T12:00
+  support_8164      [support_records] customer_reference=user_173; message_excerpt=Customer asked support to correct delivery details. | users=user_173 via=user_id | case_175@2026-07-23T12:00
+  scope: support_platform
+
+### evidence_15 customer_data_read_replica_20260802.sql captured_at=2026-08-02T07:00:00Z
+  account_8023      [RR] customer_reference=user_151; full_name=Amara Adeyemi; email=a.adeyemi9897@yahoo.com; phone=+234 803 226 3701; account_status=ACTIVE | users=user_151 via=hist_email,name,phone,user_id | case_153@2026-08-02T07:00
+  analytics_2008    [P+RR] user_id=user_159; email=noah-sullivan@gmail.com; phone=+1 (646) 555-0159; email_hash=9f380df5.. | users=user_159 via=email,hash,phone,user_id | case_161@2026-08-02T07:00
+  analytics_7372    [P+RR]  | users=- via=- | no-case
+  analytics_8425    [P+RR]  | users=- via=- | no-case
+  audit_record_2580 [P+RR] subject_reference=user_152; event_name=account_deletion_reviewed | users=user_152 via=user_id | case_154@2026-08-02T07:00
+  audit_record_4199 [P+RR] subject_reference=user_153; event_name=account_deletion_reviewed | users=user_153 via=user_id | case_155@2026-08-02T07:00
+  audit_record_5652 [P+RR] subject_reference=user_151; event_name=account_deletion_reviewed | users=user_151 via=user_id | case_153@2026-08-02T07:00
+  audit_record_5890 [P+RR] subject_reference=user_154; event_name=account_deletion_reviewed | users=user_154 via=user_id | case_156@2026-08-02T07:00
+  audit_record_6362 [P+RR] subject_reference=user_160; event_name=account_deletion_reviewed | users=user_160 via=user_id | case_162@2026-08-02T07:00
+  audit_record_8002 [P+RR] subject_reference=user_159; event_name=account_deletion_reviewed | users=user_159 via=user_id | case_161@2026-08-02T07:00
+  audit_record_8742 [P+RR] subject_reference=user_157; event_name=account_deletion_reviewed | users=user_157 via=user_id | case_159@2026-08-02T07:00
+  audit_record_8821 [P+RR] subject_reference=user_155; event_name=account_deletion_reviewed | users=user_155 via=user_id | case_157@2026-08-02T07:00
+  audit_record_9665 [P+RR] subject_reference=user_156; event_name=account_deletion_reviewed | users=user_156 via=user_id | case_158@2026-08-02T07:00
+  audit_record_9882 [P+RR] subject_reference=user_158; event_name=account_deletion_reviewed | users=user_158 via=user_id | case_160@2026-08-02T07:00
+  backup_1214       [P+RR] subject_reference=a.basu1281@gmail.com; restore_allowed=True | users=user_157 via=hist_email | case_159@2026-08-02T07:00
+  backup_161        [P+RR] subject_reference=user_153; restore_allowed=False | users=user_153 via=user_id | case_155@2026-08-02T07:00
+  data_flow_4305    [P+RR] subject_selector=user_153; enabled=False | users=user_153 via=user_id | case_155@2026-08-02T07:00
+  data_flow_7704    [P+RR] subject_selector=mariana.santos@gmail.com; enabled=True | users=user_156 via=email | case_158@2026-08-02T07:00
+  export_5897       [P+RR] owner_email=ksuzuki4255@fastmail.com; created_at=2026-07-19T07:00:00Z; expires_at=2026-09-01T07:00:00Z; download_available=True | users=user_154 via=email | case_156@2026-08-02T07:00
+  search_1446       [P+RR] display_name=Kofi Boateng; email=boateng.kofi@icloud.com; customer_reference=user_152 | users=user_152 via=email,name,user_id | case_154@2026-08-02T07:00
+  search_4870       [P+RR] display_name=Keiko Suzuki; email=ksuzuki4255@fastmail.com; customer_reference=user_154 | users=user_154 via=email,name,user_id | case_156@2026-08-02T07:00
+  search_9831       [P+RR] display_name=Amara Adeyemi; email=a.adeyemi9897@yahoo.com; customer_reference=user_151 | users=user_151 via=hist_email,name,user_id | case_153@2026-08-02T07:00
+  search_9834       [P+RR] display_name=Mariana Santos; email=mariana.santos@gmail.com; customer_reference=user_156 | users=user_156 via=email,name,user_id | case_158@2026-08-02T07:00
+  support_4148      [P+RR] subject_reference=user_158; message_text=Please send the delivery update to navarro.sofia82@gmail.com. The affected order includes: | users=user_158 via=hist_email,user_id | case_160@2026-08-02T07:00
+  support_7867      [P+RR] subject_reference=user_153; message_text=[REDACTED] | users=user_153 via=user_id | case_155@2026-08-02T07:00
+
+### evidence_87 customer_data_inventory_20260817.sql captured_at=2026-08-17T09:42:50Z
+  account_6673      [customer_profiles] email=s.tshabalala42@yahoo.com; account_status=DELETION_PENDING | users=user_127 via=email | case_129@2026-08-17T10:00
+  scope: account_service
+  analytics_1103    [customer_analytics_profiles] email=katarina-stojanovic91@gmail.com | users=user_123 via=hist_email | case_125@2026-08-17T10:00
+  analytics_1402    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_514     [customer_analytics_profiles] email=yuna-jang@proton.me | users=user_129 via=email | case_131@2026-08-17T10:00
+  analytics_7150    [customer_analytics_profiles]  | users=- via=- | no-case
+  scope: analytics_platform
+  audit_record_6884 [security_audit_records] subject_reference=user_124; event_code=PRIVACY_REQUEST_ACCEPTED; retention_until=2032-06-30T23:59:59Z | users=user_124 via=user_id | case_126@2026-08-17T10:00
+  audit_record_9649 [security_audit_records] subject_reference=user_125; event_code=SUBJECT_REQUEST_AUDITED; retention_until=2033-12-31T23:59:59Z | users=user_125 via=user_id | case_127@2026-08-17T10:00
+  backup_8742       [backup_restore_entries] customer_email=m.mercier28@gmail.com; restore_allowed=1 | users=user_121 via=email | case_123@2026-08-17T10:00
+  scope: backup_service
+  data_flow_5550    [connector_subscriptions] customer_email=adwoa.frimpong@outlook.com; enabled=1 | users=user_126 via=email | case_128@2026-08-17T10:00
+  export_9157       [customer_exports] owner_email=cnascimento4199@fastmail.com | users=user_130 via=email | case_132@2026-08-17T10:00
+  scope: export_service
+  scope: integration_service
+  search_2364       [customer_search_documents] email=kobayashi.daichi@icloud.com | users=user_128 via=email | case_130@2026-08-17T10:00
+  search_3112       [customer_search_documents] email=cnascimento4199@fastmail.com | users=user_130 via=email | case_132@2026-08-17T10:00
+  search_5148       [customer_search_documents] email=s.tshabalala42@yahoo.com | users=user_127 via=email | case_129@2026-08-17T10:00
+  search_538        [customer_search_documents] email=yuna-jang@proton.me | users=user_129 via=email | case_131@2026-08-17T10:00
+  search_9752       [customer_search_documents] email=katarina-stojanovic91@gmail.com | users=user_123 via=hist_email | case_125@2026-08-17T10:00
+  scope: search_service
+  scope: security_service
+  support_187       [support_records] requester_email=kobayashi.daichi@icloud.com; message_excerpt=Customer contacted support about account access. | users=user_128 via=email | case_130@2026-08-17T10:00
+  support_2315      [support_records] requester_email=yuna-jang@proton.me; message_excerpt=Customer supplied contact details for a delivery query. | users=user_129 via=email | case_131@2026-08-17T10:00
+  support_7208      [support_records] requester_email=yuna-jang@proton.me; message_excerpt=Customer supplied contact details for a delivery query. | users=user_129 via=email | case_131@2026-08-17T10:00
+  support_9126      [support_records] requester_email=holm.linnea@gmail.com; message_excerpt=Customer followed up about an order update. | users=user_122 via=email | case_124@2026-08-17T10:00
+  scope: support_platform
+
+### evidence_10 customer_data_read_replica_20260827.sql captured_at=2026-08-27T12:00:00Z
+  account_6345      [RR] customer_reference=user_103; full_name=Ha-eun Kang; email=h.kang86@yahoo.com; phone=+82 10 2780 1520; account_status=ACTIVE | users=user_103 via=email,name,phone,user_id | case_105@2026-08-27T12:00
+  analytics_2777    [P+RR]  | users=- via=- | no-case
+  analytics_3264    [P+RR]  | users=- via=- | no-case
+  analytics_4882    [P+RR] user_id=user_102; email=kenta.ito@outlook.com; phone=+81 90 8325 7910; email_hash=7fe61754.. | users=user_102 via=email,hash,phone,user_id | case_104@2026-08-27T12:00
+  analytics_5001    [P+RR]  | users=- via=- | no-case
+  analytics_800     [P+RR]  | users=- via=- | no-case
+  analytics_9875    [P+RR]  | users=- via=- | no-case
+  audit_record_1469 [P+RR] subject_reference=user_106; event_name=account_deletion_reviewed | users=user_106 via=user_id | case_108@2026-08-27T12:00
+  audit_record_2718 [P+RR] subject_reference=user_107; event_name=account_deletion_reviewed | users=user_107 via=user_id | case_109@2026-08-27T12:00
+  audit_record_4082 [P+RR] subject_reference=user_110; event_name=account_deletion_reviewed | users=user_110 via=user_id | case_112@2026-08-27T12:00
+  audit_record_4520 [P+RR] subject_reference=user_103; event_name=account_deletion_reviewed | users=user_103 via=user_id | case_105@2026-08-27T12:00
+  audit_record_6230 [P+RR] subject_reference=user_102; event_name=account_deletion_reviewed | users=user_102 via=user_id | case_104@2026-08-27T12:00
+  audit_record_7572 [P+RR] subject_reference=user_105; event_name=account_deletion_reviewed | users=user_105 via=user_id | case_107@2026-08-27T12:00
+  audit_record_8723 [P+RR] subject_reference=user_104; event_name=account_deletion_reviewed | users=user_104 via=user_id | case_106@2026-08-27T12:00
+  audit_record_8933 [P+RR] subject_reference=user_109; event_name=account_deletion_reviewed | users=user_109 via=user_id | case_111@2026-08-27T12:00
+  audit_record_9268 [P+RR] subject_reference=user_108; event_name=account_deletion_reviewed | users=user_108 via=user_id | case_110@2026-08-27T12:00
+  audit_record_9522 [P+RR] subject_reference=user_101; event_name=account_deletion_reviewed | users=user_101 via=user_id | case_103@2026-08-27T12:00
+  backup_4863       [P+RR] subject_reference=user_110; restore_allowed=False | users=user_110 via=user_id | case_112@2026-08-27T12:00
+  data_flow_3444    [P+RR] subject_selector=user_110; enabled=False | users=user_110 via=user_id | case_112@2026-08-27T12:00
+  data_flow_5127    [P+RR] subject_selector=kenta.ito@outlook.com; enabled=True | users=user_102 via=email | case_104@2026-08-27T12:00
+  data_flow_8857    [P+RR] subject_selector=ines.moreau98@gmail.com; enabled=True | users=user_108 via=hist_email | case_110@2026-08-27T12:00
+  data_flow_9949    [P+RR] subject_selector=daniel.c2062@zoho.com; enabled=True | users=user_107 via=email | case_109@2026-08-27T12:00
+  search_2016       [P+RR] display_name=Daniel Carter; email=daniel.c2062@zoho.com; customer_reference=user_107 | users=user_107 via=email,name,user_id | case_109@2026-08-27T12:00
+  search_3993       [P+RR] display_name=Inès Moreau; email=ines.moreau98@gmail.com; customer_reference=user_108 | users=user_108 via=hist_email,name,user_id | case_110@2026-08-27T12:00
+  search_4300       [P+RR] email=ionescu.pavel.jr@gmail.com | users=- via=- UNKNOWN=ionescu.pavel.jr@gmail.com | no-case
+  search_4618       [P+RR] display_name=Ha-eun Kang; email=h.kang86@yahoo.com; customer_reference=user_103 | users=user_103 via=email,name,user_id | case_105@2026-08-27T12:00
+  search_7223       [P+RR] display_name=Larissa Costa; email=costa.larissa@icloud.com; customer_reference=user_104 | users=user_104 via=email,name,user_id | case_106@2026-08-27T12:00
+  search_8379       [P+RR] display_name=Kenta Ito; email=kenta.ito@outlook.com; customer_reference=user_102 | users=user_102 via=email,name,user_id | case_104@2026-08-27T12:00
+  support_2859      [P+RR] subject_reference=user_110; message_text=[REDACTED] | users=user_110 via=user_id | case_112@2026-08-27T12:00
+  support_4267      [P+RR] subject_reference=user_102; message_text=Please send the delivery update to kenta.ito@outlook.com. The affected order includes: Mec | users=user_102 via=email,user_id | case_104@2026-08-27T12:00
+
+### evidence_54 customer_accounts_failover_replica_20260902.sql captured_at=2026-09-02T23:00:00Z
+  account_005       [FO] user_id=user_05; full_name=Leila Haddad; email=leila.haddad@yahoo.com; phone=+212 6 48 27 15 93; account_status=ACTIVE | users=user_05 via=email,name,phone,user_id | case_05@2026-09-08T13:40
+  account_7204      [FO+P] user_id=user_7204; full_name=Priya Ramanathan; email=p.ramanathan@gmail.com; phone=+91 90000 82014; account_status=ACTIVE | users=- via=- UNKNOWN=p.ramanathan@gmail.com | no-case
+  account_8741      [FO+P] user_id=user_8741; full_name=Karim El-Masri; email=karim.elmasri@gmail.com; phone=+971 50 731 6284; account_status=ACTIVE | users=- via=- UNKNOWN=karim.elmasri@gmail.com | no-case
+  account_9116      [FO+P] user_id=user_9116; full_name=Mateo Rios Gil; email=m.rios.gil@outlook.com; phone=+34 628 491 736; account_status=ACTIVE | users=- via=- UNKNOWN=m.rios.gil@outlook.com | no-case
+
+### evidence_90 customer_data_inventory_20260905.sql captured_at=2026-09-05T07:18:01Z
+  scope: account_service
+
+### evidence_57 customer_search_primary_20260910.sql captured_at=2026-09-10T08:45:00Z
+  search_001        [P] display_name=Jonas Berg; email=jonas.berg@outlook.com; source_resource_id=account_006; indexed_at=2026-09-09T22:12:00Z | users=user_06 via=email,name | case_06@2026-09-10T09:15
+  search_4203       [P] display_name=Joana Berg; email=joana.berg@outlook.com; source_resource_id=account_4203; indexed_at=2026-09-09T22:13:00Z | users=- via=- UNKNOWN=joana.berg@outlook.com | no-case
+  search_8814       [P] display_name=Jonas Berglund; email=jonas.berglund@outlook.com; source_resource_id=account_8814; indexed_at=2026-09-09T22:13:00Z | users=- via=- UNKNOWN=jonas.berglund@outlook.com | no-case
+
+### evidence_93 customer_data_inventory_20260916.sql captured_at=2026-09-16T08:37:39Z
+  account_9079      [customer_profiles] email=rafael.r9464@outlook.com; account_status=DELETION_PENDING | users=user_65 via=email | case_67@2026-09-16T09:00
+  scope: account_service
+  analytics_5718    [customer_analytics_profiles]  | users=- via=- | no-case
+  analytics_9246    [customer_analytics_profiles] email=aoi-yamamoto@gmail.com | users=user_63 via=email | case_65@2026-09-16T09:00
+  scope: analytics_platform
+  audit_record_1738 [security_audit_records] subject_reference=user_68; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_68 via=user_id | case_70@2026-09-16T09:00
+  audit_record_1892 [security_audit_records] subject_reference=user_62; event_code=PRIVACY_REQUEST_ACCEPTED; retention_until=2032-06-30T23:59:59Z | users=user_62 via=user_id | case_64@2026-09-16T09:00
+  audit_record_9011 [security_audit_records] subject_reference=user_67; event_code=ACCOUNT_DELETION_RECORDED; retention_until=2031-12-31T23:59:59Z | users=user_67 via=user_id | case_69@2026-09-16T09:00
+  backup_3933       [backup_restore_entries] customer_reference=user_62; restore_allowed=0 | users=user_62 via=user_id | case_64@2026-09-16T09:00
+  backup_4978       [backup_restore_entries] customer_email=k.appiah88@gmail.com; restore_allowed=1 | users=user_61 via=email | case_09@2026-09-16T09:00
+  scope: backup_service
+  data_flow_2406    [connector_subscriptions] customer_email=ishaan.iyer@outlook.com; enabled=1 | users=user_66 via=email | case_68@2026-09-16T09:00
+  data_flow_6846    [connector_subscriptions] customer_reference=user_62; enabled=0 | users=user_62 via=user_id | case_64@2026-09-16T09:00
+  export_4091       [customer_exports] owner_email=ajohansson9059@fastmail.com | users=user_70 via=email | case_72@2026-09-16T09:00
+  scope: export_service
+  scope: integration_service
+  search_2568       [customer_search_documents] email=ishaan.iyer@outlook.com | users=user_66 via=email | case_68@2026-09-16T09:00
+  search_684        [customer_search_documents] email=JULES-LAURENT@PROTON.ME | users=user_69 via=email | case_71@2026-09-16T09:00
+  search_689        [customer_search_documents] email=aoi-yamamoto@gmail.com | users=user_63 via=email | case_65@2026-09-16T09:00
+  scope: search_service
+  scope: security_service
+  support_1370      [support_records] requester_email=JULES-LAURENT@PROTON.ME; message_excerpt=Customer asked support to correct delivery details. | users=user_69 via=email | case_71@2026-09-16T09:00
+  support_4249      [support_records] requester_email=hcho154598@gmail.com; message_excerpt=Customer asked support to correct delivery details. | users=user_64 via=hist_email | case_66@2026-09-16T09:00
+  support_6334      [support_records] customer_reference=user_62; message_excerpt=Customer followed up about an order update. | users=user_62 via=user_id | case_64@2026-09-16T09:00
+  scope: support_platform
+
+### evidence_52 customer_data_failover_replica_20260920.sql captured_at=2026-09-20T12:00:00Z
+  audit_record_1037 [FO+P] subject_reference=user_544; event_name=account_deletion_reviewed | users=user_544 via=user_id | case_544@2026-09-20T12:00
+  audit_record_1491 [FO+P] subject_reference=user_549; event_name=account_deletion_reviewed | users=user_549 via=user_id | case_549@2026-09-20T12:00
+  audit_record_3831 [FO+P] subject_reference=user_550; event_name=account_deletion_reviewed | users=user_550 via=user_id | case_550@2026-09-20T12:00
+  audit_record_5041 [FO+P] subject_reference=user_545; event_name=account_deletion_reviewed | users=user_545 via=user_id | case_545@2026-09-20T12:00
+  audit_record_518  [FO+P] subject_reference=user_546; event_name=account_deletion_reviewed | users=user_546 via=user_id | case_546@2026-09-20T12:00
+  audit_record_6244 [FO+P] subject_reference=user_543; event_name=account_deletion_reviewed | users=user_543 via=user_id | case_543@2026-09-20T12:00
+  audit_record_6970 [FO+P] subject_reference=user_548; event_name=account_deletion_reviewed | users=user_548 via=user_id | case_548@2026-09-20T12:00
+  audit_record_7352 [FO+P] subject_reference=user_547; event_name=account_deletion_reviewed | users=user_547 via=user_id | case_547@2026-09-20T12:00
+  tombstone_205     [FO+P] subject_reference=user_543; account_status=DELETED | users=user_543 via=user_id | case_543@2026-09-20T12:00
+  tombstone_3745    [FO+P] subject_reference=user_548; name=Sofía Fernández; email=fernandez.sofia@icloud.com; phone=+34 668 324 642; email_hash=33f407a3..; account_status=DELETED | users=user_548 via=email,hash,name,phone,user_id | case_548@2026-09-20T12:00
+  tombstone_3963    [FO+P] subject_reference=user_549; account_status=DELETED | users=user_549 via=user_id | case_549@2026-09-20T12:00
+  tombstone_7389    [FO+P] subject_reference=user_550; name=Camille Moreau; email=cmoreau0179@fastmail.com; email_hash=2a2f4423..; account_status=DELETED | users=user_550 via=email,hash,name,user_id | case_550@2026-09-20T12:00
+  tombstone_8095    [FO+P] subject_reference=user_546; name=Mariana Costa; phone=+55 61 95778-4447; email_hash=85501008..; account_status=DELETED | users=user_546 via=hash,name,phone,user_id | case_546@2026-09-20T12:00
+  tombstone_8648    [FO+P] subject_reference=user_544; name=Keiko Ito; email=kito2665@gmail.com; email_hash=12f0c41e..; account_status=DELETED | users=user_544 via=email,hash,name,user_id | case_544@2026-09-20T12:00
+  tombstone_8774    [FO+P] subject_reference=user_547; account_status=DELETED | users=user_547 via=user_id | case_547@2026-09-20T12:00
+  tombstone_946     [FO+P] subject_reference=user_545; account_status=DELETED | users=user_545 via=user_id | case_545@2026-09-20T12:00
+
+### evidence_05 customer_data_read_replica_20260921.sql captured_at=2026-09-21T10:00:00Z
+  account_994       [RR] customer_reference=user_53; full_name=Diya Kapoor; email=diya.k4436@outlook.com; phone=+91 96023 32879; account_status=ACTIVE | users=user_53 via=email,name,phone,user_id | case_16@2026-09-21T10:00
+  analytics_1738    [P+RR] user_id=user_52; email=bcarvalho6517@gmail.com; phone=+55 41 90257-9346; email_hash=da5e2641.. | users=user_52 via=email,hash,phone,user_id | case_54@2026-09-21T10:00
+  analytics_2572    [P+RR]  | users=- via=- | no-case
+  analytics_4440    [P+RR] user_id=user_51; email=seoyeon-han@gmail.com; phone=+82 10 8943 9310; email_hash=bbd5522c.. | users=user_51 via=email,hash,phone,user_id | case_22@2026-09-21T10:00
+  analytics_5715    [P+RR] user_id=user_60; email=emeka.ogunleye@gmail.com; phone=+234 803 456 1656; email_hash=6f658ec1.. | users=user_60 via=email,hash,phone,user_id | case_62@2026-09-21T10:00
+  analytics_8858    [P+RR]  | users=- via=- | no-case
+  analytics_9069    [P+RR]  | users=- via=- | no-case
+  audit_record_3482 [P+RR] subject_reference=user_51; event_name=account_deletion_reviewed | users=user_51 via=user_id | case_22@2026-09-21T10:00
+  audit_record_4078 [P+RR] subject_reference=user_54; event_name=account_deletion_reviewed | users=user_54 via=user_id | case_56@2026-09-21T10:00
+  audit_record_4316 [P+RR] subject_reference=user_59; event_name=account_deletion_reviewed | users=user_59 via=user_id | no-case
+  audit_record_4889 [P+RR] subject_reference=user_60; event_name=account_deletion_reviewed | users=user_60 via=user_id | case_62@2026-09-21T10:00
+  audit_record_629  [P+RR] subject_reference=user_58; event_name=account_deletion_reviewed | users=user_58 via=user_id | case_60@2026-09-21T10:00
+  audit_record_6325 [P+RR] subject_reference=user_52; event_name=account_deletion_reviewed | users=user_52 via=user_id | case_54@2026-09-21T10:00
+  audit_record_7219 [P+RR] subject_reference=user_55; event_name=account_deletion_reviewed | users=user_55 via=user_id | case_57@2026-09-21T10:00
+  audit_record_8465 [P+RR] subject_reference=user_56; event_name=account_deletion_reviewed | users=user_56 via=user_id | case_58@2026-09-21T10:00
+  audit_record_9528 [P+RR] subject_reference=user_53; event_name=account_deletion_reviewed | users=user_53 via=user_id | case_16@2026-09-21T10:00
+  audit_record_962  [P+RR] subject_reference=user_57; event_name=account_deletion_reviewed | users=user_57 via=user_id | case_59@2026-09-21T10:00
+  backup_7711       [P+RR] subject_reference=user_55; restore_allowed=False | users=user_55 via=user_id | case_57@2026-09-21T10:00
+  data_flow_108     [P+RR] subject_selector=emeka.ogunleye94@gmail.com; enabled=True | users=user_60 via=hist_email | case_62@2026-09-21T10:00
+  data_flow_1368    [P+RR] subject_selector=user_55; enabled=False | users=user_55 via=user_id | case_57@2026-09-21T10:00
+  data_flow_373     [P+RR] subject_selector=elena.romero88@outlook.com; enabled=True | users=user_54 via=hist_email | case_56@2026-09-21T10:00
+  data_flow_4218    [P+RR] subject_selector=karim.h1950@zoho.com; enabled=True | users=user_59 via=email | no-case
+  data_flow_5080    [P+RR] subject_selector=BCARVALHO6517@GMAIL.COM; enabled=True | users=user_52 via=email | case_54@2026-09-21T10:00
+  search_1007       [P+RR] display_name=Diya Kapoor; email=diya.k4436@outlook.com; customer_reference=user_53 | users=user_53 via=email,name,user_id | case_16@2026-09-21T10:00
+  search_3995       [P+RR] display_name=Beatriz Carvalho; email=BCARVALHO6517@GMAIL.COM; customer_reference=user_52 | users=user_52 via=email,name,user_id | case_54@2026-09-21T10:00
+  search_5960       [P+RR] display_name=Emeka Ogunleye; email=emeka.ogunleye94@gmail.com; customer_reference=user_60 | users=user_60 via=hist_email,name,user_id | case_62@2026-09-21T10:00
+  search_7455       [P+RR] display_name=Karim Hamdan; email=karim.h1950@zoho.com; customer_reference=user_59 | users=user_59 via=email,name,user_id | no-case
+  search_8911       [P+RR] display_name=Seo-yeon Han; email=seoyeon-han@gmail.com; customer_reference=user_51 | users=user_51 via=email,name,user_id | case_22@2026-09-21T10:00
+  support_7479      [P+RR] subject_reference=user_55; message_text=[REDACTED] | users=user_55 via=user_id | case_57@2026-09-21T10:00
+  support_835       [P+RR] subject_reference=user_52; message_text=Please send the delivery update to BCARVALHO6517@GMAIL.COM. The affected order includes: M | users=user_52 via=email,user_id | case_54@2026-09-21T10:00
+  support_8765      [P+RR] subject_reference=user_60; message_text=Please send the delivery update to emeka.ogunleye94@gmail.com. The affected order includes | users=user_60 via=hist_email,user_id | case_62@2026-09-21T10:00

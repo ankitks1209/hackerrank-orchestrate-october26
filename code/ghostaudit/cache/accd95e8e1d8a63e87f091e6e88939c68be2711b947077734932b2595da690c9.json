@@ -1,0 +1,120 @@
+{
+  "cache_creation_tokens": 3015,
+  "cache_read_tokens": 8873,
+  "content": [
+    {
+      "signature": "CAQS/QcKEAgTGAI4AUIIdGhpbmtpbmcSDMSNn4BEqq6BZwiYNhoMsFvK4pLehji9D469IjAiR+aRBhvRSqkub1tCj0f7vUuZUsQNdMb7TfiEgxrdRqcDI6MvM8ijcegdBJZ/zA0qmgezTXDuvvsPrhX1p3ypfWK7UgGbG5Hh5iN89NA8k+lgzI7MFI94s/VofbVwjM+oVIsVd1OapRITnvrFYJdN8eQglG7UQo045BSiPQfeBy73nvLnr0R22w7pXmG8IwnAjWdmiRiShDf5gdinUmb5zveFEqMs1yTDfB6aX2gMJ1UUYKzbud87oKVl1e2eawRQnOBW7Iq8L5RIVi+Zu8smTq2QgILQkQvG54IAWedLZdGqhXGqF6Uvt0fxrPNQpMWGv9N5LVMguQlFIi6OEW0bjukliOPYXYNP1C74FiBiWvpEH0sn9v5EF6loET+0x0tZeQ69oTiJF6V9oi241KF64w33+rB5xr7h3Ns3H5GA9aVt0Wn2IZ9RkApcG9VQkyPKCTTWCvqE9xnY7wWrzJpw0gNKYXoK1SBIemnoy/ZyOpeCd4v560cif2YXFSziJ4X5yVqtNfR88xa4H7mqbGoEknxVQs8AWUpWaCEYOyulGLUQud7iuTj7DjLin4G/pG4nAkAeYLv0v/3QxvvsJiUnfXMvtWDGFTwpYTdIjJ6HxFF651zbPmAs/PwtQXZOprOjJGZx0CfOHU17R+psL81rmHCXGcoiLke1wuiXg7ZIP82vZNNjbmmXeN3JWznUmZAVZP/3dSWlpcji2PYlX6K86C0BEndCJkCOjyhwrOKnX/VMZVIu+qLJTP4dSiItKoF4hUgethCgvC2l+NF83I/6wFBcjGQsWrouYutfIJEsnW9FYikLJnrpKWBq1geeEwl6ImNk1y/V19COsiocu07jhb8NdA9TY+7qlgCwGu/qQ/iKHefhlQKsHXArEVu3oJdfxEDyFBOkLWRTWnf+Om3liwspOcSH56oJP5TsNCbt6blZwYQMIRinyrG09MV0qKFqjFw/W64QHYgHECB7f3chr5tr0ZzF1ILG8Ln3UZIlSvjLT+iHT2s6BS5lTGBvACoCgWQHCvVlBO4WhGBoB/JGjn9bnkvSREKZrZ7Ty6QfPcacefMko2r3CUPiqc1TXgCJGHjlWKcfC5/qnxIFLJ09PzNeUhXUzRXhXM9ELr7+O29u8o8HjLy6EDgD4SUdQbduF8OhUDgF3X3bJ7aUZ4Iw6ziuAMv1g232L/YzT/GVBRwk5j58ZAJUuXQQZQZ9cFw3ARQMNSwBzQTxBjprwR6GWMeBJXxLbERQRcATyYUzGKSA3I6ZOqCISetxqtHfpds39CfVjU15UffkkQ4QGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_017E2rG2AhuFAjGSoLvRd3bd",
+      "input": {
+        "case_id": "case_103",
+        "mode": "by_resource",
+        "resource_id": "search_2352"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_019F8UqEgGMnZCyTgit9BhAA",
+      "input": {
+        "case_id": "case_103",
+        "mode": "by_resource",
+        "resource_id": "search_428"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01QkSqEep8aQr568kTD6wra1",
+      "input": {
+        "case_id": "case_74",
+        "mode": "by_resource",
+        "resource_id": "search_4882"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_012CeCW8rKP323UnoVUG3jfF",
+      "input": {
+        "case_id": "case_103",
+        "mode": "by_resource",
+        "resource_id": "account_4070"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01NLo5wyCsSnQMMXX4ncAsPN",
+      "input": {
+        "case_id": "case_103",
+        "mode": "by_resource",
+        "resource_id": "account_2373"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01FoMfJHYgpX2MXZo2nDTgtb",
+      "input": {
+        "case_id": "case_74",
+        "mode": "by_resource",
+        "resource_id": "account_1495"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01MpKKn1mU9ayuGSGVh7WiMe",
+      "input": {
+        "case_id": "case_74",
+        "mode": "by_resource",
+        "resource_id": "account_9051"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01QDjnv13Y9mVi5fhUWsPaKH",
+      "input": {
+        "case_id": "case_76",
+        "mode": "by_resource",
+        "resource_id": "account_925"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 935,
+  "stop_reason": "tool_use",
+  "text": ""
+}

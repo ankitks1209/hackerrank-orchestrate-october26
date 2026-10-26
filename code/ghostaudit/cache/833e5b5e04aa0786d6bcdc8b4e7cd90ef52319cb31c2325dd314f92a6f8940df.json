@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "input_tokens": 0,
+  "model": "claude-haiku-5-5",
+  "output_tokens": 0,
+  "stop_reason": "intent_item",
+  "text": "{\"batch\": \"e5b198aeb7bddb47143a61a4e33a71e1bdb91cba58f460a4dfe9760ab1ed1b31\", \"confidence\": 0.98, \"deletion\": true, \"language\": \"en\", \"reason\": \"Asks to permanently delete the account, with retention rules as a permission.\"}"
+}

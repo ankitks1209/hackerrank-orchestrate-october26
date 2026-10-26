@@ -1,0 +1,234 @@
+{
+  "cache_creation_tokens": 637,
+  "cache_read_tokens": 14167,
+  "content": [
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_014yBsJtpoFS12n3esECr5wG",
+      "input": {
+        "decisions": [
+          {
+            "action": "assign",
+            "activity_id": "activity_2352",
+            "case_id": "case_242",
+            "evidence_ids": [
+              "evidence_79",
+              "activity_2352"
+            ],
+            "rationale": "evidence_79 ties data_flow_4475 to user_240's subject keys before case_242's audit.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2354",
+            "case_id": "case_242",
+            "evidence_ids": [
+              "evidence_79",
+              "activity_2354"
+            ],
+            "rationale": "evidence_79 ties search_2904 to user_240.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2360",
+            "case_id": "case_227",
+            "evidence_ids": [
+              "evidence_80",
+              "activity_2360"
+            ],
+            "rationale": "evidence_80 ties support_5830 to user_225.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2362",
+            "case_id": "case_228",
+            "evidence_ids": [
+              "evidence_80",
+              "activity_2362"
+            ],
+            "rationale": "evidence_80 ties export_3210 to user_226.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2363",
+            "case_id": "case_229",
+            "evidence_ids": [
+              "evidence_80",
+              "activity_2363"
+            ],
+            "rationale": "evidence_80 ties search_3627 to user_227.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2364",
+            "case_id": "case_227",
+            "evidence_ids": [
+              "evidence_80",
+              "activity_2364"
+            ],
+            "rationale": "evidence_80 ties search_8181 to user_225.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2365",
+            "case_id": "case_228",
+            "evidence_ids": [
+              "evidence_80",
+              "activity_2365"
+            ],
+            "rationale": "evidence_80 ties search_7054 to user_226.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2366",
+            "case_id": "case_214",
+            "evidence_ids": [
+              "evidence_81",
+              "activity_2366"
+            ],
+            "rationale": "evidence_81 ties search_7351 to user_212.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2367",
+            "case_id": "case_214",
+            "evidence_ids": [
+              "evidence_81",
+              "activity_2367"
+            ],
+            "rationale": "evidence_81 ties support_1146 to user_212.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2388",
+            "case_id": "case_200",
+            "evidence_ids": [
+              "evidence_82",
+              "activity_2388"
+            ],
+            "rationale": "evidence_82 ties data_flow_2310 to user_198.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2390",
+            "case_id": "case_200",
+            "evidence_ids": [
+              "evidence_82",
+              "activity_2390"
+            ],
+            "rationale": "evidence_82 ties search_7472 to user_198.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2391",
+            "case_id": "case_201",
+            "evidence_ids": [
+              "evidence_82",
+              "activity_2391"
+            ],
+            "rationale": "evidence_82 ties data_flow_5688 to user_199.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2392",
+            "case_id": "case_201",
+            "evidence_ids": [
+              "evidence_82",
+              "activity_2392"
+            ],
+            "rationale": "evidence_82 ties search_5135 to user_199.",
+            "target": "row"
+          },
+          {
+            "action": "assign",
+            "activity_id": "activity_2393",
+            "case_id": "case_201",
+            "evidence_ids": [
+              "evidence_82",
+              "activity_2393"
+            ],
+            "rationale": "evidence_82 ties support_2863 to user_199.",
+            "target": "row"
+          },
+          {
+            "action": "UNSURE",
+            "activity_id": "activity_2356",
+            "case_id": null,
+            "evidence_ids": [],
+            "rationale": "analytics_4460 appears in evidence_81 but not under either subject's keys.",
+            "target": "row"
+          },
+          {
+            "action": "UNSURE",
+            "activity_id": "activity_2348",
+            "case_id": null,
+            "evidence_ids": [],
+            "rationale": "No evidence ties account_3905 to any candidate subject.",
+            "target": "account"
+          },
+          {
+            "action": "UNSURE",
+            "activity_id": "activity_2349",
+            "case_id": null,
+            "evidence_ids": [],
+            "rationale": "No evidence ties account_5549 to any candidate subject.",
+            "target": "account"
+          },
+          {
+            "action": "UNSURE",
+            "activity_id": "activity_2350",
+            "case_id": null,
+            "evidence_ids": [],
+            "rationale": "No evidence ties account_4552 to any candidate subject.",
+            "target": "account"
+          },
+          {
+            "action": "UNSURE",
+            "activity_id": "activity_2351",
+            "case_id": null,
+            "evidence_ids": [],
+            "rationale": "No evidence ties account_7146 to any candidate subject.",
+            "target": "account"
+          },
+          {
+            "action": "UNSURE",
+            "activity_id": "activity_2353",
+            "case_id": null,
+            "evidence_ids": [],
+            "rationale": "No evidence ties account_6674 to either candidate subject.",
+            "target": "account"
+          },
+          {
+            "action": "UNSURE",
+            "activity_id": "activity_2355",
+            "case_id": null,
+            "evidence_ids": [],
+            "rationale": "No evidence ties account_4752 to either candidate subject.",
+            "target": "account"
+          }
+        ],
+        "summary": "Fourteen worker rows assigned by subject-keyed evidence; one policy row and six accounts left UNSURE for lack of evidence."
+      },
+      "name": "submit_answer",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 1757,
+  "stop_reason": "tool_use",
+  "text": ""
+}

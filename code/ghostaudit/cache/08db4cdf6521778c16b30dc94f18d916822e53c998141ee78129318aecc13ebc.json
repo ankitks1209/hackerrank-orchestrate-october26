@@ -1,0 +1,28 @@
+{
+  "cache_creation_tokens": 11564,
+  "cache_read_tokens": 11848,
+  "content": [
+    {
+      "signature": "CAQSkgsKEAgTGAI4AUIIdGhpbmtpbmcSDOJrIjGHjsprzsYoHxoMpb0mYsh16Pw5ZAOuIjAjRH4nQFnMecwUwVAk1GSmTycGm9KDW51fJwAW72wGkFKM1woui3w9T6uRsDRBOiMqrwrb6MwfLQ3vWXIjMQReqDGf/w++HddiMBn7vQ1ROBEkV6/Kv69YfPatMATr5uBse/XvD0hDyJ2HRrglv9fYu5Q3PB5EAJiBM/Ri+LoYlTOuXSHJzO1Nw0ZJkB32DEERyYYA24rclFoGxpvqJArg3FL8daFalLHMtnhDSFoQ0BSJIcGzJw+5XqX+pRUCurCgYj5Uz+t3zcDcsu6HUZ6lnSUE1uBgArPEIKgbvBRbwwcfC3fE74JMUdG8gKfeVDHzLu46D0+02Qk7Ue+erLZlTPQfJLeaS4WT6YPjkQ44QxUI8Pxi/0KvixiQkBuhZ39xBruzmGuoZcniaryNNYVCAWkNdQVCEk3jZY3G9U/Wju/h1PSMAUUqD1kcxAkL1dNXOKyGVi4604u0iEu+I7h75syyOPIwe3NxIMHgIXmRgUnw4JICpT4PpB12cWWPSXqtPQwJ6oH09ZdinhxTdPPZzf/2gMHtkYShmIBjpOs7+O45kR4SkCBuMO2THtHa2VuYpgEwXhkxZi2etWeBu3bgWKyItN4DCRKWOB0B/vRqgul5UZBKmWNIsbEqpayUnSj3oQ/iar2M6F5EY82Co6Ffnyc6otpDfDUlq25JBpFsPMr62eVeeyqfVlM/xmJ1nEBVnbNEbLMV/crNMmuHy+oweEiSfZwlLHStVjUeExkx8b82dhIYIoGRwbQEG2ZgupEjppLkUKxNczVA+hyTBIe7q0NNlaV0ZKqzyrtBJ6uS2kkTgolj7iT4EpLRd6sCg85HvKkqlEJM17csPcmTA/XK85roWb/0VNDkjATFSEdsg6GGpXpj0A95RKqj52MYYUz1B9SGwGlCqXwArRlTBZcZDXwqQoy0DhJhlr3IfRz3HjxawX9ASgPgr2jSfdQMGl449R8+fK6CVs6YLMiULgoTFqBLFmaXOAlCWnlpKfSdKK4071dE7GBRjR35Oi369SZqyg0E1rGe1mI2x0O+n8M/2sqogz1ymmK4AS/p1riaKRWkzo7/xu2crNIKnp1jxosw6OwvvwkmrR11TroJebvmEH0oVaSV4Wx1si1Qe4QM7TyPKlxDd48GtfAdz12BAjKQVZFQ18kF+iSR7G9ZVomXZrmf1jHQ4bwxyYMnD8k1LNpVBhMKsae/bgIqQm2wxwOZwd/YvfR0lwl+VCcK5yoh2b1ZUHAc61TrLYGY7l1Ybu66NQYpL2QR5wljmdlDreJs8abNvQW7vp1NOT51IKoLY2P0IVns8qo4DSnJfIfkqITRW9rgNAJfLicQ7crUtl+MdsDTl7tBr2EuSCqJUhess8JDAWY4PcMZBOphAsqbOx07N8KiT1miLyX3vYRiQ3x61BH1ioRIjVnGhQpqSNvnDrP2ihE+6bRDOfOeTHDYhSsMxrKMCy+FJhreX8ffylVvk6ST2DqB7YIj/gwVu6P8MxoBWAvxs4MFxidboYH3FKJ0H3bu2HIL2hz7uit9/s0dPJAQVxlfqMDHUGFUGEhb9A2RHgWJiDz1jLrzQ35y1ESRgxuqWr+yNrWGEjIMpe0J2FCHdDaUGGEd3IKkJNNaPO4HoVEdAN27OHaH9BjRbLR6nuvPmeei/yAQOP0dW/QhbqBQKtcra9nfnfmrSnA24q/sjmOKwT12BTBz23ac3F6TlXrKQGlOFLQHPph/iYTHgiTIlp10j8fU/5MbxRCKcd4WtTRaVWrvqFxzL3GYW7ZFIog2I9G+iaeFWQiUXpfikX+uf1Vb3Bzoa+bhLnkKp0x4L3JbnCycsFRwmD0KXqNKGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01G8xKcgKn3Umtog9FzKYtzF",
+      "input": {
+        "case_id": "case_175",
+        "file_id": "evidence_84"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 317,
+  "stop_reason": "tool_use",
+  "text": ""
+}

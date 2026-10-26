@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 1521,
+  "input_tokens": 963,
+  "model": "claude-opus-5-5",
+  "output_tokens": 480,
+  "stop_reason": "end_turn",
+  "text": "{\"verdicts\":[{\"case_id\":\"case_278\",\"activity_id\":\"activity_1807\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_276 by evidence_77 within the window.\"},{\"case_id\":\"case_278\",\"activity_id\":\"activity_1808\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_276 by evidence_77 within the window.\"},{\"case_id\":\"case_278\",\"activity_id\":\"activity_1809\",\"verdict\":\"approve\",\"reason\":\"A violation row after the report and before the audit, tied to user_276 by evidence_77 within the window.\"},{\"case_id\":\"case_303\",\"activity_id\":\"activity_1822\",\"verdict\":\"approve\",\"reason\":\"A restore row after the report and before the audit, tied to user_301 by evidence_29, which is dated no later than audit_at.\"}]}"
+}

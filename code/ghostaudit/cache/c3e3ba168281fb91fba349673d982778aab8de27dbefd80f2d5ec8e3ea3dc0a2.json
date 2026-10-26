@@ -1,0 +1,35 @@
+{
+  "cache_creation_tokens": 1031,
+  "cache_read_tokens": 6034,
+  "content": [
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_012DdNNjQN3kCFdMjPfA7ng1",
+      "input": {
+        "case_id": "case_530",
+        "file_id": "evidence_62"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01U1pLyTypQvDASwbY6Gvaix",
+      "input": {
+        "case_id": "case_532",
+        "file_id": "evidence_62"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 157,
+  "stop_reason": "tool_use",
+  "text": ""
+}

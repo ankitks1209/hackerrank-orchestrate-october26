@@ -1,0 +1,56 @@
+{
+  "cache_creation_tokens": 1666,
+  "cache_read_tokens": 11396,
+  "content": [
+    {
+      "signature": "CAQS8gcKEAgTGAI4AUIIdGhpbmtpbmcSDF1/QqXVAL6aLa2YUxoMkW8thekyb3M7MmagIjB7DgfaIuSlqiXO6r/0gGU/Z6f/Y+XmwUtdQIObtai/wKz+AZzpF40KQZ3mfLTn/40qjwdbO79yjhDLJTbXCdWNgl8PFBjTBrKH8byizR+Ne3aW1inHbD7vSHFDx5v34LizVaKSXrE2Cg/npT2dKVh5RJnRMj+wWd4Iq3LvlK7lU87YTYULUFAhirydSJC4Heez91yNzRBk3HkFLAsAmrQ7d7PmT0eE9cD4s+mzJGgkEPTwpyZ7uFZP43gl/qod5ucrm26XqEMDYLA2xalAleRSjgucen8DoDj+fa4aWIdbCIh9MPyu0iQEpTYXFbwbHIhZI1bKe0v4r9QMITm2HOmj/n94SN+Dz5qPPCSXQzS7kwapVWbMTaitQXUOg5fuJe/GvPwHKECJd/OUub9ZG743y5vhbMhaAtf5QLqAyhMoZf5hqKkYEAFcPW2p1Ek+yNI2E2JQD9E96AZFFNJHsO8lakbrtliTaBlB/ONqyyumZ4AyBoLbN0uoAS0l51YaSTRq56VUcxT+KziE+cgck3EP1x23QiLxZigY+vyf56EiaAfJgvlFkNZrTduQrVBDZn8/xjhC+Q3yj6VHhRn06zRIw3LYBoJDl1Ge/lZSwJa6s1RbO3eIFDf6R+gfC6RBD0X7b1pyxOz3rYvzlDoYcb9BGwcTzvJCgG0pM8SWG4BXEo0Q7hUx1Aoiuv6ZMgWYsCfQXQlkidj2qsEarEyK0VbM3rQC9JUs/viTsVKl7QPk076nXGMIbleXJ5N5yWW5MFJaX1OiI1R7xTiZOkjGiGCevP4AX92tYTvYwSc84gySZJMzkaxVNYjTZllALMJHB+GjwNlm+5KYmBzkVfdtjS5GWXhuLWPjEU+NlM9wOAqp2jt4vunaLkc76/bZl75osJvO9zKtbVX+HUG5/n7vo98Ffg9qZkG4OpJZ04Oh9TCDxuYnh1tbnUtiw4MTdk0DnexbRQceTR18AUYZ95VQq1KqO2j6IlAierYKQnmsgyMM/dlWOCYIgDcEKQaNtVZPMrZ1RmePEulAAhjAAYALdEFY6jFBwGzqkCMPUZaR8aQ4y0NVxDANMA/JkxKLjHsZcIwMPPLA9uA8YBHiMw5C/QmS2xkVuD0b+miowJa/mfEl24MmHap36aNcKEEdvOdnijQMObqS3LgI5sPRciLOiB2YxTEeYRT1UoPOkKLi5SMvSzFf6Utfa6TYOp6MiQ+SZ7qw4XDqNFeawhBaQRgAWikN9wSBRKhW1Axo3/m+eA1A52g3prX8CGjTg1Mi51taFD4idhgB",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "text": "The analytics hits match only on resource id, not on a subject key. I'll check the activity rows and timing for the cases involved.",
+      "type": "text"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01ASwT1vQfGq2xFQANUeZmam",
+      "input": {
+        "case_id": "case_181",
+        "kind": "ANY"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01XAZsdhnBxN9MRLdYvUKYjD",
+      "input": {
+        "case_id": "case_203",
+        "kind": "ANY"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01J2J96BMnLKR5TjpvKW86KK",
+      "input": {
+        "case_id": "case_207",
+        "kind": "ANY"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 343,
+  "stop_reason": "tool_use",
+  "text": "The analytics hits match only on resource id, not on a subject key. I'll check the activity rows and timing for the cases involved."
+}

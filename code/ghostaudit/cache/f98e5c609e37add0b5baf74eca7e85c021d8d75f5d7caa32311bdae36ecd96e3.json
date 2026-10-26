@@ -1,0 +1,40 @@
+{
+  "cache_creation_tokens": 11625,
+  "cache_read_tokens": 15572,
+  "content": [
+    {
+      "signature": "CAQSrAkKEAgTGAI4AUIIdGhpbmtpbmcSDFwWlm8bXMzU7BtpABoM6rXb7DZsvifk4JsbIjBqhADbbrfOVrn7xyiei9rgzQMXWKjHFnREJhog92ZCVupCTgxIUWP/goWdkFk+UpUqyQhwI7uXIZs3A/k5K0IQz8mPcdK42fKC5avZOg3y5SQs+LBpVG+KMHVRghsISd6dvgxZk7K4xp5tz1DHvShzMAdmD4DcBdIcLulUCPBfdvkXn3cxmhVlU40q436U4sI5ILCrlpxoydUn2JSK7uPyNRfMDbSRuhpyV4WvnK9e76AgfOA5HNvtHFMZ/EEeXXw5BbI7d0cxvxTj5lYFZYXb962IXc6Smnw5ER8NbvvingYuZ7O1zIPxtDtIXLfq01tdH9OnE6lN/FF8xNAuvsagShERv5xBqgN8+jvxWzPkqFvGpT+HOU7j5BbMk4bmDx4ft4QSC88ZyjpKui8nAqDMWCZqdPG5HxytFse4azGd3fmTztRPqXVAgtCI/F/K5bH5Vwv4pQcJJvFGmuvWfnwo76xtZ0o5kxkzPssvNBtt/A+6iLox4tH1FNTdNNABWYQE4lBxr32XQe+BWZj/It8eME+xC2QYD4woDcqt6PGVhoN4kw21OEfJKfDU7If7JYe/N2vBMgfnxLp0hcGkXIh+V+GwLCfz4dreGCihrChLVQKFHeLbXG8sP+HKRn/CJyIP47bjgR2q/VCGnnAjmDU3tVmjJgY4MDHetZ7JcMarvzPsCp0GDXHvMvprs3g9Gw7Q8sDkSrZrCUFXtJJkNhWgMSoHAJQ2bLmneKnwyJ66KDigmE/M+sS17CF75G/jizhlg+xW71tB5QfzfUQzKfNigyo3EJloBaby2f9LP/9VyStYIt66Q4rTiyT6XVKwQYUh0JuACVwQ98bjpw2bZZgMvGNfTjl7Hd8yr7UxB3VvCVSmY4+moSgtE34/q0/cTYvOgktdVkx8mzCZ7zjFoU3RnKggLTDjU/Q/zzf0KvrVtUICgUZHimy34oOqUEWbblVt7YrzHqeJWTuRJ7ADNYHyxu0eUKblEqy01tZWSdn/2RXw1pFPT3fJHut8r8Da4MIRSE5m1Th5BmIekjdnxenBJeD+1HNi1GHYtT1s/2r90qQbS9S3OTAOvZRpDENj07QuQobYvePXaMABc+UAkFh0RpV/N6DfRQzi/kelHEoFZr8YdB/mRFHroo8bnYBxmB1mpNq457v04ozLn4kaOn6BCKTrYa9QY2jgyIm7xgqYk6XH8tS78kmwZ+jhRX/Ehww/hPoxkjwivitRosPQkfs3S04dO176DXtzT9HFHX2Y/7nDq1DJy0iUtuRSjee/ZTPUMO88vBnX+MTEdFq4i3LOaCvX8ij41eYBHmEmGTMQ/T6abGOj+2MDxx6SYlnI5Oux1FRj5nwHzCTDuogZxTG+wfdBgqQGTlSsjE0RWgTop11N+0nPR4TrHyErTXTxVy8Uc1zHqghaFKU4NKupfFpNcHooSZ63XKr7yJGv+ubXqhAHhw5mD5wxDR9R/yzrZFCaxSCEsVu0Aru2mDyKebs9uW7TaREbhSvb4bD871j8bTlYq11itnb/rBHztBgB",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01SR9sTxQPdT9xBRgTiGMbzn",
+      "input": {
+        "case_id": "case_29",
+        "file_id": "evidence_92"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Jq9WXwodhanot6bQqzVG9K",
+      "input": {
+        "case_id": "case_28",
+        "email": "user_28"
+      },
+      "name": "resolve_identity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 309,
+  "stop_reason": "tool_use",
+  "text": ""
+}

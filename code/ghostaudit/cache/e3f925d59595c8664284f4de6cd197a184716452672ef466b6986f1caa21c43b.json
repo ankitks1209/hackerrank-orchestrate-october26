@@ -1,0 +1,28 @@
+{
+  "cache_creation_tokens": 1760,
+  "cache_read_tokens": 17672,
+  "content": [
+    {
+      "signature": "CAQS3woKEAgTGAI4AUIIdGhpbmtpbmcSDJ72hlDlcTGcbHorlRoMqWDKwACHZYYZEsnyIjAo2dw88fgbTi2/vxGbjkxPZ37CvizBZ6fxEffnhrKyU1u9yw2PdDMN/yzwlM8D/tQq/AlUbNdh7eex2RPDlvP1BIGmqmMvXGk//8K1SPL3Jm3j8V1lSZg+l8wcd5/GSxMOK0b3936vsU8M19lCrNV0YT7OEOv/pYarc/ep6AG+8iWHGsoy7PfQjh4uZnxtdDnfjYGldZzbDfPG+FR6qRj1+T5yPKqlRUsgQvdtX6MMXFqI2wnNGBGwcbNMQcKxFdG6MDSz8uA9pXDoXGFG92OI2nWi8FwYMlqWahGXTOstRvUe4cCoSxySATsIBMyO4NQgJDqMvkCHJ9NpkSSytr7Aasgndpjh4TtAtaOAB9dhrIOi5OAGTEzjXdJk+iT+m+bXnUdsyxQV0ZFClYCdr39Rxn5KH16f3Gsc09loeiGBd53JFYMMZ9u8GMS+bfRP1I65ncy2pl2LfGonFq1ilqbgCGLypb1CBYXsgvZNX0qzHSTZ9ZGQ1tJUbL2Y+h+qx8zqawF08l5nc6I1NIaP0yBzxc7Wf3us3kp/A8Cq+zHGL6jHjbBXIm1AUsjHWLrdgKcEj6MJPQjFGo02yNJDnF95lWmxK1xJgD5hqXkw7SQu+Acee+jr9ERV34ykPunLORQN3BtLrpB/7493/iydi15cdETPqrqOysyQ+y/T2nttT48f0GMbCdkwLDopUoQm/lQ+428sp2ob17o/aHXA003c7IrV8tjrZATNz+ASVpSkjQmM4FCslnKdX//EU9LeA9WKvbhtUHnprCEGuSEpAkskXemXQ29Bx9CTF6ezOAfMQT0xkdI8umVKzn/HjrkH66Tlspx4b/9+F25qzJAGLv6i3Mm56Z7QiHnItf+fOje3zqprD1IpKxvwXd3yA7YTzgmdD0cGCetxE9xQR3905RzSQ5E38gHDFYTkD+4LuL06MLOC8rIcTmbQht0WQQ8ihgrvF0QGnh3HIbc2AmeQP9HvBNPL7IDpkWKiHrHWDxI8TsuHt4Cbr2uMHJNST724JslU8pdw7L4vFVnxuQgqgWji+55YEsN9FjwHF9MCiPNmxF7SskEmDB0xQ+Bg2/YODqEfS92ZNLk+Fhfq6Q6rqm5itX4e3bkcwHpd6Tr2BBt2QrQlyDbfQza7RrP53CyLKaHD8p6ab9TFnAekvv+9S0W47FDo7BOaRJHPwVkKAwS1kcNJ7kPD81VwtbAFXH2PTt4xa5fPKVHotelS0nsfqEHUF8ltcCkB7XT6hXwZfaE8U4YjUui/yvXyOSfIWar89MqD016L7XGgtJmYD060pFum5oI9y1RIrptx2blEv5QAtiz2ShLpypR/Nly8/lo0sKvewyCjtBFuKXzu+lNLF84lsNCVymO1kXuPCcfp/9hcbVe0r3P+YQ9gBO/D7LlJTdim8yrY95kwgnvGY2QewXAMaxkuGz9NJm4DrrkgFlYAY2OIIWD18DT7nGjIWhx7uefXQ05X1ID6UIgVB4naGlcuz0UBzzPehxRX58LJyK8XlhaxSE2TnuDwNpH9OfoLiwgXaLmjGKbSzBAWeFQ9F+1dYJdHLrzFYysZBavkJyQOTs9823wPzSFM96UTw/TPkaVIsDE9uTt4DDvn1L4TZR7D135w2/2KSrrY4zs/51V17VR54rPn4J/vTTSe2RSOAl2uDXueJfb5dFzdEartCe1VKfVBJp3mEcdmPCbf6YPfIT9VilrCC+jBYpcP4v7Q1scXYKgyT+Z3Dfaefn+RJGzLh8zY/G6YGNDi17yFyXy/GAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01JbPAAKKGW7uhemEeQvjiXM",
+      "input": {
+        "case_id": "case_239",
+        "kind": "POLICY_OK"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 285,
+  "stop_reason": "tool_use",
+  "text": ""
+}

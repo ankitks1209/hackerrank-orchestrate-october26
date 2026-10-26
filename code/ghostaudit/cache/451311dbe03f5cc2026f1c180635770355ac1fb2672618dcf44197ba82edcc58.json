@@ -1,0 +1,52 @@
+{
+  "cache_creation_tokens": 1376,
+  "cache_read_tokens": 7239,
+  "content": [
+    {
+      "signature": "CAQS1gYKEAgTGAI4AUIIdGhpbmtpbmcSDIf1RqWtqJz+hBDhbRoMAmIgbeZYgnsRHh8tIjDEUVthFF0uvosxCIlDrkdR8KY86Y6yZM+z2zbRD8CUiNHkbPtSoXUWgO8IT6MT3roq8wWPujyQD7mkS4F5GuDgvjv12fmWh8OoF/9nI1MKyjSJX0eklG3M64wzlh2fn/UcswJfguRAP96z2d263SHPAvXzt0/0jyma49NHoiB3PIyLTfa69XOnFLSeEkXo7DBXGOkLRb9XrghQs9h6G/sSUNGFnnxwQzCAZ7b6lRMXlGYQxOoVh/EN5QocAQd0buaJuA+o7VzTJhTRADt54oC28cjs1R/esLLms4gEdi4nqVx3aDeRnzae7r+rTiAcYqMbTFmVf/AZ9LX1itrv5yBgtIshV8NWh1WDPL0Eh3ml6skzF5Zag8Kz7/6qagmcED002CI+U0KkyfEpHdpZWbmXdQzzPjzKi3ISDFDtLhDJteDkoR/j8JSGXdNH1klDpZYQF5wCgufup3IVIDOQuOWAAzF2JkOQeAA/JeYgTc4vnKwIZiIQKgUUESrcr/ZeNRFXrA20EjM5wOW7cEyeY6nPFP1OhNj8VxymOJPMGj8aSJlRmnzQPg06uw4oY2LSH2CyJFMbJuFpqiuaciOC4SMikpcZtQO6kSdlE2RItzua+xdQQR0VHQte1FUXD5HBE08crO35wRVtX90uQbb1qW0SOiUitnG2alJj2VmSl7Lv1Dtc0kxN/fXtcoF9qvhW5Kk161EZXu2uIXJxNGE4tWkWPeqPN7T8n2o9om3Uih0/bAl4/RmfKn89oAcqsV+klc1v4BfWqDTnMpDmISRUueVx+4Kumihp8hCbnRArbWbGP402Xy6P0Lnx8m6yfyDo8lysvEGd1VYorcuff8FpMIT7ItLWI46uEwD+DmIreHgGNuNYsWfRlCdlAkZ91f6kjX1EEXbhC/NhME4L+sOouS5EplH/DGpW7jh2WP0lVicQ0ZuoVK9LLIRgJXsctmLpvF11EpIWyDqbMyDTrrdvL4OIVk3rpPdlC8gNQuwDdZCoB/1kSqfEw/t8HJ6jCrNu7pHuiQqXA+cRoBWYAdxRfvJH/eVGz8cTGHaGA4SHzkJ5a112mLeKQhgB",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01JUP2sczrPFYanGU81mmxGt",
+      "input": {
+        "case_id": "case_274",
+        "file_id": "evidence_77"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Ba2L3TPnb6sVuip4Q3bNnz",
+      "input": {
+        "case_id": "case_287",
+        "file_id": "evidence_76"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01R4tvwMVNkLySv3ivyz3eLV",
+      "input": {
+        "case_id": "case_287",
+        "kind": "ANY"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 284,
+  "stop_reason": "tool_use",
+  "text": ""
+}
