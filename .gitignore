@@ -1,0 +1,7 @@
+.venv-live/
+.env
+__pycache__/
+diagnostics/
+*.zip
+.DS_Store
+.venv/

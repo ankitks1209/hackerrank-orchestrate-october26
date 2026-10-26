@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "input_tokens": 0,
+  "model": "claude-haiku-5-5",
+  "output_tokens": 0,
+  "stop_reason": "intent_item",
+  "text": "{\"batch\": \"018db9dc150cd25e7cde0509a539f6a39ceef68a2e6220d136829c7c6521dc90\", \"confidence\": 0.97, \"deletion\": true, \"language\": \"en\", \"reason\": \"Asks to remove the account and linked personal information.\"}"
+}

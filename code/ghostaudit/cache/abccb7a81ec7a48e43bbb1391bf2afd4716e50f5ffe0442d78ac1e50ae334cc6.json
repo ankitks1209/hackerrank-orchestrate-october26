@@ -1,0 +1,41 @@
+{
+  "cache_creation_tokens": 6924,
+  "cache_read_tokens": 9850,
+  "content": [
+    {
+      "signature": "CAQSpAcKEAgTGAI4AUIIdGhpbmtpbmcSDALNj11qrJWQCwPBPhoMja/KjxD01QpyTyngIjA+GW+/sEkv4dRyUtbnYh7oKyQg+QaQ0H5j3sqNKFs9Yf8/a4/02NVmXNyp6857G5oqwQb8dAKhmt/GZhUiWSMazF4CivPJgUMmueBQGOJecSIaW6Gkx9ut5ZS40V8z06fw32HWNP50pW+piE0Bav2kzEPOPkZQvTk70L4oHSds779Lpbg1mXldBn93/cHNQ55y6MxvR48Eb74gPSeYCff0m94Dwb3xaDHS4ak8CCGHglZpYiK9+rSc+UYHQI8RA6EHSXFtsGf0LAJNDlJipsEKlLGFJZeSN4zDYywRDrBRpboyVueEeg1Spm0IffK8izCHv0Z9MpJqkZYb1m/K97gcy9G5KMK06z6VXalPdYBHOJAa+WczmPV5tVcMWuRm0JRmmQUapRhZp/JFTYXLx/HKUcjVJSrQ1CGqquaXi+zYyKJEbF7YxXjhIEgkQ04qJiBGxFVK7aBNA36WA5rh2yotO+dPBDfwqxN4Nd5y5CLKUZZMh2/a0Fth6UZ/EiB5gADrZ/2Z34eu91MELDvf50LBZigcR2LVvHh50kw8jvB2h89CU0GRpXPHcEexCpaLyGfpghr9ffb0EhoO1KzSwf1sFg1vh0tR5ZrqZYHvFMr50hG1+1/RxmOEkZoYObvwBpRhgp3i221ScmHQMisH3EcJ8+APYwx6a2sCfIYuL61fbfTT3QBYQtJlpRhg5xxNI2kAQD+mza+wkvZc958o0X/oW15CuJaJES3bpOh9r7nnshj+YgSEUJaKmm5EqH8ZhO6HvuU2vfqK6rucrzHbURNvk8uDzdwffQW5TTMMG7fh0RKqmheVbFlhb5HIFDoZjCN0Y/3qrwRjF1oQyoYSaF2jCMMMG63UzeLUqM9MpepoHwoRRW88HeAE3+/3j5BM1Z4s4Y7Dxtez3sHV0AJ39qHKy2xsw5arG9M6Thkcgf2J3vMvPGBHcDU1I58PHtbWeaW959ejSlJtNqIXOapa0Mh+B/iGx3/8pT/Sne50c36BvpLhYxko1nFtTSi/zIng+hV4bnWN4y1FRUHC2ITc6LgwrsuK7Op0W5nRxNqJ1akl+Wpm6J8lckS1TQgANr/4ZiWG0Q0+6dCb7ZRLRPY8eFNMYPSsCZrAxshGQEVUxDaj+Z1x7Gz463JUEzM95iyoKfSFa7N1QpVO1PhiP2i7Uit/s0x/CxgB",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01YVs5G3x5K8GsRFjqDrtBBE",
+      "input": {
+        "case_id": "case_469",
+        "mode": "by_subject",
+        "resource_id": null
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01DwyXhqiRzPM3VVg8h6MDTY",
+      "input": {
+        "case_id": "case_469",
+        "email": "user_467@example.com"
+      },
+      "name": "resolve_identity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 236,
+  "stop_reason": "tool_use",
+  "text": ""
+}

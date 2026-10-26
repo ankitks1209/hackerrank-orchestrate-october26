@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "input_tokens": 0,
+  "model": "claude-haiku-5-5",
+  "output_tokens": 0,
+  "stop_reason": "intent_item",
+  "text": "{\"batch\": \"80923f533a742fc45cac49f3e0d3ecbfe7fe5ac152d97dc34df3e726f4510bea\", \"confidence\": 0.97, \"deletion\": true, \"language\": \"en\", \"reason\": \"Asks for the unused account to be permanently deleted.\"}"
+}

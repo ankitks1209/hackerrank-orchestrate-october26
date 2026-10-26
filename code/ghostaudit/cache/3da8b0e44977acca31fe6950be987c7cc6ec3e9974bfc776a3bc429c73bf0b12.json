@@ -1,0 +1,137 @@
+{
+  "cache_creation_tokens": 3380,
+  "cache_read_tokens": 8263,
+  "content": [
+    {
+      "signature": "CAQSxggKEAgTGAI4AUIIdGhpbmtpbmcSDI8qNt0FItjvtoJrgxoMaCa1rNewNU2kDhz1IjD4ebVMJl0nrzdXEdHSAsPZGzzDbpF3+rQA0h0dueYNV92CcgW+AuAP50lciXTE26oq4wd8Df5hG1gDtNlwU4ko5REh9WSlBps50NL9a1FoDHbUMyTO4PADM8hnPjFz6ztgreqNlUTR+AVk3KuHjDzukBR3ZIeh5DvktF+fcI4AviAX1Q31k6QKiRrK1J6CcPu0UTlU+KIIGtmqVRmpQUPrYEqZAEWq91lcqj8S3LT1Fh07LTzxrrP5gOcxe0/PROkGt19fu7BUG3K7LWn+kNAepl+YgyKFOk/1DJnBQxBloDnWg9i9o5wZZ6sKMi5HASybtezfLaKKGMK85ifsX8cDNT9T8UwYrlECi00d0NTgx34sUaZrrb82GSywt29hyJYAJDowUD3dL80AE52/3yTvVP27NMO/Fn5rJ/0uVonVNAdKdfOukXYQfXmW4pNq8ZmjNbN/e9/GFnpInz/fMvLCFDQFiky1j1BwQE7ud4Cj2zcxx6LYke+nNXQr/kk5WpiXGOo/ZY9HpW665Cgey/X81IjDnG/Tp1UzORmKaRif7/A1/SHDMRrwF775g71pyrRARu7nICk5rKQoPvUrSqDIhdY/KW5bxtkOZmAjJieI1cNFvnWakfiQHuzMW09kE5FV6bMAohtHHJDKI9FhMk5tv/Xceey42N17QMgz88/XCm6vzPS5tpGd98klQPxPiiXP7oUS9Qdhp+Rj00HCUiriTdLi0xQN8zQQo97K/VSIcLKyvTjOo33jaU0wEupHC7firKebx7ymgkuzYdWwDdh+EXO3WmHAsL6VeRFHKwSmwHpIa09VsgsisdJ6RsSwzrCoRT5S0MXOpRExVFWstnJn1aKfPEMazF/lxsA0NAqMUqu9jkEBg2KLpNoyiZ183UNwpNWYaLFgwKpY2kUeIAsZMVzFiBWPOUd6k10ceETG7uMSonjxvkOkad8Lnpl80Vg89AxUIcT+3j9hm0jOfGtaDBzU1m3D0lDnIZ1XMybUgzwE9tXOydZ0yKbXLSQHh4uWU2dWm8jwqYmY7sZLrvZPrwWKT4uqOjBvX7JP8hmbqxQRbkWq8NLrLwjAtLi0dDhRDcpe6E1IVpp9p2qpGMM+BdsHma5uSKIEeZzZVJhS0NcEYWh3OII4bJpOc9FHJQdtl8koLZE3fStVAK/A/5IDnp3FwHs4nKJu95PdJ5SmcqAv1FFAGeKwbXe7cOOi4l5lFewf1GOUXzRvWT7tV6slJe9JznMhRjQmBWwTHOkCle8FWgM/IBO32L9xEWcibo3mNmZcHk6Ekj+Asf0Qc8xWi27wYtASaArBQYMQDfIjMANxYg+1heYSZM8jo8xRCwd+g/5oj9u9561GhlZvVEr6SY0Rt6/4/+OgxIcYcQ2hdOLtj/PfbhgB",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "text": "Subject evidence ties most resources to a case. Next I'll check the resources that are still open.",
+      "type": "text"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01VG6AXc75MAoaddhwnugrK9",
+      "input": {
+        "case_id": "case_25",
+        "mode": "by_resource",
+        "resource_id": "account_3136"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_011KkvWNJbr8ccvcUnGamgKz",
+      "input": {
+        "case_id": "case_25",
+        "mode": "by_resource",
+        "resource_id": "account_5684"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01K2myp4gT5naRWUemNREWE8",
+      "input": {
+        "case_id": "case_549",
+        "mode": "by_resource",
+        "resource_id": "account_4842"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01FbfTH9EyP6Nxm5eq9fgLiq",
+      "input": {
+        "case_id": "case_549",
+        "mode": "by_resource",
+        "resource_id": "account_7225"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01BW7H71DyGc63t6rKR315Wh",
+      "input": {
+        "case_id": "case_549",
+        "mode": "by_resource",
+        "resource_id": "analytics_1895"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01VJvuvzxtZFGYqQd4JY6VUq",
+      "input": {
+        "case_id": "case_549",
+        "mode": "by_resource",
+        "resource_id": "analytics_4566"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01GUWiWDeapHdPA3hxFG247d",
+      "input": {
+        "case_id": "case_41",
+        "mode": "by_resource",
+        "resource_id": "analytics_6830"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_015Dd2xxGEgMdFou2vmiyiNJ",
+      "input": {
+        "case_id": "case_82",
+        "mode": "by_resource",
+        "resource_id": "analytics_2176"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01C2kpeexeMEGoia76VyvgiE",
+      "input": {
+        "case_id": "case_82",
+        "mode": "by_resource",
+        "resource_id": "search_4639"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 1133,
+  "stop_reason": "tool_use",
+  "text": "Subject evidence ties most resources to a case. Next I'll check the resources that are still open."
+}

@@ -1,0 +1,45 @@
+== case_03 l.fontaine46@yahoo.com user_43 req=2026-09-13T11:00:00Z audit=2026-09-26T11:00:00Z reported=COMPLETE
+   GOLD COMPLETE VERIFY_RECORD_ABSENT:account_7566:evidence_94 | VERIFY_RECORD_PRESENT:audit_record_2016:evidence_94 | VERIFY_RECORD_ANONYMIZED:analytics_9406:evidence_94
+   OK  evidence_94 L19 2026-09-26T08:57:37Z account_service account_7566 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_94 L35 2026-09-26T09:40:29Z security_service audit_record_2016 RETAINED_PRESENT via[lookup_key=user_id,subject_reference=user_id] 
+== case_09 k.appiah88@gmail.com user_61 req=2026-09-05T09:00:00Z audit=2026-09-16T09:00:00Z reported=NOT_STARTED
+   GOLD INCOMPLETE REPORT_RESTORE_RISK:backup_4978:evidence_93 | VERIFY_RECORD_ABSENT:account_3960: | VERIFY_RECORD_PRESENT:audit_record_4902: | VERIFY_RESTORE_BLOCKED:backup_4978:
+   LATE evidence_06 L28 2026-09-16T08:52:59Z security_service audit_record_4902 RETAINED_PRESENT via[subject_ref=user_id] 
+   LATE evidence_06 L83 2026-09-16T08:57:31Z backup_service backup_4978 RESTORE_ACTIVE via[subject_key=cur_email] 
+   LATE evidence_06 L86 2026-09-16T08:57:34Z account_service account_3960 ABSENT via[lookup_key=cur_email] 
+== case_10 nadia.ionescu@yahoo.com user_10 req=2026-08-31T15:42:00Z audit=2026-09-18T12:25:00Z reported=COMPLETE
+   GOLD INCOMPLETE REPORT_REMAINING_RECORD:support_002:evidence_61 | VERIFY_RECORD_ABSENT:account_010: | VERIFY_RECORD_ABSENT:support_002:
+   OK  evidence_61 L5 2026-09-17T22:00:05Z support_platform support_002 PRESENT via[lookup_key=old_email] 
+   OK  evidence_61 L6 2026-09-17T22:00:06Z support_platform support_002 PRESENT_NO_DELETION_MARKER via[lookup_key=old_email] 
+== case_12 minjun.kim@gmail.com user_12 req=2026-08-24T12:00:00Z audit=2026-09-15T12:00:00Z reported=COMPLETE
+   GOLD INCOMPLETE REPORT_REMAINING_RECORD:analytics_9914:evidence_01 | VERIFY_RECORD_ABSENT:account_9797: | VERIFY_RECORD_ABSENT:analytics_9914: | VERIFY_RECORD_PRESENT:audit_record_2945:
+   OK  evidence_01 L63 2026-09-15T11:55:40Z security_service audit_record_2945 RETAINED_PRESENT via[correlation_key=user_id] 
+   OK  evidence_01 L76 2026-09-15T11:56:57Z account_service account_9797 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_01 L92 2026-09-15T11:58:26Z analytics_platform analytics_9914 PRESENT_MARKETING_CONTACT via[correlation_key=old_email_hash] 
+== case_15 lucia-torres@gmail.com user_15 req=2026-08-21T12:00:00Z audit=2026-09-15T12:00:00Z reported=COMPLETE
+   GOLD INCOMPLETE REPORT_ACTIVE_DATA_FLOW:data_flow_9846:evidence_01 | VERIFY_RECORD_ABSENT:account_4745: | VERIFY_RECORD_PRESENT:audit_record_1596: | VERIFY_DATA_FLOW_DISABLED:data_flow_9846:
+   OK  evidence_01 L22 2026-09-15T11:51:20Z account_service account_4745 ABSENT via[correlation_key=cur_email] 
+   OK  evidence_01 L88 2026-09-15T11:58:11Z integration_service data_flow_9846 ACTIVE via[subject_key=cur_email] 
+   OK  evidence_01 L103 2026-09-15T11:59:37Z security_service audit_record_1596 RETAINED_PRESENT via[subject_ref=user_id] 
+== case_17 leonie.g9352@outlook.com user_17 req=2026-08-19T12:00:00Z audit=2026-09-15T12:00:00Z reported=NOT_STARTED
+   GOLD INCOMPLETE REPORT_RESTORE_RISK:backup_3245:evidence_01 | VERIFY_RECORD_ABSENT:account_4092: | VERIFY_RECORD_PRESENT:audit_record_1797: | VERIFY_RESTORE_BLOCKED:backup_3245:
+   OK  evidence_67 L3 2026-03-10T06:18:01Z account_service account_6523 ABSENT via[lookup_key=cur_email] preReq
+   OK  evidence_01 L21 2026-09-15T11:51:19Z account_service account_4092 ABSENT via[lookup_key=cur_email] 
+   OK  evidence_01 L33 2026-09-15T11:53:53Z security_service audit_record_1797 RETAINED_PRESENT via[correlation_key=user_id] 
+   OK  evidence_01 L53 2026-09-15T11:54:41Z backup_service backup_3245 RESTORE_ACTIVE via[subject_key=cur_email] 
+== case_18 mori.ren@gmail.com user_50 req=2026-09-06T11:00:00Z audit=2026-09-26T11:00:00Z reported=COMPLETE
+   GOLD INCOMPLETE REPORT_REMAINING_RECORD:search_4013:evidence_94 | REPORT_EXPOSED_PII:analytics_037:evidence_94 | REPORT_EXPOSED_PII:support_5569:evidence_94 | REPORT_ACTIVE_DATA_FLOW:data_flow_4890:evidence_94 | VERIFY_RECORD_ABSENT:account_5521: | VERIFY_RECORD_ABSENT:search_4013: | VERIFY_RECORD_PRESENT:audit_record_6645: | VERIFY_RECORD_REDACTED:support_5569: | VERIFY_RECORD_ANONYMIZED:analytics_037: | VERIFY_DATA_FLOW_DISABLED:data_flow_4890:
+   OK  evidence_94 L11 2026-09-26T07:59:44Z support_platform support_5569 EXPOSED via[lookup_key=cur_email,requester_email=cur_email] 
+   OK  evidence_94 L23 2026-09-26T08:57:49Z analytics_platform analytics_037 EXPOSED via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_94 L25 2026-09-26T09:05:11Z integration_service data_flow_4890 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 
+   OK  evidence_94 L53 2026-09-26T10:23:12Z search_service search_4013 PRESENT via[email=cur_email,lookup_key=cur_email] 
+== case_19 e.varga90@yahoo.com user_19 req=2026-08-17T12:00:00Z audit=2026-09-15T12:00:00Z reported=PARTIALLY_COMPLETE
+   GOLD INCOMPLETE REPORT_REMAINING_RECORD:search_6083:evidence_01 | REPORT_EXPOSED_PII:support_9553:evidence_01 | VERIFY_RECORD_ABSENT:account_9102: | VERIFY_RECORD_ABSENT:search_6083: | VERIFY_RECORD_PRESENT:audit_record_6793: | VERIFY_RECORD_REDACTED:support_9553:
+   OK  evidence_01 L15 2026-09-15T11:51:08Z support_platform support_9553 EXPOSED via[matched_value=cur_email,subject_key=cur_email] 
+   OK  evidence_01 L36 2026-09-15T11:54:07Z search_service search_6083 PRESENT via[correlation_key=cur_email] 
+   OK  evidence_01 L44 2026-09-15T11:54:34Z security_service audit_record_6793 RETAINED_PRESENT via[subject_ref=user_id] 
+   OK  evidence_01 L72 2026-09-15T11:56:47Z account_service account_9102 ABSENT via[lookup_key=cur_email] 
+== case_20 akosua.gyasi@gmail.com user_48 req=2026-09-08T11:00:00Z audit=2026-09-26T11:00:00Z reported=NOT_STARTED
+   GOLD INCOMPLETE REPORT_REMAINING_RECORD:search_4262:evidence_94 | REPORT_ACTIVE_DATA_FLOW:data_flow_1770:evidence_94 | VERIFY_RECORD_ABSENT:account_5037: | VERIFY_RECORD_ABSENT:search_4262: | VERIFY_RECORD_PRESENT:audit_record_5569: | VERIFY_DATA_FLOW_DISABLED:data_flow_1770:
+   OK  evidence_94 L9 2026-09-26T07:57:13Z search_service search_4262 PRESENT via[email=cur_email,lookup_key=cur_email] 
+   OK  evidence_94 L41 2026-09-26T09:52:54Z integration_service data_flow_1770 ACTIVE via[customer_email=cur_email,lookup_key=cur_email] 

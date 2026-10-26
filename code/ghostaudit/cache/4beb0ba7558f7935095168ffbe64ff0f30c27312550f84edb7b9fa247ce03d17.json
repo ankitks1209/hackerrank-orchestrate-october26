@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "input_tokens": 0,
+  "model": "claude-haiku-5-5",
+  "output_tokens": 0,
+  "stop_reason": "intent_item",
+  "text": "{\"batch\": \"a8dc7262a18a4ab8ee466ae82d3ab3a1d5aa44eff51dce8d83045dfd01382582\", \"confidence\": 0.97, \"deletion\": true, \"language\": \"en\", \"reason\": \"Asks to close the account and remove the profile and personal details.\"}"
+}

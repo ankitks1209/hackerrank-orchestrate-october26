@@ -1,0 +1,52 @@
+{
+  "cache_creation_tokens": 1110,
+  "cache_read_tokens": 12058,
+  "content": [
+    {
+      "signature": "CAQSiwcKEAgTGAI4AUIIdGhpbmtpbmcSDEKWUoqgZUQVEzJGfxoMTgXkmx7QghufT1IyIjB5nsmqKT3SneJcUpXkyNV/A49O3FT6l73hcXtyCoykHDkLTWJR+IKmP3xH+NGyfSUqqAZ+7KX1Zjb0Ur6q9wnQnlXubnbiW/Ia20hp35S0cejjG7Yy8Uw/kpIJmEnyrYoZ04tI23DpoombmWQkF8TFKMeJoPpYDhlSnbD5TCozeh1vyqlvMDj5g15iVRqA8Gt28J+6x05k4VbxS/8xM5o9lKCm8pKtmDqVk2wBi/pxq3SNwHGBTsQn9kWN/JUtbjcfb3i5g3fl3/mNgp8r/oopm6IybgGFmDTI/UTKT8xaL1iNsdrYU+1SvLuR9TJVwBysJVt9cGlwb8pThzZ6tIqPm7if6YeccvDFchzY+DrXt6aE9l++hv2GaOGnr3+dmcR9b4P7k3Ycuwp3YjwfSpOFD+RC0dkXN5FmXjonSiajOQeTepDI0/h8jD7RkiYbaICG5i7jLx3mTgYEqI+joQwTqevSelef1A50dNdmGcBC6pto6aNPoGWo4lpyPToeqoFtK//NzU91xCb+LYBcv0FHNMaf9v4cTi0E/hfb6LC/hML1GK8nMPRPnArbYyKH8BdrrDeatOmVcha8c+cnl3S3/3Cx02eHCJlhH0rQmXwLjF0y2QqaDw8SbDkxwYhHUJ85VDLnTCO+GSJ2X6sX6/GLuc/wSVgN8ALywgEnl6OyUjtYcOzQJmgk1FpcfPD41+BM/j9iYgfwGISxCjq9wUzIplFYXlE1SHHxwWF/9enfoWAuTYl8Df1hXUw4HzGRP55C2QmrKGY5Va5qQaN/eS9yBi6BpnjUhsgZ2so15DEtT6QWVUawPg/cgPuUkJNlOQFj46/mRIiK44t1SRe3ufLXeIqRLlK10SGKt+ceeaiMIMUivRzYQqF/HYZjX9STFaXq3kVdN897h3KNWfrfuVJA+pNlMYrr6sD/bKkZ24+OBgx8DcHMeuSK2EiRpJ4i8s127g+3ehPkEbZRnKfuT4s5iRFodtiErNyFRIBO4faLBQOseEmR15jVUK3yakuI9Phtb70NIJjNIBvYClw0z65Zusf5gSjbK/bPNTC4h+cVYOse95V+njkoih6Acy133FRsVsIzl1gzCSz+3kxurpreOa1ODNjBGcFTeXANiYYr/Mt4Mg/Jezn6oimnGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01L4Kq25DGv5M4fdw2x23gwj",
+      "input": {
+        "case_id": "case_51",
+        "file_id": "evidence_94"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01EPYaTC7SzmJ7u9ENgeQtvX",
+      "input": {
+        "case_id": "case_18",
+        "file_id": "evidence_94"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_015nWBcbVdbGiiSBPbJk6vms",
+      "input": {
+        "case_id": "case_20",
+        "file_id": "evidence_94"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 292,
+  "stop_reason": "tool_use",
+  "text": ""
+}

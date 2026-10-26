@@ -1,0 +1,123 @@
+{
+  "cache_creation_tokens": 2329,
+  "cache_read_tokens": 7951,
+  "content": [
+    {
+      "signature": "CAQSlgcKEAgTGAI4AUIIdGhpbmtpbmcSDAGg7YxeRzp6T6eKZhoMc7nNaQYtIKGFelO3IjDe+Mzt8tsnRbh2EZmV4sVMb2f+6gUVC8ackLi75u3zjI92DNXEINukEqIptvqsTAEqswbWAN2aEsaHF4bk7m2Ol9pYEYHm43pPh1sNP66ds/E84fouIBz6aomF2u7rfDpl/pdryGWqQdAfUtjU0ftnJejfybS0z1Nsn7VJjforQkkP3wQ+bsujN3+i3FiJWjM51ndXpEBEW4W821eG58cxZH7sHbAqDH2rbfLr4JtoPJFBBz7XE6ecDpSqtjAioax4krBPn3Qdw33FGVFTvO29cvzI+92wWROfgkQ+ImlnFih0k83jL/+BMeFM35hVRPMkSqoJzCnElBqWwGI5OxkrrUc5mewkdsWbCo70JLOoojd/MmDLae3ViODr31X4Nyk8z8Ac6zfH5lFMHTh+GmghlGgrT+KqMIOFS3d6wUftASXDjUasU29cB57t5Cili1dGdOBg5vkjXhIVgKOFZv88v+ppWzS/ChNw3/vBz8DM3SSiXpTETELDzJWzBpw8i1YcqYmoiOPBbXx1Wuc9nRxq8cCq6OTQZOOVToJ0G3wOSU1HaaAvpLLLUbBjQcm3pFOCUJqbBU4WhdHNRsj2VSluxIU2DK8yqNc8/+r4YtQCagI4/7JZA2zI/+TQMwQ+ZXhQEIAIFAR2Gs1RuBY+Qyo54mLSWltAfXsYFEivYdX/gVwUkKLMSEn69sBae+4IX9rQgmaI0s7wI/eZLr3V7pionKCF7HOPmE9CJ+qvqhNtrJygcAaoDsukEf2BarWQDr2RzyKTtzfkb06NnG56eB9hrCLMuk37Y4bRX1ICXWewfokc3jzv8i5l6BRqhwQBXgh3IiRvaPzX2l0kx5oEJtwmObDzwVHyBEZP2wflwPdS/9WZzz2FP5yy7DamOWkjT8xExevDsPjei/TXEoVeUtL0h3/1DS2TskJoAEC+kYyhOgGs4gaVrcisQQq8eO08M/ADgI7cIQ+MpkKi/VRJGFLLxLSbs99Rc1ij+0Igi6F2hoYAeYQPdwJwgj4v/tvZjnKzO6Tvar5CzvTa+ILRxKpDEGPrfFH/eMO0yC1riQrJ8twcbHvYLBujEhB/lCdMyv/80An2nKe8sPxiyEZ2cy9UZaBRE374+3O/a43SEpJZ4TgSyzrDABbbwr7eeSaLKYg00VrN39kYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "text": "Evidence settles five rows. Next I'll look up the account and analytics resources by name.",
+      "type": "text"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01KXTpgacfuebDPos5PegXFx",
+      "input": {
+        "case_id": "case_398",
+        "mode": "by_resource",
+        "resource_id": "account_2138"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01W1vQhQSH2EpQ6g18TnZ6BW",
+      "input": {
+        "case_id": "case_398",
+        "mode": "by_resource",
+        "resource_id": "account_1140"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_015JR7b4s5iXBksQuqTX461D",
+      "input": {
+        "case_id": "case_424",
+        "mode": "by_resource",
+        "resource_id": "account_2696"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01DVAAEhUGKwgp95s1KDxcCn",
+      "input": {
+        "case_id": "case_410",
+        "mode": "by_resource",
+        "resource_id": "account_163"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_016GG4XptcVhrwaoDpUQwVpt",
+      "input": {
+        "case_id": "case_398",
+        "mode": "by_resource",
+        "resource_id": "analytics_4455"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_013G7XXq5GnRUoqRUvsaY7Fg",
+      "input": {
+        "case_id": "case_423",
+        "mode": "by_resource",
+        "resource_id": "analytics_3845"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Q5Z3qxPKWie6LEvpsp7vkw",
+      "input": {
+        "case_id": "case_410",
+        "mode": "by_resource",
+        "resource_id": "analytics_298"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Si1H3Putn9ARm4cCSjepob",
+      "input": {
+        "case_id": "case_424",
+        "kind": "ANY"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 909,
+  "stop_reason": "tool_use",
+  "text": "Evidence settles five rows. Next I'll look up the account and analytics resources by name."
+}

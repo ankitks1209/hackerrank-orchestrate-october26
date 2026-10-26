@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "input_tokens": 0,
+  "model": "claude-haiku-5-5",
+  "output_tokens": 0,
+  "stop_reason": "intent_item",
+  "text": "{\"batch\": \"42909db97f24f6ac7974ee5c73306e396fa2ead79bcce6b07ce6d8acfc25417a\", \"confidence\": 0.96, \"deletion\": true, \"language\": \"en\", \"reason\": \"Asks for the account to be erased.\"}"
+}

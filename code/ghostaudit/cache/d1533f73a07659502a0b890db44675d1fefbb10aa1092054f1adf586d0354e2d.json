@@ -1,0 +1,52 @@
+{
+  "cache_creation_tokens": 1008,
+  "cache_read_tokens": 23064,
+  "content": [
+    {
+      "signature": "CAQShwkKEAgTGAI4AUIIdGhpbmtpbmcSDE47jt8rPjVPA4u24RoMfFq98M45guIGeZAtIjD0U2a6ft+Fey1LLcyz8oQboKh64I0TxCRMr03mkYqcuRrAtfNOSO2avIr6SFpelIMqpAhz/eNVbRC0ZU7gM/Z7KIx7H3b5NoAgkAy3RaJrEAJTVPHJmTUXNn41KgewIhNRL5+w0v3emKYpDUlG9uzluqpzp5XhDMwajek290mZTc7UIvTwFDcbZMzIzQO972xaW4lShv0ivSSp/hRzN6Mbe/mbB+7Ijnqm1W4nPHHGrH+L5k+k6Trpj7pCHMuXwDz7UYE+vg6N3kG/sOs4taokZUD79Wcv+EWXiay8frzj4zswWdmsBni4pbRC5x7/nt6373BE45IjoROYSs551BXDXoiBwJHE9MHxyqhlED+b2UZc5N19rMUdLMwgxXe1Ds+al+KTKwP2hGxdiiwFMk017DYYDLndNyBRRrbzh9GH+gfjMw+EVJuHXJpMNOLctgrA0NyMPOxar/8YWN5l+V3+DUOpleYPZiFS8Gcd7+XeuouPRr+u50seAgLRdQSpM7xB+de4y3HUFUR/HBlWflFUMNthrb3YiDJzdVh5OYImyxvbeqN/o6sUuwE8Ak7RGrcv/+/lTN/gYyzcj0xr+STjyfCzLfc0OPRIG/IwsarInznKt+4jbzAgoddIZpAmM3PBlWciNMxUnHl2eNC8ivqL3nS0ykHyWzn1bx+/5NbcLgwJkiqKlH1pNguUXv6Urzwp5SVrRK1peTnAStijvnJjJac9au2eHiY3Zte33Rz3Vi2f6Spy2f7QYpxKaDj5oNqN0cBHYjzVaMzLXwzR5kICmEOO0KUPXyCOdB7RHGTeVbcW/g1xBqBWkNhNQ+RG3ZFaTtA2QiGQesBdMP0a5M2q4jwbAIEAwCzgsIUKQeN2yklyorQhoKVCj3DYFBOpOqt/eiJ+NM+ncGHxCu7+33kSy2gHusNMV/XPAXw/BbiKffAzSHuLEhxPkBMJOevHWnVtQantj536s+8OBMbZugKPR2uiQMSLXxmjX7OBWaUBsMTYLoMv9PqEWKXKh1mo8mRjPDj6qoA3DEzeb9K2qFTmzMe9tdZTr1gQpbhzIp2vGtpu+0JTiX+4yBCyJSQ2JzRCpVyhzhw9DcOdV1pIX7yz2VNA4SrFxHk0/GhYg/+IEGtRl6EEwSBI7tBPovNvt/Pz6TgC0AxY7/TOgY5PCXihTOHZGHFXBDjWASbSWBbbI/d3Pq69C7jKU8aqTBC148mtnbOv/PomXps8Fr49mi2WdfQmHuthRPb9UJ/RG0gtXL7cE0tpKClGHc2kqwlKhDNOZEk0U7mDRoOeA889S5Cnb4/rGujNl9tSESZ3BuQyHSPkbzO+sEFPdj+a4ZK27Cd9VHkr1boO4kZMgs7pvV9t7e+2SerK5CYGd1sW2DVGK2HhLExCjgliII8kbBl5rYVKjLYwavEQ46mFe7n+hTwyRo9W4F+AR+hw1C9b8SvWnbA0FSDm8WzFpV2m0qqWgnF4XxC/kIpiGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01WuWZqedYS4sKJFixfvqv2i",
+      "input": {
+        "case_id": "case_235",
+        "kind": "ACCOUNT_SUBMIT"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01J2xwt4pqU2Ee5NEWPhvUwb",
+      "input": {
+        "case_id": "case_234",
+        "kind": "ACCOUNT_SUBMIT"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_015YJeomZoTEEwnVa35ZtxJ9",
+      "input": {
+        "case_id": "case_252",
+        "kind": "ACCOUNT_SUBMIT"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 407,
+  "stop_reason": "tool_use",
+  "text": ""
+}

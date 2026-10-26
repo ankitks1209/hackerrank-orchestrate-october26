@@ -1,0 +1,120 @@
+{
+  "cache_creation_tokens": 1915,
+  "cache_read_tokens": 4875,
+  "content": [
+    {
+      "signature": "CAQS7AcKEAgTGAI4AUIIdGhpbmtpbmcSDFZc9W3uxJ74/djypBoM4Wtxa2zEO41SLQbAIjAHrxreh3DwVZ1EW0qOOEFtVET0O1dc2Lt6AHty8N/Xm8U1IqU5VDONeKI1YvoH5SQqiQeLq2SrixwHw3mNb8UfEPXB8NfjdVzIFQvq5xPuCwYidnoRm414s4cQiIkMuc0fqaHIlqqXc4eojuqynondm85mPom62aeTh0IdlK1FDsLJHAlbgfsIs5v9iSSqa8ijrnEkBo2HZjPgPXYZQzZt9BHVq//fDMFhe9EqCsNQKkv7Jd4Gxtb2FggdObwX5qd746wirtFocbK9OvH9bSQn/8LuieFauRQag4OPEkQ1MxWzB+HMQOXlB/JqGMlJmGtm7JvH1iRIiIw0BZsdeKVSzDz8r7q6MPmiKthvF/SdXJ3OACd+Y3ZmyRo2hCmR0kWhShwERYV4T53Fx4DnLaJ8Z3RgWVLplkcsi8q+yHw11h5TiQTZgullOMLH7iJEMDLWHifsgTqvcNhm3nEIFgK/MBdaoJjNOmuKtewYDniiU3TU4HHkLPAM0fDDRDbp5XyW4PprhtHLOfkP4Bn6S3iT9M55dai3IvlJaSCy9HViBfZpL+uibLHXlSGlqwjlj0VDQkNmxmYKY4Axbw2TMEx00o0mbqetFW/iDWIKFhtf/zQKySWd3Z2t3BHBQg0xxH2g1ZIdAvJeWyBkoEU7nV3y06IF9d/mkP36D4mMaWv+qIZJHuKQtznYD4h47BBGhBdLAJsgGRkKjatV809rIAoId3hggcie0WGZBSq4l8pFL67yKyKmywwE+Oza/U4dfb4xKv+h8cUoM+fLZEIuAM7mSdUvfYyn/W4q2xGk8Fc74pFvUJ7IEsEQVJvadmbl2qVs0GoPPLHwA3v3uDHg4U2kdm73TJtV/UurT4bbq3qOdO4yH0NGABxy3jPUt2E0iJ4X6Dxiy5/9Q94/e5NRS+1KfA4gkDbmU6bC8J4j2xWxUPmz4razn+5KhjxDqHhUkFTfv8AYvLoL20E/UwXRv6OVfeFPHhz7szAoJC5kRHA/huqu9edCNZUn+8xblGsoA6wcbwNslJNacz27eytzhnSTOJbzeB539XBTKwu6+RyeVvfAxxLYy+6rtjszL0RZUtgWsnZodVdFfFbP13+jgGJXwnIQb5OMFIECWY6jyo/SYVzQb0FhaYC4lrs0vus195GZDAwRECZBK3XzM3mfXBbUM7Oijf5AJQDxYSH021B8b3bHNkx3BmJBmH8RlPTJhr/OF4TPUrqwzVrsb8V8DKMHewa2yh54S8teXIxniinyKWaEn+Td6IFhoBT0VBgB",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01W3KjrnSicPBejrEoJyu2uz",
+      "input": {
+        "case_id": "case_494",
+        "mode": "by_resource",
+        "resource_id": "analytics_5443"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01DsJ39pdnCMavxBkFQc5KLe",
+      "input": {
+        "case_id": "case_510",
+        "mode": "by_resource",
+        "resource_id": "support_9648"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_018N723NEyDRvACXKhDMEaUZ",
+      "input": {
+        "case_id": "case_510",
+        "mode": "by_resource",
+        "resource_id": "search_6147"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01PscrQX2smT7wrTbN2bsBNC",
+      "input": {
+        "case_id": "case_510",
+        "mode": "by_resource",
+        "resource_id": "backup_5061"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01SUTtXQGGovjwiqrShoNAt3",
+      "input": {
+        "case_id": "case_510",
+        "mode": "by_resource",
+        "resource_id": "support_6391"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_013pjdYxqEdqjWoYWa5MfnBn",
+      "input": {
+        "case_id": "case_510",
+        "mode": "by_resource",
+        "resource_id": "search_3169"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01V4qSxBXFz16xFXNRTtKJku",
+      "input": {
+        "case_id": "case_522",
+        "mode": "by_resource",
+        "resource_id": "support_8538"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Ccu2RQBFCXHJg5LW9tec2P",
+      "input": {
+        "case_id": "case_522",
+        "mode": "by_resource",
+        "resource_id": "backup_369"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 4,
+  "model": "claude-opus-5-5",
+  "output_tokens": 944,
+  "stop_reason": "tool_use",
+  "text": ""
+}

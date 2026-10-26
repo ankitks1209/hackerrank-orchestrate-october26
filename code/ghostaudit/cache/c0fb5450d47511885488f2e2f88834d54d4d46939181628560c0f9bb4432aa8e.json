@@ -1,0 +1,133 @@
+{
+  "cache_creation_tokens": 1901,
+  "cache_read_tokens": 4875,
+  "content": [
+    {
+      "signature": "CAQS6wUKEAgTGAI4AUIIdGhpbmtpbmcSDHTASbUzRnaDXsS+lBoMctqsCIHewNsgBVs8IjBzkwjq8mLvrOnLnA+XvdCgy768qWL7TUzQg10i3+BIVkfKqe5w4isZFzmWE8E2HNsqiAXQWQrCvLpUkRGleMyLKxXpReDTNp4qSRjTzeLhFgrkb8bSyq8pe89/uw9R2ircnPi9wCOk6ZGco7tdImmWWbJLh3Mg1tMPjdw3p+fMCYMktiIrgHLHi62B6f5MFDYtU7PoJE5qbX82+sLRB4or1fJLpDb2t0qWk9PraqvEe5t77gvXWCTA5K+Wgmi5ZapI4e4qnFBlpU6/mQq8m3N2tH2gsDy6kq+k4MJuCXed6JDG3Upi91HMpTrmjaaVanm29TB/9SCCytxVcPenvACjCEEoa+lYyWlLd487/+SYNz8gu26DPNnvDyyP6nyt7YU3PHJUDJoHZBv05Fj1pE7ZtD1gJnPQtefzd91SvgjbmIrgBIWBUZ+SjT5WbnpmQvwQT2JV6hPXm8Gq2UXeT7I2IHdo3aVjrG5jy32jQ5Ri/oJsf124UUMostakdY/kMSodQMQF37GRlban7n21N5dmSMoZqghsAqODSF6MXr4dcNxQrkstuG5VUocwOctDArj7dAJN2e9exwmF2fFSBz7lzjqxh88o+9pgn8/zbxcOmUVZzd4A0sYB07pZF2qZh4e0Jsk+Zw68xQvT2c9Ceov0siiFmhHPFZ+Gb2w/ioLLkOEu0rrgpqImRyUpoxXK7wCec/3B3d7z+VdAWn1twT4qra8WugYaQXbBC5emFjudMXMNuLHDYKwNTA0ElTEwuuf5zOFXu3WyGdb3k0J8lkAUqbKhisY6dbwP17qBSUtKK7KFFcV/yN2DSalJkIRwymeztK9dzNLtr/KG+IPHoc5SgWEcQgOF3M93yMjAMl3+6UECumX6GbPGZaIIwAaOW9/M+5081jP1cNqgAJ25P/psIBjTxPnv86meuFwYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01T91GhRUJxNJRwbybZzcHXP",
+      "input": {
+        "case_id": "case_379",
+        "mode": "by_resource",
+        "resource_id": "search_9124"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01SirHmL7HCrAt1d6hHnn591",
+      "input": {
+        "case_id": "case_374",
+        "mode": "by_resource",
+        "resource_id": "analytics_5779"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01Xe2z17XVMP2kK17VUXvXfC",
+      "input": {
+        "case_id": "case_374",
+        "mode": "by_resource",
+        "resource_id": "analytics_9394"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01ATyVBFN6GcBQpK9nDcPyQR",
+      "input": {
+        "case_id": "case_376",
+        "mode": "by_resource",
+        "resource_id": "support_475"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01WGfkPFnyLQL7nbGXnohZGt",
+      "input": {
+        "case_id": "case_376",
+        "mode": "by_resource",
+        "resource_id": "search_3126"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01TL5hC9omHycELXD3NPbzY4",
+      "input": {
+        "case_id": "case_389",
+        "mode": "by_resource",
+        "resource_id": "analytics_448"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01LseML48DpcFtGG9Yb3xPD3",
+      "input": {
+        "case_id": "case_389",
+        "mode": "by_resource",
+        "resource_id": "analytics_5354"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01KTjdMZRvgW2qQ5y4yq53jQ",
+      "input": {
+        "case_id": "case_391",
+        "mode": "by_resource",
+        "resource_id": "search_9470"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01JEV17xwXXKeNz5tdoqyFX1",
+      "input": {
+        "case_id": "case_389",
+        "mode": "by_resource",
+        "resource_id": "search_2794"
+      },
+      "name": "search_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 4,
+  "model": "claude-opus-5-5",
+  "output_tokens": 980,
+  "stop_reason": "tool_use",
+  "text": ""
+}

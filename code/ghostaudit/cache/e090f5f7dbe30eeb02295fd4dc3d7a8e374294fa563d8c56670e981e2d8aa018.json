@@ -1,0 +1,64 @@
+{
+  "cache_creation_tokens": 1237,
+  "cache_read_tokens": 9772,
+  "content": [
+    {
+      "signature": "CAQSywoKEAgTGAI4AUIIdGhpbmtpbmcSDOfA7mefNDalSppogBoMyOfvvQGZzvFCiyyAIjBbEPEWQcX/hY4rOHW1Xjb/wvvP2N2THsxXsmvnKYmaUqrpchwSNLZVa7MoM94wUgMq6AlfuVZHQfR6y9LpvDVWOh6eT/rmYbHrXw2zB1lri0BgZhhXSnZHapXTBiLp6yH03HX+L7rN0ezuTo6h7uuNWcLxca+18nfQ0ahjN0pWsrjRlFCxd55bp6IA7EhrQf+gBpdl5bM7G9vB9nFBFh2jI3PLuT0tlZBFfpPC7idDwNwPve2nn02YJlnvUVZ7q8YYw+H3iYvoklH9Fo2oj8JWGf+TXDHmsyZlrKaBFaRNeIcQjOf5J3Ivj2w6vg3ag0bhj9YNK4CpM6akY26iO8mF9WwiG2KW50xzLxgLIOsGgBoIjSDMIPQ4S3/BHzHw/nWuXEkhAdTy0hDI9uYdZ1l6rDwJIiQTaIXHvY3vS8Hn/k7rL58zv5KQZugOCwDhkfDMn3siOMfr7D88wpmKnh/FtuVPsMlVUrn9xCR3FoSNTTVXP7kNnb/UDl/YovP78S2QcOW+kn/kQOSp1CjhE+Lfhc19gg40W15FSA4Wbeg2Kgs2B9M4KQIvufoYcYKEcNlzmLdCbMpsl762AMkS0w70OI/g0q/ydoV8P2nmvIo4fTvQGYgv+NpW0hzqAdLRKe4mGyDx4CcJ9YQ0l+Qz2qR3eRYopkCb8FJowTISB10e4VMLgRxcB79uB/BJH9A84GiXGKirYKlMKSA0P1OZTNDVFTNt8HzGJTQTwwgBdXf5A8WwWtYEjFh/5glU9AgxuvjpE8PSTeXb28Id2V8CGnxO/HNtO5S4fZEendQk19scVaNzmj/3E7fWkOau9ecf0mu8fSOHc5758jvuA53CmQ9XN8D0wC8hwVda18zUdExeZiymMz2OHpuFSggQ5nbY1Sre3BIq8ehIj83M0KKCz1MVpv5qxT5n8TgjKeKfOpoCQCoWAq6syggx2Fg+L4Arws2vAURLQwpWjXmFDwO9kBBYZu3Fvirm5zrryelYS7jsHC2Pm6By2OXo5SwJNc+lm1WUl7Y+kItJGkDKZmoJWmXQYCsQ8UgdursPtClcVDx1dgQRuh+TulioCeuVqjePFQu5sKIJuDSyvuvEnYcRR7gOAwqf4NPOkogwG9G8qdQyX8Z54F1LOsqYVuhplR3irstPcDLaRKQRZF4o10mqcgzJOjQsakhPFCfSFJ5qcmhMwSRSsnm2AcuOEBgvZUug7mv9vE6hZXPvdVT8j/VOOFlFaLALhpYJRw8osVI9ShH6Ks9Q38EeU5ojxXwT2vP5mjZ+jCMUNA0/4Hnz1OimQk71qadljUTsWqDy+rNHGRBahFat6XOxwE0L6ajEIg0OPsIiexWzoXnwphhJadTAx31PC7/w8R1n/12k7/nNSI0mFtrGRTiUdabIE9c9KcD0J3onwE6NspBOu6GzzI9/z2UYYjaBdBrHu7sfG98jai0jTrVwRyiAiGzgSbQoZXbwVPIG98uXzp0bq3iUmhOWdwWeWt3oAb0u7QN1ctk3oZVXfex0USK9ps0PtARWrbGdUqyS8dhLXtu+1wVwbYPDeclApsePT4v4wGOB1CEoIrhPbZkDgGo0LxU9kh+oT6nkCzGTvL0bSPSgAG1ybAgpxc8guezckBofj3gEpzDJiF2UGUDn27DCzL1qwNskBuyPSL3XkJy5yRzraaU3yjM8eQG38QS7k41LKdrhg4esd/7rq/3RgQcF3f/hPzFL0NijCwx7HR9rcMX8uhj4hRgB",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01AYSpgaUpoRpseTLRNMbugB",
+      "input": {
+        "case_id": "case_380",
+        "file_id": "evidence_70"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_019nP9ju1ob9vA1Z8nBQ8nUC",
+      "input": {
+        "case_id": "case_377",
+        "file_id": "evidence_70"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01JhJBPqsTr4EvLvXoDnL9K9",
+      "input": {
+        "case_id": "case_394",
+        "kind": "ACCOUNT_SUBMIT"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_01XdYae1Jf5QQw8Dz2hyf3xY",
+      "input": {
+        "case_id": "case_406",
+        "kind": "ACCOUNT_SUBMIT"
+      },
+      "name": "get_activity",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 577,
+  "stop_reason": "tool_use",
+  "text": ""
+}

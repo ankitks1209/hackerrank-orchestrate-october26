@@ -1,0 +1,10 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 3852,
+  "input_tokens": 2624,
+  "model": "claude-opus-5-5",
+  "output_tokens": 522,
+  "redacted_at_rest": "emails/phones hashed (sha256), names removed; original model text not retained",
+  "stop_reason": "end_turn",
+  "text": "{\"records\":[{\"category\":\"USER_EXPORT\",\"dates\":[\"20 Jun 14:18 UTC\"],\"display_id\":\"export_1261\",\"emails\":[\"sha256:f6ef14336a9bfe2a63e445f2642e9145efc07b6840189a83f5caa0c2fa548469\"],\"names\":[],\"phones\":[],\"resource_hint\":\"\",\"state_facts\":{\"record_shown\":true},\"system_hint\":\"Customer Download Center\",\"user_refs\":[]},{\"category\":\"USER_EXPORT\",\"dates\":[\"18 Jun 06:42 UTC\",\"18 Jun 2026 06:42 UTC\",\"25 Jun 2026 06:42 UTC\"],\"display_id\":\"export_1260\",\"emails\":[\"sha256:0649eddaba37af918d82b64da379e6623d34cf290b2a26ecbe53bafc1484f8af\"],\"names\":[],\"phones\":[],\"resource_hint\":\"\",\"state_facts\":{\"record_shown\":true},\"system_hint\":\"Customer Download Center\",\"user_refs\":[]},{\"category\":\"USER_EXPORT\",\"dates\":[\"17 Jun 11:03 UTC\"],\"display_id\":\"export_1259\",\"emails\":[\"sha256:61b09761f981abf5391d437e4b8c0316e4e030ce983b97bd6723a3402c777f0a\"],\"names\":[],\"phones\":[],\"resource_hint\":\"\",\"state_facts\":{\"record_shown\":true},\"system_hint\":\"Customer Download Center\",\"user_refs\":[]},{\"category\":\"USER_EXPORT\",\"dates\":[\"16 Jun 09:27 UTC\"],\"display_id\":\"export_1258\",\"emails\":[\"sha256:12810566ec94895965476862c1486912c1e2a90dced75f5adeed8e675e9759a4\"],\"names\":[],\"phones\":[],\"resource_hint\":\"\",\"state_facts\":{\"record_shown\":true},\"system_hint\":\"Customer Download Center\",\"user_refs\":[]}]}"
+}

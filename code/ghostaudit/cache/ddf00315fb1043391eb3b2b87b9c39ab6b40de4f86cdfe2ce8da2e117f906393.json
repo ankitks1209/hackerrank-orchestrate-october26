@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "input_tokens": 0,
+  "model": "claude-opus-5-5",
+  "output_tokens": 0,
+  "stop_reason": "intent_item",
+  "text": "{\"batch\": \"3405ebf82b30396f7d26e272e31819dd61a2351025f4f694672676b1b340e2e1\", \"confidence\": 0.97, \"deletion\": true, \"language\": \"en\", \"reason\": \"Requests deletion of the account.\"}"
+}

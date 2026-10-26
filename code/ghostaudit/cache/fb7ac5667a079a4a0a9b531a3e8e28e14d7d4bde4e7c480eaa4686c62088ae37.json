@@ -1,0 +1,9 @@
+{
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "input_tokens": 0,
+  "model": "claude-haiku-5-5",
+  "output_tokens": 0,
+  "stop_reason": "intent_item",
+  "text": "{\"batch\": \"da4e6a9771fc55a96a3d1b3dc868c0a4ee9b126ba36326aec8e4a5d4f611125a\", \"confidence\": 0.97, \"deletion\": true, \"language\": \"en\", \"reason\": \"Explicitly requests permanent account deletion.\"}"
+}

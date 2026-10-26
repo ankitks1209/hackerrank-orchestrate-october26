@@ -1,0 +1,11 @@
+# Prompts the user asked to keep out of log.txt (check_log.py --trace --exclusions).
+# One sha256 of the normalized prompt per line, never the text. Add a line only when the
+# user asked for that prompt to be removed from or kept out of the log.
+# 2026-10-24: four prompts of session ca01c34e the user asked not to store.
+4a08b55c1ad8212ad8771b8d9fa0461c1c57cdd84289fb7e207f9b8c6e4663cf
+72fde52a714e4693733e303885b39ef49e34e50e7718251ec0cae95899745b02
+327d738a1db8b5461c51908983eb5ef74add421f05e115ff620a6e9d275f4104
+287ce4ead10b5701500da31eec4a54f05a0d54cf00474f3a83d8dbd914774593
+# 2026-10-25: two more prompts the user asked not to store.
+9f1f0f6cc799ecdddea6fbbd7b3ef79a0730660b8e440c4cf2cee52bc77a27c8
+fa4c0aefc75519d5dbc3d95c24f8ebe15dd12d023ee262d671dbdf7b08a96769

@@ -1,0 +1,28 @@
+{
+  "cache_creation_tokens": 922,
+  "cache_read_tokens": 17003,
+  "content": [
+    {
+      "signature": "CAQSwwkKEAgTGAI4AUIIdGhpbmtpbmcSDIyMODmyQy8RuE49DBoMNEzo1oM0+nupHXPtIjA/RsQuRL6t9x2hGvAsT1lK9yaXDFeYkM5hQQSE7/UPtZAxTgoHsot439pU9ZGYP5Eq4Ahw1fpwzAcqC3P6b+ufznOUCMxwpz8vvluCpgZ70IVIDYTisd/dI78jRuQh/L03+P8F883f95V6MughxG+fpijGoBL/2miDVU0gnpgImK9cs4IXAn0knSKWeMLxLxbS7XnB2bdMYkFLK3T6wYeg5gScs/GAPWon9JacQJQhD0SPOi16ZLRM3+lciE/JEFELnkQuJdSuyAS7JvpO3jkm1HZHqCvxv7xOJ0VJqbDfkW3qv/HnPW4VySEuUMg46c1Iozg315Yo8x6vXiLsHcMj+libleMjWpw+M2oQETeWgeNDsMaIAO8yb0k21ktuKiYe2vXsturIu0M/itx+lFSWf99OK6Jx4w4AwRAIl4wSNuGoIpGSTPDUB/Xj5rT1CubTMByBvyRZU2zWIAoTxT2KzmGvtdm1H+1XQQxoanndQPiuZ3EZEG4K82mRgRFRHEvizICnoORATLfApJkgL1B8W/bXepC1ndiN4eGhgLfmW5r7zPqKulzRDrOzLwoKBEtis1inyvEYisyNZpovydPB2uurrCNMcxlqVcYH0wL4+eQpfNqaQq4sg17UTJhsZc4MN5gWsd95OGn4UKKE49sWd8RlCtGtbRT74Hj4EblidqbcPLUl5D9KwMlwSAcj487YbLtiyYnvBJuFYTOrasas/trD092au4EJXytkmahZ6kaZsfsg6qPZb98Lmgm4QaCgK5zFtJEYyNOp7ItAu7Z7a823bscKTeI8FEYI1784J+V+WVkTXi4h0mnbaGlpk5kbGOHpLCIW+CmnAzg1p1m9cK2hzC16NQzhzYt1AMAFYVX6+gXqVoo55mknyfE1LxTVZZXb6lHzUfZ/UjMO5jPoKXSaF+Dz1vZdr7vScyDiW1aCYOqxrfIYgjONbpSetVOHobacCezQ3OIauEKofmg7imT/Hm+p7I3ofKgmqMC2ja5liXt6zP2S3iEGfCyTklX+OmSTVkJDVl/6RX9om1Rpg38NvByWU9gXLef0eD//2LGW4TU0R0DITbwRqzxjwee2AawjaEsYr9DyhYMRCY5wpHl41ZvjR/shPmlla5/sfemaRlxb3aEpdsjTiU9IbruPdvqUNQxehEyru9I8GPPgBYjx+asywT+YoiJHtxXg8zFVqh94RfTn+6VvCbl0ijxnSmWpbPIiYLOLzavVUyVwik+L7LXoP/kbavQr/LCiTrUSa65f8ny3zIK9+5rhYPakPlq4MHSvHjgxmBXKbMBBpWM7ckCeKSoUYob4IwLtPaaet2+NwZCpvdywHB4aTbCpjXLlxfDtbHEUkpHC13iXG+vxEx2jHpZ5L1paPYCiyRKLxXHktRo5LEy0ncNsUM/Xe46VB5hLI2kt/OvXoABKH1nfdE8QSq7DsPgwuFd5lLIe4RcCwlWsOgTLhE7fdXpTf8QMR0Ue7EqJ2ahDftXbgoI42LVZ07RWwXMyA3H25X28Swx/G43YCm4Af5D9Vm8lHQSDESIkY2nHeH4SLai1aMrNGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "caller": {
+        "type": "direct"
+      },
+      "id": "toolu_019mgkgq8Ci8oAC8FYiARafg",
+      "input": {
+        "case_id": "case_116",
+        "file_id": "evidence_88"
+      },
+      "name": "read_evidence",
+      "type": "tool_use"
+    }
+  ],
+  "input_tokens": 2,
+  "model": "claude-opus-5-5",
+  "output_tokens": 251,
+  "stop_reason": "tool_use",
+  "text": ""
+}
